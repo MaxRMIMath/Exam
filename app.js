@@ -3,6 +3,13 @@ const DECK_URL = "./data/deck.json";
 const DAY_MS = 24 * 60 * 60 * 1000;
 const REVIEW_GROUPS = [10 * 60 * 1000, DAY_MS, 4 * DAY_MS, 10 * DAY_MS];
 const NO_CARD = "__no_card__";
+const SUMMARY_GROUPS = [
+  { key: "new", label: "新卡片", note: "尚未開始" },
+  { key: "review-0", label: "10分鐘群組", note: "第一輪複習" },
+  { key: "review-1", label: "1天群組", note: "短期鞏固" },
+  { key: "review-2", label: "4天群組", note: "中段記憶" },
+  { key: "review-3", label: "10天群組", note: "長間隔複習" },
+];
 
 const MODE_LABELS = {
   new: "新卡片",
@@ -290,6 +297,34 @@ function counts() {
   return result;
 }
 
+function summaryCounts() {
+  const totalCards = state.deck.cards.length;
+  const groups = SUMMARY_GROUPS.map((group) => ({
+    ...group,
+    count: 0,
+    percent: 0,
+  }));
+  const groupIndex = new Map(groups.map((group, index) => [group.key, index]));
+
+  for (const card of state.deck.cards) {
+    const progress = getCardProgress(card.cardId);
+    const key = progress.phase === "new" ? "new" : `review-${getReviewStage(progress)}`;
+    const index = groupIndex.get(key);
+    if (index != null) {
+      groups[index].count += 1;
+    }
+  }
+
+  for (const group of groups) {
+    group.percent = totalCards > 0 ? (group.count / totalCards) * 100 : 0;
+  }
+
+  return {
+    totalCards,
+    groups,
+  };
+}
+
 function currentCard() {
   if (state.currentCardId === NO_CARD) {
     return null;
@@ -328,6 +363,7 @@ function render() {
   }
 
   const totalCounts = counts();
+  const summary = summaryCounts();
   const card = currentCard();
   const modeLabel = MODE_LABELS[state.mode];
   const cardCount = state.queue.length;
@@ -350,20 +386,28 @@ function render() {
       </div>
 
       <div class="metrics-card">
-        <div class="metric">
-          <div class="metric-label">新卡片</div>
-          <div class="metric-value">${totalCounts.new}</div>
-          <div class="metric-note">尚未出現過</div>
+        <div class="metrics-overview">
+          <div>
+            <div class="metrics-overview-label">卡片分布</div>
+            <div class="metrics-overview-value">${summary.totalCards}</div>
+            <div class="metrics-overview-note">依新卡與 4 個複習群組統計目前牌組</div>
+          </div>
+          <div class="metrics-overview-chip">總數 100%</div>
         </div>
-        <div class="metric">
-          <div class="metric-label">複習中</div>
-          <div class="metric-value">${totalCounts.review}</div>
-          <div class="metric-note">已出現過的卡片</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">全部</div>
-          <div class="metric-value">${totalCounts.new + totalCounts.review}</div>
-          <div class="metric-note">整個牌組總數</div>
+        <div class="metrics-grid">
+          ${summary.groups.map((group) => `
+            <article class="metric metric-${group.key}">
+              <div class="metric-topline">
+                <div class="metric-label">${group.label}</div>
+                <div class="metric-percent">${formatPercent(group.percent)}</div>
+              </div>
+              <div class="metric-value">${group.count}</div>
+              <div class="metric-bar" aria-hidden="true">
+                <span style="width:${group.percent.toFixed(2)}%"></span>
+              </div>
+              <div class="metric-note">${group.note}</div>
+            </article>
+          `).join("")}
         </div>
       </div>
     </div>
@@ -453,6 +497,16 @@ function loadingMarkup() {
       <div class="loading-subtitle">正在載入 Anki deck 與本機進度。</div>
     </div>
   `;
+}
+
+function formatPercent(value) {
+  if (value === 0) {
+    return "0%";
+  }
+  if (value >= 10) {
+    return `${Math.round(value)}%`;
+  }
+  return `${value.toFixed(1)}%`;
 }
 
 function renderError(error) {
