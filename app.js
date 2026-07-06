@@ -1,28 +1,16 @@
 const STORAGE_KEY = "exam7-flashcards-state-v1";
 const DECK_URL = "./data/deck.json";
 const DAY_MS = 24 * 60 * 60 * 1000;
-const LEARNING_STEP_MS = 10 * 60 * 1000;
-
-const FSRS6 = [
-  0.212, 1.2931, 2.3065, 8.2956, 6.4133, 0.8334, 3.0194,
-  0.001, 1.8722, 0.1666, 0.796, 1.4835, 0.0614, 0.2629, 1.6483,
-  0.6014, 1.8729, 0.5425, 0.0912, 0.0658, 0.1542,
-];
+const REVIEW_GROUPS = [10 * 60 * 1000, DAY_MS, 4 * DAY_MS, 10 * DAY_MS];
+const NO_CARD = "__no_card__";
 
 const MODE_LABELS = {
   new: "新卡片",
-  learning: "學習中",
   review: "複習中",
   all: "全部",
 };
 
-const MODE_ORDER = ["new", "learning", "review", "all"];
-const GRADE = {
-  again: 1,
-  hard: 2,
-  good: 3,
-  easy: 4,
-};
+const MODE_ORDER = ["new", "review", "all"];
 
 const app = document.querySelector("#app");
 
@@ -31,7 +19,7 @@ const state = {
   progress: null,
   mode: "new",
   queue: [],
-  currentIndex: 0,
+  currentCardId: null,
   flipped: false,
   loading: true,
   error: null,
@@ -47,7 +35,7 @@ init().catch((error) => {
 async function init() {
   state.deck = await loadDeck();
   state.progress = loadProgress(state.deck);
-  state.mode = state.progress.settings.lastMode ?? "new";
+  state.mode = normalizeMode(state.progress.settings.lastMode || "new");
   state.loading = false;
   rebuildQueue();
   render();
@@ -72,11 +60,9 @@ function defaultProgress(deck) {
     cards[String(card.cardId)] = {
       cardId: card.cardId,
       phase: "new",
-      stability: null,
-      difficulty: null,
       dueAt: null,
       lastReviewedAt: null,
-      intervalDays: 0,
+      reviewStage: null,
       reps: 0,
       lapses: 0,
       orderIndex: card.orderIndex,
@@ -84,12 +70,9 @@ function defaultProgress(deck) {
   }
 
   return {
-    version: 1,
+    version: 2,
     settings: {
-      desiredRetention: 0.9,
-      learningStepMinutes: 10,
       lastMode: "new",
-      scheduler: "fsrs-6",
     },
     cards,
     reviewLog: [],
@@ -108,8 +91,8 @@ function loadProgress(deck) {
     const merged = {
       ...baseline,
       ...parsed,
-      settings: { ...baseline.settings, ...(parsed.settings ?? {}) },
-      cards: { ...baseline.cards, ...(parsed.cards ?? {}) },
+      settings: { ...baseline.settings, ...(parsed.settings || {}) },
+      cards: { ...baseline.cards, ...(parsed.cards || {}) },
       reviewLog: Array.isArray(parsed.reviewLog) ? parsed.reviewLog : [],
     };
 
@@ -118,14 +101,19 @@ function loadProgress(deck) {
       if (!merged.cards[key]) {
         merged.cards[key] = { ...baseline.cards[key] };
       } else {
+        const existing = merged.cards[key];
         merged.cards[key] = {
           ...baseline.cards[key],
-          ...merged.cards[key],
+          ...existing,
           cardId: card.cardId,
           orderIndex: card.orderIndex,
+          phase: normalizePhase(existing.phase),
+          reviewStage: normalizeReviewStage(existing),
         };
       }
     }
+
+    merged.settings.lastMode = normalizeMode(merged.settings.lastMode);
 
     return merged;
   } catch {
@@ -139,25 +127,49 @@ function saveProgress() {
 
 function rebuildQueue() {
   const now = Date.now();
-  const cards = state.deck.cards
-    .map((card) => {
-      const progress = getCardProgress(card.cardId);
-      return {
-        ...card,
-        progress,
-        phaseBucket: phaseBucket(progress.phase),
-        isDue: isDue(progress, now),
-      };
-    })
-    .filter((card) => isCardVisibleInMode(card, state.mode, now));
+  const cards = state.deck.cards.map((card) => {
+    const progress = getCardProgress(card.cardId);
+    const phase = phaseBucket(progress.phase);
+    return {
+      ...card,
+      progress,
+      phaseBucket: phase,
+      isDue: isDue(progress, now),
+      reviewStage: getReviewStage(progress),
+    };
+  });
 
-  cards.sort((a, b) => a.orderIndex - b.orderIndex);
+  const newCards = cards
+    .filter((card) => card.phaseBucket === "new")
+    .sort((a, b) => a.orderIndex - b.orderIndex);
+  const reviewCards = cards
+    .filter((card) => card.phaseBucket === "review")
+    .sort((a, b) => {
+      const dueA = a.progress.dueAt != null ? a.progress.dueAt : Number.POSITIVE_INFINITY;
+      const dueB = b.progress.dueAt != null ? b.progress.dueAt : Number.POSITIVE_INFINITY;
+      return dueA - dueB || a.orderIndex - b.orderIndex;
+    });
+  const dueReviewCards = reviewCards.filter((card) => card.isDue);
 
-  state.queue = cards;
-  state.currentIndex = clamp(state.currentIndex, 0, Math.max(cards.length - 1, 0));
-  if (cards.length === 0) {
-    state.currentIndex = 0;
-    state.flipped = false;
+  if (state.mode === "new") {
+    state.queue = newCards;
+  } else if (state.mode === "review") {
+    state.queue = reviewCards;
+  } else if (dueReviewCards.length > 0) {
+    state.queue = dueReviewCards;
+  } else if (newCards.length > 0) {
+    state.queue = newCards;
+  } else {
+    state.queue = reviewCards;
+  }
+
+  if (state.queue.length === 0) {
+    state.currentCardId = NO_CARD;
+    return;
+  }
+
+  if (state.currentCardId === NO_CARD || state.currentCardId == null || !state.queue.some((card) => card.cardId === state.currentCardId)) {
+    state.currentCardId = state.queue[0].cardId;
   }
 }
 
@@ -166,13 +178,69 @@ function getCardProgress(cardId) {
 }
 
 function phaseBucket(phase) {
-  if (phase === "learning" || phase === "relearning") {
-    return "learning";
+  if (phase === "new") {
+    return "new";
   }
-  if (phase === "review") {
-    return "review";
+  return "review";
+}
+
+function normalizePhase(phase) {
+  return phase === "new" ? "new" : "review";
+}
+
+function normalizeMode(mode) {
+  if (mode === "review" || mode === "all") {
+    return mode;
   }
   return "new";
+}
+
+function normalizeReviewStage(progress) {
+  if (!progress || progress.phase === "new") {
+    return null;
+  }
+  if (Number.isFinite(progress.reviewStage)) {
+    return clamp(Math.trunc(progress.reviewStage), 0, REVIEW_GROUPS.length - 1);
+  }
+  const intervalMs =
+    Number.isFinite(progress.intervalDays)
+      ? Math.max(0, progress.intervalDays * DAY_MS)
+      : Number.isFinite(progress.dueAt) && Number.isFinite(progress.lastReviewedAt)
+        ? Math.max(0, progress.dueAt - progress.lastReviewedAt)
+        : null;
+  if (intervalMs == null) {
+    return 0;
+  }
+  return inferReviewStageFromInterval(intervalMs);
+}
+
+function getReviewStage(progress) {
+  if (!progress || progress.phase === "new") {
+    return null;
+  }
+  if (Number.isFinite(progress.reviewStage)) {
+    return clamp(Math.trunc(progress.reviewStage), 0, REVIEW_GROUPS.length - 1);
+  }
+  const stage = normalizeReviewStage(progress);
+  return stage == null ? 0 : stage;
+}
+
+function inferReviewStageFromInterval(intervalMs) {
+  const thresholds = [
+    (REVIEW_GROUPS[0] + REVIEW_GROUPS[1]) / 2,
+    (REVIEW_GROUPS[1] + REVIEW_GROUPS[2]) / 2,
+    (REVIEW_GROUPS[2] + REVIEW_GROUPS[3]) / 2,
+  ];
+  if (intervalMs <= thresholds[0]) {
+    return 0;
+  }
+  if (intervalMs <= thresholds[1]) {
+    return 1;
+  }
+  if (intervalMs <= thresholds[2]) {
+    return 2;
+  }
+  return 3;
 }
 
 function isDue(progress, now) {
@@ -185,27 +253,28 @@ function isDue(progress, now) {
   return progress.dueAt <= now;
 }
 
-function isCardVisibleInMode(card, mode, now) {
-  const bucket = card.phaseBucket;
-  if (mode === "all") {
-    return true;
+function reviewStageLabel(stage) {
+  if (stage == null) {
+    return "複習中";
   }
-  if (mode === "new") {
-    return bucket === "new";
+  return ["倒數10分鐘", "倒數1天", "倒數4天", "倒數10天"][stage] || "複習中";
+}
+
+function cardScheduleLabel(progress) {
+  if (progress.phase === "new") {
+    return "新卡片";
   }
-  if (mode === "learning") {
-    return bucket === "learning";
+  const stage = getReviewStage(progress);
+  const label = reviewStageLabel(stage);
+  if (!progress.dueAt) {
+    return label;
   }
-  if (mode === "review") {
-    return bucket === "review";
-  }
-  return bucket === mode;
+  return `${label} · ${formatRelativeDue(progress.dueAt)}`;
 }
 
 function counts() {
   const result = {
     new: 0,
-    learning: 0,
     review: 0,
     due: 0,
   };
@@ -214,7 +283,7 @@ function counts() {
     const progress = getCardProgress(card.cardId);
     const bucket = phaseBucket(progress.phase);
     result[bucket] += 1;
-    if (isDue(progress, now) && bucket !== "new") {
+    if (isDue(progress, now) && bucket === "review") {
       result.due += 1;
     }
   }
@@ -222,7 +291,16 @@ function counts() {
 }
 
 function currentCard() {
-  return state.queue[state.currentIndex] ?? null;
+  if (state.currentCardId === NO_CARD) {
+    return null;
+  }
+  if (state.currentCardId != null) {
+    const selected = state.queue.find((card) => card.cardId === state.currentCardId);
+    if (selected) {
+      return selected;
+    }
+  }
+  return state.queue[0] || null;
 }
 
 function currentCardLabel(card) {
@@ -236,9 +314,6 @@ function currentCardLabel(card) {
 function modeDetails(mode, totalCounts, totalCards) {
   if (mode === "new") {
     return `${totalCounts.new} 張新卡`;
-  }
-  if (mode === "learning") {
-    return `${totalCounts.learning} 張學習中卡`;
   }
   if (mode === "review") {
     return `${totalCounts.review} 張複習中卡`;
@@ -262,7 +337,7 @@ function render() {
       <div class="deck-title-row">
         <div>
           <div class="deck-title">${escapeHtml(state.deck.meta.deckName)}</div>
-          <div class="deck-subtitle">按原始 Anki 順序學習，深色手機介面，FSRS-6 排程。</div>
+          <div class="deck-subtitle">新卡片、複習中與全部三種模式，使用固定 10 分鐘 / 1 天 / 4 天 / 10 天排程。</div>
         </div>
         <button class="settings-button" id="reset-progress" type="button" aria-label="重置學習進度">重置</button>
       </div>
@@ -278,17 +353,17 @@ function render() {
         <div class="metric">
           <div class="metric-label">新卡片</div>
           <div class="metric-value">${totalCounts.new}</div>
-          <div class="metric-note">原始順序保持不變</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">學習中</div>
-          <div class="metric-value">${totalCounts.learning}</div>
-          <div class="metric-note">顯示學習中卡片</div>
+          <div class="metric-note">尚未出現過</div>
         </div>
         <div class="metric">
           <div class="metric-label">複習中</div>
           <div class="metric-value">${totalCounts.review}</div>
-          <div class="metric-note">顯示複習中卡片</div>
+          <div class="metric-note">已出現過的卡片</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">全部</div>
+          <div class="metric-value">${totalCounts.new + totalCounts.review}</div>
+          <div class="metric-note">整個牌組總數</div>
         </div>
       </div>
     </div>
@@ -299,7 +374,7 @@ function render() {
 
     <div class="footer-row">
       <div>${modeDetails(state.mode, totalCounts, state.deck.cards.length)}</div>
-      <div>FSRS desired retention 90%</div>
+      <div>10 分鐘 → 1 天 → 4 天 → 10 天</div>
     </div>
   `;
 
@@ -308,11 +383,7 @@ function render() {
 
 function renderCard(card, cardCount, modeLabel, totalCounts) {
   const progress = getCardProgress(card.cardId);
-  const dueText = progress.phase === "new"
-    ? "新卡片"
-    : progress.dueAt
-      ? formatRelativeDue(progress.dueAt)
-      : "尚未排程";
+  const dueText = cardScheduleLabel(progress);
   const answerEnabled = state.flipped;
   const phaseText = phaseLabel(progress.phase);
 
@@ -339,10 +410,8 @@ function renderCard(card, cardCount, modeLabel, totalCounts) {
       </div>
 
       <div class="answer-bar">
-        <button class="action-button action-again" type="button" data-rate="again" ${answerEnabled ? "" : "disabled"}>Again</button>
-        <button class="action-button action-hard" type="button" data-rate="hard" ${answerEnabled ? "" : "disabled"}>Hard</button>
-        <button class="action-button action-good" type="button" data-rate="good" ${answerEnabled ? "" : "disabled"}>Good</button>
-        <button class="action-button action-easy" type="button" data-rate="easy" ${answerEnabled ? "" : "disabled"}>Easy</button>
+        <button class="action-button action-bad" type="button" data-rate="bad" ${answerEnabled ? "" : "disabled"}>BAD</button>
+        <button class="action-button action-good" type="button" data-rate="good" ${answerEnabled ? "" : "disabled"}>GOOD</button>
       </div>
     </section>
   `;
@@ -357,22 +426,19 @@ function renderEmptyState() {
   const totalCounts = counts();
   const message = state.mode === "new"
     ? "目前沒有新卡片。"
-    : state.mode === "learning"
-      ? "目前沒有學習中卡片。"
-      : state.mode === "review"
-        ? "目前沒有複習中卡片。"
-        : "目前沒有可顯示的卡片。";
+    : state.mode === "review"
+      ? "目前沒有複習中卡片。"
+      : "目前沒有可顯示的卡片。";
 
   return `
     <section class="empty-state">
       <div class="empty-kicker">Flashcard queue</div>
       <div class="empty-title">${escapeHtml(message)}</div>
       <div class="empty-subtitle">
-        你可以切換模式，或回到「全部」查看整個牌組的原始順序。
+        你可以切換模式，或稍後再回來看看到期卡片。
       </div>
       <div class="pill-row" style="justify-content:center; margin-top:18px;">
         <span class="pill"><strong>${totalCounts.new}</strong> 新卡</span>
-        <span class="pill"><strong>${totalCounts.learning}</strong> 學習中</span>
         <span class="pill"><strong>${totalCounts.review}</strong> 複習中</span>
       </div>
     </section>
@@ -394,7 +460,7 @@ function renderError(error) {
     <div class="empty-state">
       <div class="empty-kicker">Error</div>
       <div class="empty-title">無法啟動 app</div>
-      <div class="empty-subtitle">${escapeHtml(error?.message ?? "Unknown error")}</div>
+      <div class="empty-subtitle">${escapeHtml(error && error.message ? error.message : "Unknown error")}</div>
     </div>
   `;
 }
@@ -406,9 +472,9 @@ function attachHandlers() {
       if (!nextMode || nextMode === state.mode) {
         return;
       }
-      state.mode = nextMode;
-      state.progress.settings.lastMode = nextMode;
-      state.currentIndex = 0;
+      state.mode = normalizeMode(nextMode);
+      state.progress.settings.lastMode = state.mode;
+      state.currentCardId = null;
       state.flipped = false;
       saveProgress();
       rebuildQueue();
@@ -416,10 +482,13 @@ function attachHandlers() {
     });
   });
 
-  document.querySelector("#flashcard")?.addEventListener("click", () => {
-    state.flipped = !state.flipped;
-    render();
-  });
+  const flashcard = document.querySelector("#flashcard");
+  if (flashcard) {
+    flashcard.addEventListener("click", () => {
+      state.flipped = !state.flipped;
+      render();
+    });
+  }
 
   document.querySelectorAll("[data-rate]").forEach((button) => {
     button.addEventListener("click", (event) => {
@@ -431,18 +500,21 @@ function attachHandlers() {
     });
   });
 
-  document.querySelector("#reset-progress")?.addEventListener("click", () => {
-    if (!confirm("確定要重置所有學習進度嗎？")) {
-      return;
-    }
-    state.progress = defaultProgress(state.deck);
-    state.mode = "new";
-    state.currentIndex = 0;
-    state.flipped = false;
-    saveProgress();
-    rebuildQueue();
-    render();
-  });
+  const resetButton = document.querySelector("#reset-progress");
+  if (resetButton) {
+    resetButton.addEventListener("click", () => {
+      if (!confirm("確定要重置所有學習進度嗎？")) {
+        return;
+      }
+      state.progress = defaultProgress(state.deck);
+      state.mode = "new";
+      state.currentCardId = null;
+      state.flipped = false;
+      saveProgress();
+      rebuildQueue();
+      render();
+    });
+  }
 }
 
 function bindGlobalEvents() {
@@ -460,13 +532,9 @@ function bindGlobalEvents() {
       return;
     }
     if (event.key === "1") {
-      handleReview("again");
+      handleReview("bad");
     } else if (event.key === "2") {
-      handleReview("hard");
-    } else if (event.key === "3") {
       handleReview("good");
-    } else if (event.key === "4") {
-      handleReview("easy");
     }
   });
 }
@@ -477,42 +545,36 @@ function handleReview(rateKey) {
     return;
   }
 
-  const rating = GRADE[rateKey];
-  if (!rating) {
+  if (rateKey !== "bad" && rateKey !== "good") {
     return;
   }
 
   const progress = getCardProgress(card.cardId);
   const now = Date.now();
-  const before = structuredClone(progress);
-  const reviewedOrderIndex = card.orderIndex;
-  const next = applyReview(before, rating, now);
+  const before = cloneProgress(progress);
+  const next = applyReview(before, rateKey, now);
   state.progress.cards[String(card.cardId)] = next;
   state.progress.reviewLog.push({
-    id: crypto.randomUUID(),
+    id: generateId(),
     cardId: card.cardId,
     deckCardId: card.cardId,
     orderIndex: card.orderIndex,
-    rating,
+    rating: rateKey,
     mode: state.mode,
     phaseBefore: before.phase,
     phaseAfter: next.phase,
+    reviewStageBefore: before.reviewStage != null ? before.reviewStage : null,
+    reviewStageAfter: next.reviewStage != null ? next.reviewStage : null,
     timestamp: now,
-    lastReviewedAt: before.lastReviewedAt,
     dueAtBefore: before.dueAt,
     dueAtAfter: next.dueAt,
-    intervalDaysBefore: before.intervalDays ?? 0,
-    intervalDaysAfter: next.intervalDays ?? 0,
-    stabilityBefore: before.stability,
-    stabilityAfter: next.stability,
-    difficultyBefore: before.difficulty,
-    difficultyAfter: next.difficulty,
+    lastReviewedAtBefore: before.lastReviewedAt,
+    lastReviewedAtAfter: next.lastReviewedAt,
   });
-  state.progress.settings.lastCardId = card.cardId;
   saveProgress();
   state.flipped = false;
   rebuildQueue();
-  moveToNextCard(reviewedOrderIndex);
+  moveToNextCard(card.cardId);
   const scrollX = window.scrollX;
   const scrollY = window.scrollY;
   render();
@@ -521,149 +583,50 @@ function handleReview(rateKey) {
   });
 }
 
-function moveToNextCard(reviewedOrderIndex) {
+function moveToNextCard(reviewedCardId) {
   if (state.queue.length === 0) {
-    state.currentIndex = 0;
+    state.currentCardId = NO_CARD;
     return;
   }
-  const nextIndex = state.queue.findIndex((item) => item.orderIndex > reviewedOrderIndex);
-  state.currentIndex = nextIndex >= 0 ? nextIndex : 0;
+
+  const nextCard = state.queue.find((item) => item.cardId !== reviewedCardId);
+  if (nextCard) {
+    state.currentCardId = nextCard.cardId;
+    return;
+  }
+
+  if (state.queue.some((item) => item.cardId === reviewedCardId)) {
+    state.currentCardId = reviewedCardId;
+    return;
+  }
+
+  state.currentCardId = state.queue[0] ? state.queue[0].cardId : NO_CARD;
 }
 
 function applyReview(previous, rating, now) {
-  const desiredRetention = Number(state.progress.settings.desiredRetention) || 0.9;
-  const learningStepMinutes = Number(state.progress.settings.learningStepMinutes) || 10;
-  const learningStepMs = learningStepMinutes * 60 * 1000;
-  const elapsedDays = Math.max(0.0001, ((now - (previous.lastReviewedAt ?? now)) / DAY_MS));
-  const previousStability = Math.max(previous.stability ?? initialStability(rating), 0.01);
-  const previousDifficulty = clamp(previous.difficulty ?? initialDifficulty(rating), 1, 10);
-
-  let next = { ...previous };
-  next.reps = (previous.reps ?? 0) + 1;
+  const next = { ...previous };
+  next.reps = (previous.reps != null ? previous.reps : 0) + 1;
   next.lastReviewedAt = now;
-  next.orderIndex = previous.orderIndex ?? next.orderIndex;
-
-  if (previous.phase === "new") {
-    if (rating === GRADE.again) {
-      next.phase = "learning";
-      next.stability = initialStability(rating);
-      next.difficulty = initialDifficulty(rating);
-      next.intervalDays = 0;
-      next.dueAt = now + learningStepMs;
-      return next;
-    }
-
-    next.phase = "review";
-    next.stability = initialStability(rating);
-    next.difficulty = initialDifficulty(rating);
-    next.intervalDays = Math.max(1 / 1440, intervalForRetention(next.stability, desiredRetention));
-    next.dueAt = now + next.intervalDays * DAY_MS;
-    return next;
-  }
-
-  if (previous.phase === "learning" || previous.phase === "relearning") {
-    if (rating === GRADE.again) {
-      next.phase = previous.phase;
-      next.stability = Math.max(previousStability * 0.8, 0.01);
-      next.difficulty = updateDifficulty(previousDifficulty, rating);
-      next.intervalDays = 0;
-      next.dueAt = now + learningStepMs;
-      return next;
-    }
-
-    next.phase = "review";
-    const updatedDifficulty = updateDifficulty(previousDifficulty, rating);
-    const sameDayStability = sameDayReviewStability(previousStability, rating);
-    next.stability = Math.max(sameDayStability, previousStability);
-    next.difficulty = updatedDifficulty;
-    next.intervalDays = Math.max(1 / 1440, intervalForRetention(next.stability, desiredRetention));
-    next.dueAt = now + next.intervalDays * DAY_MS;
-    return next;
-  }
-
-  if (rating === GRADE.again) {
-    const retrievability = getRetrievability(elapsedDays, previousStability);
-    next.phase = "relearning";
-    next.stability = Math.max(stabilityAfterForget(previousDifficulty, previousStability, retrievability), 0.01);
-    next.difficulty = updateDifficulty(previousDifficulty, rating);
-    next.lapses = (previous.lapses ?? 0) + 1;
-    next.intervalDays = 0;
-    next.dueAt = now + learningStepMs;
-    return next;
-  }
-
-  const retrievability = getRetrievability(elapsedDays, previousStability);
-  const updatedDifficulty = updateDifficulty(previousDifficulty, rating);
-  const updatedStability = stabilityAfterRecall(updatedDifficulty, previousStability, retrievability, rating);
-
   next.phase = "review";
-  next.stability = Math.max(updatedStability, previousStability);
-  next.difficulty = updatedDifficulty;
-  next.intervalDays = Math.max(1 / 1440, intervalForRetention(next.stability, desiredRetention));
-  next.dueAt = now + next.intervalDays * DAY_MS;
-  return next;
-}
 
-function initialStability(rating) {
-  return Math.max(FSRS6[rating - 1] ?? FSRS6[2], 0.01);
-}
+  const currentStage = previous.phase === "new"
+    ? null
+    : getReviewStage(previous);
 
-function initialDifficulty(rating) {
-  const d0 = FSRS6[4] - Math.exp(FSRS6[5] * (rating - 1)) + 1;
-  return clamp(d0, 1, 10);
-}
-
-function updateDifficulty(previousDifficulty, rating) {
-  const deltaD = -FSRS6[6] * (rating - 3);
-  const damped = previousDifficulty + deltaD * ((10 - previousDifficulty) / 9);
-  const meanReverted = FSRS6[7] * initialDifficulty(4) + (1 - FSRS6[7]) * damped;
-  return clamp(meanReverted, 1, 10);
-}
-
-function sameDayReviewStability(stability, rating) {
-  const inc = Math.exp(FSRS6[17] * (rating - 3 + FSRS6[18])) * Math.pow(Math.max(stability, 0.01), -FSRS6[19]);
-  const next = stability * inc;
-  if (rating >= GRADE.good) {
-    return Math.max(next, stability);
+  let nextStage;
+  if (previous.phase === "new") {
+    nextStage = rating === "bad" ? 0 : 1;
+  } else if (rating === "bad") {
+    nextStage = 0;
+  } else {
+    nextStage = Math.min((currentStage != null ? currentStage : 0) + 1, REVIEW_GROUPS.length - 1);
   }
-  return Math.max(next, stability * 0.5);
-}
 
-function stabilityAfterRecall(difficulty, stability, retrievability, rating) {
-  const base =
-    Math.exp(FSRS6[8]) *
-    (11 - difficulty) *
-    Math.pow(Math.max(stability, 0.01), -FSRS6[9]) *
-    (Math.exp(FSRS6[10] * (1 - retrievability)) - 1);
-
-  const ratingMultiplier =
-    rating === GRADE.hard ? FSRS6[15] :
-    rating === GRADE.easy ? FSRS6[16] :
-    1;
-
-  const next = stability * (base * ratingMultiplier + 1);
-  return Math.max(next, stability);
-}
-
-function stabilityAfterForget(difficulty, stability, retrievability) {
-  const next =
-    FSRS6[11] *
-    Math.pow(difficulty, -FSRS6[12]) *
-    (Math.pow(stability + 1, FSRS6[13]) - 1) *
-    Math.exp(FSRS6[14] * (1 - retrievability));
-  return Math.max(next, 0.01);
-}
-
-function getRetrievability(elapsedDays, stability) {
-  const factor = Math.pow(0.9, -1 / FSRS6[20]) - 1;
-  return Math.pow(1 + factor * (elapsedDays / Math.max(stability, 0.01)), -FSRS6[20]);
-}
-
-function intervalForRetention(stability, retention) {
-  const clampedRetention = clamp(retention, 0.5, 0.995);
-  const factor = Math.pow(0.9, -1 / FSRS6[20]) - 1;
-  const interval = (stability / factor) * (Math.pow(clampedRetention, -1 / FSRS6[20]) - 1);
-  return Math.max(interval, 1 / 1440);
+  next.reviewStage = nextStage;
+  next.dueAt = now + REVIEW_GROUPS[nextStage];
+  next.lapses = rating === "bad" ? (previous.lapses != null ? previous.lapses : 0) + 1 : (previous.lapses != null ? previous.lapses : 0);
+  next.orderIndex = previous.orderIndex != null ? previous.orderIndex : next.orderIndex;
+  return next;
 }
 
 function formatRelativeDue(timestamp) {
@@ -686,12 +649,6 @@ function formatRelativeDue(timestamp) {
 function phaseLabel(phase) {
   if (phase === "new") {
     return "新卡片";
-  }
-  if (phase === "learning") {
-    return "學習中";
-  }
-  if (phase === "relearning") {
-    return "學習中";
   }
   return "複習中";
 }
@@ -720,7 +677,7 @@ function safeStorageGet(key) {
   } catch {
     // Fall back to in-memory storage for file:// or restricted browser contexts.
   }
-  return memoryStorage[key] ?? null;
+  return Object.prototype.hasOwnProperty.call(memoryStorage, key) ? memoryStorage[key] : null;
 }
 
 function safeStorageSet(key, value) {
@@ -733,4 +690,15 @@ function safeStorageSet(key, value) {
     // Ignore and use the in-memory fallback below.
   }
   memoryStorage[key] = value;
+}
+
+function cloneProgress(progress) {
+  return JSON.parse(JSON.stringify(progress));
+}
+
+function generateId() {
+  if (typeof crypto !== "undefined" && crypto.randomUUID) {
+    return crypto.randomUUID();
+  }
+  return "review-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2);
 }

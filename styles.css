@@ -307,7 +307,7 @@ img {
 
 .answer-bar {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   padding-bottom: calc(6px + var(--safe-bottom));
 }
@@ -336,24 +336,14 @@ img {
   cursor: not-allowed;
 }
 
-.action-again {
+.action-bad {
   background: rgba(255, 139, 139, 0.16);
   border-color: rgba(255, 139, 139, 0.25);
-}
-
-.action-hard {
-  background: rgba(255, 198, 107, 0.15);
-  border-color: rgba(255, 198, 107, 0.25);
 }
 
 .action-good {
   background: rgba(130, 229, 183, 0.14);
   border-color: rgba(130, 229, 183, 0.24);
-}
-
-.action-easy {
-  background: rgba(143, 211, 255, 0.16);
-  border-color: rgba(143, 211, 255, 0.25);
 }
 
 .empty-state,

@@ -5,6 +5,7 @@
   "scripts": {
     "extract": "python3 scripts/extract_apkg.py",
     "build:offline": "python3 scripts/build_offline_package.py",
+    "test:scheduler": "if [ -x /Users/Hangi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node ]; then /Users/Hangi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/scheduler_edge_cases.test.mjs; else node scripts/scheduler_edge_cases.test.mjs; fi",
     "serve": "python3 server.py",
     "dev": "python3 scripts/extract_apkg.py && python3 server.py"
   }
