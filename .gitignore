@@ -1,0 +1,9 @@
+dist/
+Exam 7 RF Flashcards 041026.apkg
+server.py
+server.mjs
+WORKPLAN.md
+README.md
+.DS_Store
+__pycache__/
+*.pyc

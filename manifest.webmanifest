@@ -1,0 +1,10 @@
+{
+  "name": "Exam 7 Flashcards",
+  "short_name": "Exam 7",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#081018",
+  "theme_color": "#081018",
+  "description": "A mobile-first flashcard web app for Exam 7 concepts.",
+  "icons": []
+}

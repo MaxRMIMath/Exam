@@ -1,0 +1,11 @@
+{
+  "name": "exam-7-flashcards",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "python3 scripts/extract_apkg.py",
+    "build:offline": "python3 scripts/build_offline_package.py",
+    "serve": "python3 server.py",
+    "dev": "python3 scripts/extract_apkg.py && python3 server.py"
+  }
+}
