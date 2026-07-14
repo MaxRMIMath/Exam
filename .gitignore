@@ -7,3 +7,4 @@ README.md
 .DS_Store
 __pycache__/
 *.pyc
+media/media-filename-map.txt

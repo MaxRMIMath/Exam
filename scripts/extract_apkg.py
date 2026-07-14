@@ -14,6 +14,45 @@ ROOT = Path(__file__).resolve().parents[1]
 APKG_PATH = ROOT / "Exam 7 RF Flashcards 041026.apkg"
 DATA_DIR = ROOT / "data"
 MEDIA_DIR = ROOT / "media"
+MEDIA_MAPPING_PATH = MEDIA_DIR / "media-filename-map.txt"
+
+CHAPTER_ORDER = [
+    "Mack2000",
+    "Hurlimann",
+    "Brosius",
+    "Friedland",
+    "Clark",
+    "Mack1994",
+    "VenterFactors",
+    "Shapland",
+    "Siewert",
+    "Sahasrabuddhe",
+    "Teng&Perkins",
+    "Meyers",
+    "Taylor",
+    "Verrall",
+    "Marshall",
+]
+
+CHAPTER_LABELS = {
+    "Mack2000": "Mack - Benktander",
+    "Hurlimann": "Hürlimann",
+    "Brosius": "Brosius",
+    "Friedland": "Friedland",
+    "Clark": "Clark",
+    "Mack1994": "Mack - Chain-Ladder",
+    "VenterFactors": "Venter Factors",
+    "Shapland": "Shapland",
+    "Siewert": "Siewert",
+    "Sahasrabuddhe": "Sahasrabuddhe",
+    "Teng&Perkins": "Teng & Perkins",
+    "Meyers": "Meyers 2nd Edition",
+    "Taylor": "Taylor",
+    "Verrall": "Verrall",
+    "Marshall": "Marshall",
+}
+
+CHAPTER_ORDER_INDEX = {chapter: index for index, chapter in enumerate(CHAPTER_ORDER)}
 
 
 def main() -> None:
@@ -68,9 +107,12 @@ def main() -> None:
                 fields = row["fields"].split("\x1f")
                 front = fields[0] if fields else ""
                 back = fields[1] if len(fields) > 1 else ""
+                tags = parse_tags(row["tags"])
+                chapter_key = chapter_key_from_tags(tags)
                 deck_cards.append(
                     {
                         "orderIndex": order_index,
+                        "sourceOrderIndex": order_index,
                         "noteId": row["note_id"],
                         "cardId": row["card_id"],
                         "guid": row["guid"],
@@ -80,13 +122,21 @@ def main() -> None:
                         "queue": row["queue"],
                         "type": row["card_type"],
                         "due": row["due"],
-                        "tags": parse_tags(row["tags"]),
+                        "tags": tags,
+                        "chapterKey": chapter_key,
+                        "chapterLabel": chapter_label_from_key(chapter_key),
                         "frontHtml": front,
                         "backHtml": back,
+                        "frontOriginalMediaNames": extract_original_media_names(front),
+                        "backOriginalMediaNames": extract_original_media_names(back),
                         "frontText": text_only(front),
                         "backText": text_only(back),
                     }
                 )
+
+            deck_cards.sort(key=chapter_sort_key)
+            for order_index, card in enumerate(deck_cards):
+                card["orderIndex"] = order_index
 
             ordered_media_names = ordered_media_names_from_cards(deck_cards)
             media_name_map = {original_name: f"{index + 1}.png" for index, original_name in enumerate(ordered_media_names)}
@@ -103,6 +153,8 @@ def main() -> None:
                 target = MEDIA_DIR / media_name_map[original_name]
                 with archive.open(blob_name) as src, open(target, "wb") as dst:
                     shutil.copyfileobj(src, dst)
+
+            write_media_mapping(media_name_map)
 
             for card in deck_cards:
                 card["frontHtml"] = rewrite_media_refs(card["frontHtml"], media_name_map)
@@ -147,6 +199,26 @@ def parse_tags(raw: str) -> list[str]:
     return [tag for tag in raw.split() if tag.strip()]
 
 
+def chapter_key_from_tags(tags: list[str]) -> str:
+    for tag in tags:
+        if tag in CHAPTER_ORDER_INDEX:
+            return tag
+    return tags[0] if tags else ""
+
+
+def chapter_label_from_key(chapter_key: str) -> str:
+    return CHAPTER_LABELS.get(chapter_key, chapter_key)
+
+
+def chapter_sort_key(card: dict) -> tuple[int, int, int]:
+    chapter_key = chapter_key_from_tags(card.get("tags", []))
+    return (
+        CHAPTER_ORDER_INDEX.get(chapter_key, len(CHAPTER_ORDER_INDEX)),
+        card.get("sourceOrderIndex", card.get("orderIndex", 0)),
+        card.get("cardId", 0),
+    )
+
+
 def ordered_media_names_from_cards(cards: list[dict]) -> list[str]:
     ordered: list[str] = []
     seen: set[str] = set()
@@ -171,6 +243,10 @@ def normalize_media_name(filename: str) -> str:
     return filename
 
 
+def extract_original_media_names(html_text: str) -> list[str]:
+    return [normalize_media_name(filename) for filename in extract_media_filenames(html_text)]
+
+
 def rewrite_media_refs(html_text: str, media_name_map: dict[str, str]) -> str:
     def replace(match: re.Match[str]) -> str:
         src = normalize_media_name(match.group(1))
@@ -182,6 +258,16 @@ def rewrite_media_refs(html_text: str, media_name_map: dict[str, str]) -> str:
         return f'src="media/{target_name}"'
 
     return re.sub(r'src="([^"]+)"', replace, html_text)
+
+
+def write_media_mapping(media_name_map: dict[str, str]) -> None:
+    ordered_pairs = sorted(
+        ((generated_name, original_name) for original_name, generated_name in media_name_map.items()),
+        key=lambda pair: int(Path(pair[0]).stem),
+    )
+    lines = ["# generated filename\toriginal filename"]
+    lines.extend(f"{generated_name}\t{original_name}" for generated_name, original_name in ordered_pairs)
+    MEDIA_MAPPING_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def text_only(html_text: str) -> str:

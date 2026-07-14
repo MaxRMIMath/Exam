@@ -6,296 +6,12 @@ window.__DECK_DATA__ = {
     "modelId": 1753559977111,
     "modelName": "Basic",
     "cardCount": 336,
-    "extractedAt": "2026-07-06T06:47:04.138875+00:00"
+    "extractedAt": "2026-07-14T15:48:38.121136+00:00"
   },
   "cards": [
     {
       "orderIndex": 0,
-      "noteId": 1775842859924,
-      "cardId": 1775842859925,
-      "guid": "N:k>We{Ytl",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14519,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/1.png\" />",
-      "backHtml": "\u003cimg src=\"media/2.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 1,
-      "noteId": 1775842859926,
-      "cardId": 1775842859926,
-      "guid": "x-xqZ44dc/",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14520,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/3.png\" />",
-      "backHtml": "\u003cimg src=\"media/4.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 2,
-      "noteId": 1775842859927,
-      "cardId": 1775842859927,
-      "guid": "g2j!zDq(Kx",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14521,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/5.png\" />",
-      "backHtml": "\u003cimg src=\"media/6.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 3,
-      "noteId": 1775842859928,
-      "cardId": 1775842859928,
-      "guid": "BL|p)8jo+F",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14522,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/7.png\" />",
-      "backHtml": "\u003cimg src=\"media/8.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 4,
-      "noteId": 1775842859929,
-      "cardId": 1775842859929,
-      "guid": "Eu#BX>I@tD",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14523,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/9.png\" />",
-      "backHtml": "\u003cimg src=\"media/10.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 5,
-      "noteId": 1775842859930,
-      "cardId": 1775842859930,
-      "guid": "bWIQoJLP:+",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14524,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/11.png\" />",
-      "backHtml": "\u003cimg src=\"media/12.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 6,
-      "noteId": 1775842859931,
-      "cardId": 1775842859931,
-      "guid": "lJ^OFRA>3G",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14525,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/13.png\" />",
-      "backHtml": "\u003cimg src=\"media/14.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 7,
-      "noteId": 1775842859932,
-      "cardId": 1775842859932,
-      "guid": "fI_VesvDrp",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14526,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/15.png\" />",
-      "backHtml": "\u003cimg src=\"media/16.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 8,
-      "noteId": 1775842859933,
-      "cardId": 1775842859933,
-      "guid": "qjou?K~j]q",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14527,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/17.png\" />",
-      "backHtml": "\u003cimg src=\"media/18.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 9,
-      "noteId": 1775842859934,
-      "cardId": 1775842859934,
-      "guid": "EWpEn(iE)%",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14528,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/19.png\" />",
-      "backHtml": "\u003cimg src=\"media/20.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 10,
-      "noteId": 1775842859935,
-      "cardId": 1775842859935,
-      "guid": "k9,MKX3x6k",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14529,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/21.png\" />",
-      "backHtml": "\u003cimg src=\"media/22.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 11,
-      "noteId": 1775842859936,
-      "cardId": 1775842859936,
-      "guid": "gt]u%2}_t5",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14530,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/23.png\" />",
-      "backHtml": "\u003cimg src=\"media/24.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 12,
-      "noteId": 1775842859937,
-      "cardId": 1775842859937,
-      "guid": "iD},YeB?^k",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14531,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/25.png\" />",
-      "backHtml": "\u003cimg src=\"media/26.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 13,
-      "noteId": 1775842859938,
-      "cardId": 1775842859938,
-      "guid": "Q0Yg%*+dEc",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14532,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/27.png\" />",
-      "backHtml": "\u003cimg src=\"media/28.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 14,
-      "noteId": 1775842859939,
-      "cardId": 1775842859939,
-      "guid": "KR!dPREuE#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14533,
-      "tags": [
-        "Brosius"
-      ],
-      "frontHtml": "\u003cimg src=\"media/29.png\" />",
-      "backHtml": "\u003cimg src=\"media/30.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 15,
+      "sourceOrderIndex": 15,
       "noteId": 1775842859940,
       "cardId": 1775842859940,
       "guid": "tw;]#gZ?s_",
@@ -308,13 +24,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Mack2000"
       ],
-      "frontHtml": "\u003cimg src=\"media/31.png\" />",
-      "backHtml": "\u003cimg src=\"media/32.png\" />",
+      "chapterKey": "Mack2000",
+      "chapterLabel": "Mack - Benktander",
+      "frontHtml": "\u003cimg src=\"media/1.png\" />",
+      "backHtml": "\u003cimg src=\"media/2.png\" />",
+      "frontOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_1.png"
+      ],
+      "backOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_2.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 16,
+      "orderIndex": 1,
+      "sourceOrderIndex": 16,
       "noteId": 1775842859941,
       "cardId": 1775842859941,
       "guid": "tVvG[^S?kg",
@@ -327,13 +52,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Mack2000"
       ],
-      "frontHtml": "\u003cimg src=\"media/33.png\" />",
-      "backHtml": "\u003cimg src=\"media/34.png\" />",
+      "chapterKey": "Mack2000",
+      "chapterLabel": "Mack - Benktander",
+      "frontHtml": "\u003cimg src=\"media/3.png\" />",
+      "backHtml": "\u003cimg src=\"media/4.png\" />",
+      "frontOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_3.png"
+      ],
+      "backOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_4.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 17,
+      "orderIndex": 2,
+      "sourceOrderIndex": 17,
       "noteId": 1775842859942,
       "cardId": 1775842859942,
       "guid": "iPux.8d;nP",
@@ -346,13 +80,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Mack2000"
       ],
-      "frontHtml": "\u003cimg src=\"media/35.png\" />",
-      "backHtml": "\u003cimg src=\"media/36.png\" />",
+      "chapterKey": "Mack2000",
+      "chapterLabel": "Mack - Benktander",
+      "frontHtml": "\u003cimg src=\"media/5.png\" />",
+      "backHtml": "\u003cimg src=\"media/6.png\" />",
+      "frontOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_5.png"
+      ],
+      "backOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_6.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 18,
+      "orderIndex": 3,
+      "sourceOrderIndex": 18,
       "noteId": 1775842859943,
       "cardId": 1775842859943,
       "guid": "fVyO_Q[I~1",
@@ -365,13 +108,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Mack2000"
       ],
-      "frontHtml": "\u003cimg src=\"media/37.png\" />",
-      "backHtml": "\u003cimg src=\"media/38.png\" />",
+      "chapterKey": "Mack2000",
+      "chapterLabel": "Mack - Benktander",
+      "frontHtml": "\u003cimg src=\"media/7.png\" />",
+      "backHtml": "\u003cimg src=\"media/8.png\" />",
+      "frontOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_7.png"
+      ],
+      "backOriginalMediaNames": [
+        "2_Mack (2000) - Exam 7 Flashcards_Page_8.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 19,
+      "orderIndex": 4,
+      "sourceOrderIndex": 19,
       "noteId": 1775842859944,
       "cardId": 1775842859944,
       "guid": "q/887&i;_;",
@@ -384,13 +136,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/39.png\" />",
-      "backHtml": "\u003cimg src=\"media/40.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/9.png\" />",
+      "backHtml": "\u003cimg src=\"media/10.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_02.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 20,
+      "orderIndex": 5,
+      "sourceOrderIndex": 20,
       "noteId": 1775842859945,
       "cardId": 1775842859945,
       "guid": "FIdQ*mX$fO",
@@ -403,13 +164,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/41.png\" />",
-      "backHtml": "\u003cimg src=\"media/42.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/11.png\" />",
+      "backHtml": "\u003cimg src=\"media/12.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_04.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 21,
+      "orderIndex": 6,
+      "sourceOrderIndex": 21,
       "noteId": 1775842859946,
       "cardId": 1775842859946,
       "guid": "Grsi8s~IvL",
@@ -422,13 +192,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/43.png\" />",
-      "backHtml": "\u003cimg src=\"media/44.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/13.png\" />",
+      "backHtml": "\u003cimg src=\"media/14.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_06.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 22,
+      "orderIndex": 7,
+      "sourceOrderIndex": 22,
       "noteId": 1775842859947,
       "cardId": 1775842859947,
       "guid": "s9Ll]N\u003c7Dz",
@@ -441,13 +220,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/45.png\" />",
-      "backHtml": "\u003cimg src=\"media/46.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/15.png\" />",
+      "backHtml": "\u003cimg src=\"media/16.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_08.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 23,
+      "orderIndex": 8,
+      "sourceOrderIndex": 23,
       "noteId": 1775842859948,
       "cardId": 1775842859948,
       "guid": "hPhjnu_>,5",
@@ -460,13 +248,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/47.png\" />",
-      "backHtml": "\u003cimg src=\"media/48.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/17.png\" />",
+      "backHtml": "\u003cimg src=\"media/18.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_10.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 24,
+      "orderIndex": 9,
+      "sourceOrderIndex": 24,
       "noteId": 1775842859949,
       "cardId": 1775842859949,
       "guid": "pn|=brvVE/",
@@ -479,13 +276,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/49.png\" />",
-      "backHtml": "\u003cimg src=\"media/50.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/19.png\" />",
+      "backHtml": "\u003cimg src=\"media/20.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_12.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 25,
+      "orderIndex": 10,
+      "sourceOrderIndex": 25,
       "noteId": 1775842859950,
       "cardId": 1775842859950,
       "guid": "zcIk9r6cHH",
@@ -498,13 +304,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
-      "frontHtml": "\u003cimg src=\"media/51.png\" />",
-      "backHtml": "\u003cimg src=\"media/52.png\" />",
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/21.png\" />",
+      "backHtml": "\u003cimg src=\"media/22.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_14.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 26,
+      "orderIndex": 11,
+      "sourceOrderIndex": 26,
       "noteId": 1775842859951,
       "cardId": 1775842859951,
       "guid": "nvr7m*VMnj",
@@ -517,4915 +332,442 @@ window.__DECK_DATA__ = {
       "tags": [
         "Hurlimann"
       ],
+      "chapterKey": "Hurlimann",
+      "chapterLabel": "Hürlimann",
+      "frontHtml": "\u003cimg src=\"media/23.png\" />",
+      "backHtml": "\u003cimg src=\"media/24.png\" />",
+      "frontOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "3_Hurlimann - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 12,
+      "sourceOrderIndex": 0,
+      "noteId": 1775842859924,
+      "cardId": 1775842859925,
+      "guid": "N:k>We{Ytl",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14519,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/25.png\" />",
+      "backHtml": "\u003cimg src=\"media/26.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 13,
+      "sourceOrderIndex": 1,
+      "noteId": 1775842859926,
+      "cardId": 1775842859926,
+      "guid": "x-xqZ44dc/",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14520,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/27.png\" />",
+      "backHtml": "\u003cimg src=\"media/28.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 14,
+      "sourceOrderIndex": 2,
+      "noteId": 1775842859927,
+      "cardId": 1775842859927,
+      "guid": "g2j!zDq(Kx",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14521,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/29.png\" />",
+      "backHtml": "\u003cimg src=\"media/30.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 15,
+      "sourceOrderIndex": 3,
+      "noteId": 1775842859928,
+      "cardId": 1775842859928,
+      "guid": "BL|p)8jo+F",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14522,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/31.png\" />",
+      "backHtml": "\u003cimg src=\"media/32.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 16,
+      "sourceOrderIndex": 4,
+      "noteId": 1775842859929,
+      "cardId": 1775842859929,
+      "guid": "Eu#BX>I@tD",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14523,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/33.png\" />",
+      "backHtml": "\u003cimg src=\"media/34.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 17,
+      "sourceOrderIndex": 5,
+      "noteId": 1775842859930,
+      "cardId": 1775842859930,
+      "guid": "bWIQoJLP:+",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14524,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/35.png\" />",
+      "backHtml": "\u003cimg src=\"media/36.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 18,
+      "sourceOrderIndex": 6,
+      "noteId": 1775842859931,
+      "cardId": 1775842859931,
+      "guid": "lJ^OFRA>3G",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14525,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/37.png\" />",
+      "backHtml": "\u003cimg src=\"media/38.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 19,
+      "sourceOrderIndex": 7,
+      "noteId": 1775842859932,
+      "cardId": 1775842859932,
+      "guid": "fI_VesvDrp",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14526,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/39.png\" />",
+      "backHtml": "\u003cimg src=\"media/40.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 20,
+      "sourceOrderIndex": 8,
+      "noteId": 1775842859933,
+      "cardId": 1775842859933,
+      "guid": "qjou?K~j]q",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14527,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/41.png\" />",
+      "backHtml": "\u003cimg src=\"media/42.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 21,
+      "sourceOrderIndex": 9,
+      "noteId": 1775842859934,
+      "cardId": 1775842859934,
+      "guid": "EWpEn(iE)%",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14528,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/43.png\" />",
+      "backHtml": "\u003cimg src=\"media/44.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 22,
+      "sourceOrderIndex": 10,
+      "noteId": 1775842859935,
+      "cardId": 1775842859935,
+      "guid": "k9,MKX3x6k",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14529,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/45.png\" />",
+      "backHtml": "\u003cimg src=\"media/46.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 23,
+      "sourceOrderIndex": 11,
+      "noteId": 1775842859936,
+      "cardId": 1775842859936,
+      "guid": "gt]u%2}_t5",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14530,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/47.png\" />",
+      "backHtml": "\u003cimg src=\"media/48.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 24,
+      "sourceOrderIndex": 12,
+      "noteId": 1775842859937,
+      "cardId": 1775842859937,
+      "guid": "iD},YeB?^k",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14531,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/49.png\" />",
+      "backHtml": "\u003cimg src=\"media/50.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 25,
+      "sourceOrderIndex": 13,
+      "noteId": 1775842859938,
+      "cardId": 1775842859938,
+      "guid": "Q0Yg%*+dEc",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14532,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
+      "frontHtml": "\u003cimg src=\"media/51.png\" />",
+      "backHtml": "\u003cimg src=\"media/52.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 26,
+      "sourceOrderIndex": 14,
+      "noteId": 1775842859939,
+      "cardId": 1775842859939,
+      "guid": "KR!dPREuE#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14533,
+      "tags": [
+        "Brosius"
+      ],
+      "chapterKey": "Brosius",
+      "chapterLabel": "Brosius",
       "frontHtml": "\u003cimg src=\"media/53.png\" />",
       "backHtml": "\u003cimg src=\"media/54.png\" />",
+      "frontOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "1_Brosius - Exam 7 Flashcards_Page_30.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
       "orderIndex": 27,
-      "noteId": 1775842859952,
-      "cardId": 1775842859952,
-      "guid": "qB_&qBf*jH",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14546,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/55.png\" />",
-      "backHtml": "\u003cimg src=\"media/56.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 28,
-      "noteId": 1775842859953,
-      "cardId": 1775842859953,
-      "guid": "itJjDXRG7^",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14547,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/57.png\" />",
-      "backHtml": "\u003cimg src=\"media/58.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 29,
-      "noteId": 1775842859954,
-      "cardId": 1775842859954,
-      "guid": "N[g_yYGC\u003c`",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14548,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/59.png\" />",
-      "backHtml": "\u003cimg src=\"media/60.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 30,
-      "noteId": 1775842859955,
-      "cardId": 1775842859955,
-      "guid": "p+$lZi-;BN",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14549,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/61.png\" />",
-      "backHtml": "\u003cimg src=\"media/62.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 31,
-      "noteId": 1775842859956,
-      "cardId": 1775842859956,
-      "guid": "tO}$:tHH.J",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14550,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/63.png\" />",
-      "backHtml": "\u003cimg src=\"media/64.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 32,
-      "noteId": 1775842859957,
-      "cardId": 1775842859957,
-      "guid": "pA&0Z7*zxQ",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14551,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/65.png\" />",
-      "backHtml": "\u003cimg src=\"media/66.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 33,
-      "noteId": 1775842859958,
-      "cardId": 1775842859958,
-      "guid": "d/17>|Uy)-",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14552,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/67.png\" />",
-      "backHtml": "\u003cimg src=\"media/68.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 34,
-      "noteId": 1775842859959,
-      "cardId": 1775842859959,
-      "guid": "e@iq*nk-dS",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14553,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/69.png\" />",
-      "backHtml": "\u003cimg src=\"media/70.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 35,
-      "noteId": 1775842859960,
-      "cardId": 1775842859960,
-      "guid": "z^%k?wfh$2",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14554,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/71.png\" />",
-      "backHtml": "\u003cimg src=\"media/72.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 36,
-      "noteId": 1775842859961,
-      "cardId": 1775842859961,
-      "guid": "tBuZ{0PUg4",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14555,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/73.png\" />",
-      "backHtml": "\u003cimg src=\"media/74.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 37,
-      "noteId": 1775842859962,
-      "cardId": 1775842859962,
-      "guid": "y6sBlNCDFp",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14556,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/75.png\" />",
-      "backHtml": "\u003cimg src=\"media/76.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 38,
-      "noteId": 1775842859963,
-      "cardId": 1775842859963,
-      "guid": "sW1c_($6XX",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14557,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/77.png\" />",
-      "backHtml": "\u003cimg src=\"media/78.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 39,
-      "noteId": 1775842859964,
-      "cardId": 1775842859964,
-      "guid": "gw-[7D|\u003cx$",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14558,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/79.png\" />",
-      "backHtml": "\u003cimg src=\"media/80.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 40,
-      "noteId": 1775842859965,
-      "cardId": 1775842859965,
-      "guid": "EOki*6sIxM",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14559,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/81.png\" />",
-      "backHtml": "\u003cimg src=\"media/82.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 41,
-      "noteId": 1775842859966,
-      "cardId": 1775842859966,
-      "guid": "Ip/N&UBfw(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14560,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/83.png\" />",
-      "backHtml": "\u003cimg src=\"media/84.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 42,
-      "noteId": 1775842859967,
-      "cardId": 1775842859967,
-      "guid": "oI+#JPTu:9",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14561,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/85.png\" />",
-      "backHtml": "\u003cimg src=\"media/86.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 43,
-      "noteId": 1775842859968,
-      "cardId": 1775842859968,
-      "guid": "y?_\u003ce{EbOe",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14562,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/87.png\" />",
-      "backHtml": "\u003cimg src=\"media/88.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 44,
-      "noteId": 1775842859969,
-      "cardId": 1775842859969,
-      "guid": "k0%-Mb_m$9",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14563,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/89.png\" />",
-      "backHtml": "\u003cimg src=\"media/90.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 45,
-      "noteId": 1775842859970,
-      "cardId": 1775842859970,
-      "guid": "E#lJ/jXeDD",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14564,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/91.png\" />",
-      "backHtml": "\u003cimg src=\"media/92.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 46,
-      "noteId": 1775842859971,
-      "cardId": 1775842859971,
-      "guid": "g:aznYXyuc",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14565,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/93.png\" />",
-      "backHtml": "\u003cimg src=\"media/94.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 47,
-      "noteId": 1775842859972,
-      "cardId": 1775842859972,
-      "guid": "DAwT,H&M~L",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14566,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/95.png\" />",
-      "backHtml": "\u003cimg src=\"media/96.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 48,
-      "noteId": 1775842859973,
-      "cardId": 1775842859973,
-      "guid": "lETl;whEcD",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14567,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/97.png\" />",
-      "backHtml": "\u003cimg src=\"media/98.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 49,
-      "noteId": 1775842859974,
-      "cardId": 1775842859974,
-      "guid": "iC,r2}2$vC",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14568,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/99.png\" />",
-      "backHtml": "\u003cimg src=\"media/100.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 50,
-      "noteId": 1775842859975,
-      "cardId": 1775842859975,
-      "guid": "qK#CY/MJLV",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14569,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/101.png\" />",
-      "backHtml": "\u003cimg src=\"media/102.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 51,
-      "noteId": 1775842859976,
-      "cardId": 1775842859976,
-      "guid": "Fl3g9x&o\u003cU",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14570,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/103.png\" />",
-      "backHtml": "\u003cimg src=\"media/104.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 52,
-      "noteId": 1775842859977,
-      "cardId": 1775842859977,
-      "guid": "cSOvq%#Otf",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14571,
-      "tags": [
-        "Clark"
-      ],
-      "frontHtml": "\u003cimg src=\"media/105.png\" />",
-      "backHtml": "\u003cimg src=\"media/106.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 53,
-      "noteId": 1775842859978,
-      "cardId": 1775842859978,
-      "guid": "O8C3uZ>aCa",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14572,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/107.png\" />",
-      "backHtml": "\u003cimg src=\"media/108.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 54,
-      "noteId": 1775842859979,
-      "cardId": 1775842859979,
-      "guid": "In2B55|B31",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14573,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/109.png\" />",
-      "backHtml": "\u003cimg src=\"media/110.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 55,
-      "noteId": 1775842859980,
-      "cardId": 1775842859980,
-      "guid": "d^>m?=y^i=",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14574,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/111.png\" />",
-      "backHtml": "\u003cimg src=\"media/112.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 56,
-      "noteId": 1775842859981,
-      "cardId": 1775842859981,
-      "guid": "hNg3K#_\u003c}v",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14575,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/113.png\" />",
-      "backHtml": "\u003cimg src=\"media/114.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 57,
-      "noteId": 1775842859982,
-      "cardId": 1775842859982,
-      "guid": "p`qG!8{.(/",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14576,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/115.png\" />",
-      "backHtml": "\u003cimg src=\"media/116.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 58,
-      "noteId": 1775842859983,
-      "cardId": 1775842859983,
-      "guid": "Lss-[.NiL)",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14577,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/117.png\" />",
-      "backHtml": "\u003cimg src=\"media/118.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 59,
-      "noteId": 1775842859984,
-      "cardId": 1775842859984,
-      "guid": "yQ5~{(,3H}",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14578,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/119.png\" />",
-      "backHtml": "\u003cimg src=\"media/120.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 60,
-      "noteId": 1775842859985,
-      "cardId": 1775842859985,
-      "guid": "K$0a;F@?h;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14579,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/121.png\" />",
-      "backHtml": "\u003cimg src=\"media/122.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 61,
-      "noteId": 1775842859986,
-      "cardId": 1775842859986,
-      "guid": "kN*~J!)YA1",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14580,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/123.png\" />",
-      "backHtml": "\u003cimg src=\"media/124.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 62,
-      "noteId": 1775842859987,
-      "cardId": 1775842859987,
-      "guid": "m9+$S(/GH/",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14581,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/125.png\" />",
-      "backHtml": "\u003cimg src=\"media/126.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 63,
-      "noteId": 1775842859988,
-      "cardId": 1775842859988,
-      "guid": "Ify?}SRv;8",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14582,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/127.png\" />",
-      "backHtml": "\u003cimg src=\"media/128.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 64,
-      "noteId": 1775842859989,
-      "cardId": 1775842859989,
-      "guid": "b+[N!G^z,X",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14583,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/129.png\" />",
-      "backHtml": "\u003cimg src=\"media/130.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 65,
-      "noteId": 1775842859990,
-      "cardId": 1775842859990,
-      "guid": "FKCBN57Zy(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14584,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/131.png\" />",
-      "backHtml": "\u003cimg src=\"media/132.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 66,
-      "noteId": 1775842859991,
-      "cardId": 1775842859991,
-      "guid": "LPugUJeYKn",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14585,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/133.png\" />",
-      "backHtml": "\u003cimg src=\"media/134.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 67,
-      "noteId": 1775842859992,
-      "cardId": 1775842859992,
-      "guid": "ruh&p;0Ay-",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14586,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/135.png\" />",
-      "backHtml": "\u003cimg src=\"media/136.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 68,
-      "noteId": 1775842859993,
-      "cardId": 1775842859993,
-      "guid": "E\u003cxv{UHMs9",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14587,
-      "tags": [
-        "Mack1994"
-      ],
-      "frontHtml": "\u003cimg src=\"media/137.png\" />",
-      "backHtml": "\u003cimg src=\"media/138.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 69,
-      "noteId": 1775842859994,
-      "cardId": 1775842859994,
-      "guid": "ivjEwCHP==",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14588,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/139.png\" />",
-      "backHtml": "\u003cimg src=\"media/140.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 70,
-      "noteId": 1775842859995,
-      "cardId": 1775842859995,
-      "guid": "t=M{{G]I7`",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14589,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/141.png\" />",
-      "backHtml": "\u003cimg src=\"media/142.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 71,
-      "noteId": 1775842859996,
-      "cardId": 1775842859996,
-      "guid": "g`U#3_-=~L",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14590,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/143.png\" />",
-      "backHtml": "\u003cimg src=\"media/144.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 72,
-      "noteId": 1775842859997,
-      "cardId": 1775842859997,
-      "guid": "@6&:.};p]",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14591,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/145.png\" />",
-      "backHtml": "\u003cimg src=\"media/146.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 73,
-      "noteId": 1775842859998,
-      "cardId": 1775842859998,
-      "guid": "F.DdR1!(>;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14592,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/147.png\" />",
-      "backHtml": "\u003cimg src=\"media/148.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 74,
-      "noteId": 1775842859999,
-      "cardId": 1775842859999,
-      "guid": "u]$Hdz@7cM",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14593,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/149.png\" />",
-      "backHtml": "\u003cimg src=\"media/150.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 75,
-      "noteId": 1775842860000,
-      "cardId": 1775842860000,
-      "guid": "dS$$GoFE/3",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14594,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/151.png\" />",
-      "backHtml": "\u003cimg src=\"media/152.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 76,
-      "noteId": 1775842860001,
-      "cardId": 1775842860001,
-      "guid": "pPkONZWwU(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14595,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/153.png\" />",
-      "backHtml": "\u003cimg src=\"media/154.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 77,
-      "noteId": 1775842860002,
-      "cardId": 1775842860002,
-      "guid": "D{~ji`a_Ce",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14596,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/155.png\" />",
-      "backHtml": "\u003cimg src=\"media/156.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 78,
-      "noteId": 1775842860003,
-      "cardId": 1775842860003,
-      "guid": "pUZ/bLCK|8",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14597,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/157.png\" />",
-      "backHtml": "\u003cimg src=\"media/158.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 79,
-      "noteId": 1775842860004,
-      "cardId": 1775842860004,
-      "guid": "nPCUCl(jQl",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14598,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/159.png\" />",
-      "backHtml": "\u003cimg src=\"media/160.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 80,
-      "noteId": 1775842860005,
-      "cardId": 1775842860005,
-      "guid": "McCp|mv0am",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14599,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/161.png\" />",
-      "backHtml": "\u003cimg src=\"media/162.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 81,
-      "noteId": 1775842860006,
-      "cardId": 1775842860006,
-      "guid": "N)[Ghhrn4$",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14600,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/163.png\" />",
-      "backHtml": "\u003cimg src=\"media/164.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 82,
-      "noteId": 1775842860007,
-      "cardId": 1775842860007,
-      "guid": "B]9(yG|(Y?",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14601,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/165.png\" />",
-      "backHtml": "\u003cimg src=\"media/166.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 83,
-      "noteId": 1775842860008,
-      "cardId": 1775842860008,
-      "guid": "d[rF!~6Ce(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14602,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/167.png\" />",
-      "backHtml": "\u003cimg src=\"media/168.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 84,
-      "noteId": 1775842860009,
-      "cardId": 1775842860009,
-      "guid": "z9au4f]u*V",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14603,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/169.png\" />",
-      "backHtml": "\u003cimg src=\"media/170.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 85,
-      "noteId": 1775842860010,
-      "cardId": 1775842860010,
-      "guid": "t:7G#*btl$",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14604,
-      "tags": [
-        "VenterFactors"
-      ],
-      "frontHtml": "\u003cimg src=\"media/171.png\" />",
-      "backHtml": "\u003cimg src=\"media/172.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 86,
-      "noteId": 1775842860011,
-      "cardId": 1775842860011,
-      "guid": "dwq]R@%l`c",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14605,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/173.png\" />",
-      "backHtml": "\u003cimg src=\"media/174.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 87,
-      "noteId": 1775842860012,
-      "cardId": 1775842860012,
-      "guid": "ESf~iyd*Z!",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14606,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/175.png\" />",
-      "backHtml": "\u003cimg src=\"media/176.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 88,
-      "noteId": 1775842860013,
-      "cardId": 1775842860013,
-      "guid": "l{z?w24wcH",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14607,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/177.png\" />",
-      "backHtml": "\u003cimg src=\"media/178.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 89,
-      "noteId": 1775842860014,
-      "cardId": 1775842860014,
-      "guid": "g~^,!M^VmP",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14608,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/179.png\" />",
-      "backHtml": "\u003cimg src=\"media/180.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 90,
-      "noteId": 1775842860015,
-      "cardId": 1775842860015,
-      "guid": "Nmfy+m:VvF",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14609,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/181.png\" />",
-      "backHtml": "\u003cimg src=\"media/182.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 91,
-      "noteId": 1775842860016,
-      "cardId": 1775842860016,
-      "guid": "v6MLi9Rkgr",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14610,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/183.png\" />",
-      "backHtml": "\u003cimg src=\"media/184.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 92,
-      "noteId": 1775842860017,
-      "cardId": 1775842860017,
-      "guid": "hvH.%2bA].",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14611,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/185.png\" />",
-      "backHtml": "\u003cimg src=\"media/186.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 93,
-      "noteId": 1775842860018,
-      "cardId": 1775842860018,
-      "guid": "I(F7w*b9A-",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14612,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/187.png\" />",
-      "backHtml": "\u003cimg src=\"media/188.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 94,
-      "noteId": 1775842860019,
-      "cardId": 1775842860019,
-      "guid": "IrL~[y=XNh",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14613,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/189.png\" />",
-      "backHtml": "\u003cimg src=\"media/190.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 95,
-      "noteId": 1775842860020,
-      "cardId": 1775842860020,
-      "guid": "FJim,Pz!KA",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14614,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/191.png\" />",
-      "backHtml": "\u003cimg src=\"media/192.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 96,
-      "noteId": 1775842860021,
-      "cardId": 1775842860021,
-      "guid": "yV)Sg:oAU0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14615,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/193.png\" />",
-      "backHtml": "\u003cimg src=\"media/194.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 97,
-      "noteId": 1775842860022,
-      "cardId": 1775842860022,
-      "guid": "G^sjT9q&p0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14616,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/195.png\" />",
-      "backHtml": "\u003cimg src=\"media/196.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 98,
-      "noteId": 1775842860023,
-      "cardId": 1775842860023,
-      "guid": "Q9,qeu#`>?",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14617,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/197.png\" />",
-      "backHtml": "\u003cimg src=\"media/198.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 99,
-      "noteId": 1775842860024,
-      "cardId": 1775842860024,
-      "guid": "f]hv7Gxw&8",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14618,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/199.png\" />",
-      "backHtml": "\u003cimg src=\"media/200.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 100,
-      "noteId": 1775842860025,
-      "cardId": 1775842860025,
-      "guid": "t@;=F#3i&U",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14619,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/201.png\" />",
-      "backHtml": "\u003cimg src=\"media/202.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 101,
-      "noteId": 1775842860026,
-      "cardId": 1775842860026,
-      "guid": "c$On!zXi|z",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14620,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/203.png\" />",
-      "backHtml": "\u003cimg src=\"media/204.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 102,
-      "noteId": 1775842860027,
-      "cardId": 1775842860027,
-      "guid": "B;pv^qV#(C",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14621,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/205.png\" />",
-      "backHtml": "\u003cimg src=\"media/206.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 103,
-      "noteId": 1775842860028,
-      "cardId": 1775842860028,
-      "guid": "s%w-*$%``X",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14622,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/207.png\" />",
-      "backHtml": "\u003cimg src=\"media/208.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 104,
-      "noteId": 1775842860029,
-      "cardId": 1775842860029,
-      "guid": "gm|^H*H*JX",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14623,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/209.png\" />",
-      "backHtml": "\u003cimg src=\"media/210.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 105,
-      "noteId": 1775842860030,
-      "cardId": 1775842860030,
-      "guid": "J&H4,0Wk&k",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14624,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/211.png\" />",
-      "backHtml": "\u003cimg src=\"media/212.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 106,
-      "noteId": 1775842860031,
-      "cardId": 1775842860031,
-      "guid": "bp_w4;3pbz",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14625,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/213.png\" />",
-      "backHtml": "\u003cimg src=\"media/214.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 107,
-      "noteId": 1775842860032,
-      "cardId": 1775842860032,
-      "guid": "6XF$z!%l%",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14626,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/215.png\" />",
-      "backHtml": "\u003cimg src=\"media/216.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 108,
-      "noteId": 1775842860033,
-      "cardId": 1775842860033,
-      "guid": "BGLI&Y/TrD",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14627,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/217.png\" />",
-      "backHtml": "\u003cimg src=\"media/218.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 109,
-      "noteId": 1775842860034,
-      "cardId": 1775842860034,
-      "guid": "Dc[OR(?~9B",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14628,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/219.png\" />",
-      "backHtml": "\u003cimg src=\"media/220.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 110,
-      "noteId": 1775842860035,
-      "cardId": 1775842860035,
-      "guid": "Gh8~;#$ft#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14629,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/221.png\" />",
-      "backHtml": "\u003cimg src=\"media/222.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 111,
-      "noteId": 1775842860036,
-      "cardId": 1775842860036,
-      "guid": "lSMgHRy}G;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14630,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/223.png\" />",
-      "backHtml": "\u003cimg src=\"media/224.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 112,
-      "noteId": 1775842860037,
-      "cardId": 1775842860037,
-      "guid": "C~YuUH*wE=",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14631,
-      "tags": [
-        "Siewert"
-      ],
-      "frontHtml": "\u003cimg src=\"media/225.png\" />",
-      "backHtml": "\u003cimg src=\"media/226.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 113,
-      "noteId": 1775842860038,
-      "cardId": 1775842860038,
-      "guid": "EjCp7e*|mu",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14632,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/227.png\" />",
-      "backHtml": "\u003cimg src=\"media/228.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 114,
-      "noteId": 1775842860039,
-      "cardId": 1775842860039,
-      "guid": "e8F>g`2-xS",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14633,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/229.png\" />",
-      "backHtml": "\u003cimg src=\"media/230.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 115,
-      "noteId": 1775842860040,
-      "cardId": 1775842860040,
-      "guid": "Nyl>>bF-Q#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14634,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/231.png\" />",
-      "backHtml": "\u003cimg src=\"media/232.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 116,
-      "noteId": 1775842860041,
-      "cardId": 1775842860041,
-      "guid": "f[z]ZAN1v.",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14635,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/233.png\" />",
-      "backHtml": "\u003cimg src=\"media/234.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 117,
-      "noteId": 1775842860042,
-      "cardId": 1775842860042,
-      "guid": "la^pOWqo^w",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14636,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/235.png\" />",
-      "backHtml": "\u003cimg src=\"media/236.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 118,
-      "noteId": 1775842860043,
-      "cardId": 1775842860043,
-      "guid": "c0F[\u003c2xL-+",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14637,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/237.png\" />",
-      "backHtml": "\u003cimg src=\"media/238.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 119,
-      "noteId": 1775842860044,
-      "cardId": 1775842860044,
-      "guid": "oSACZCToN%",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14638,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/239.png\" />",
-      "backHtml": "\u003cimg src=\"media/240.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 120,
-      "noteId": 1775842860045,
-      "cardId": 1775842860045,
-      "guid": "o2jgm~xxXL",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14639,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/241.png\" />",
-      "backHtml": "\u003cimg src=\"media/242.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 121,
-      "noteId": 1775842860046,
-      "cardId": 1775842860046,
-      "guid": "cOFzwusc_Q",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14640,
-      "tags": [
-        "Sahasrabuddhe"
-      ],
-      "frontHtml": "\u003cimg src=\"media/243.png\" />",
-      "backHtml": "\u003cimg src=\"media/244.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 122,
-      "noteId": 1775842860047,
-      "cardId": 1775842860047,
-      "guid": "r,hr`>N:V(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14641,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/245.png\" />",
-      "backHtml": "\u003cimg src=\"media/246.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 123,
-      "noteId": 1775842860048,
-      "cardId": 1775842860048,
-      "guid": "H/`cbf40H(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14642,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/247.png\" />",
-      "backHtml": "\u003cimg src=\"media/248.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 124,
-      "noteId": 1775842860049,
-      "cardId": 1775842860049,
-      "guid": "t;sZwm[AhL",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14643,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/249.png\" />",
-      "backHtml": "\u003cimg src=\"media/250.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 125,
-      "noteId": 1775842860050,
-      "cardId": 1775842860050,
-      "guid": "f+N}Finz}f",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14644,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/251.png\" />",
-      "backHtml": "\u003cimg src=\"media/252.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 126,
-      "noteId": 1775842860051,
-      "cardId": 1775842860051,
-      "guid": "H@b~-^b|G-",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14645,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/253.png\" />",
-      "backHtml": "\u003cimg src=\"media/254.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 127,
-      "noteId": 1775842860052,
-      "cardId": 1775842860052,
-      "guid": "sud)}fD2y}",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14646,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/255.png\" />",
-      "backHtml": "\u003cimg src=\"media/256.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 128,
-      "noteId": 1775842860053,
-      "cardId": 1775842860053,
-      "guid": "Ax;xpP>BYi",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14647,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/257.png\" />",
-      "backHtml": "\u003cimg src=\"media/258.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 129,
-      "noteId": 1775842860054,
-      "cardId": 1775842860054,
-      "guid": "vk&u336`qJ",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14648,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/259.png\" />",
-      "backHtml": "\u003cimg src=\"media/260.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 130,
-      "noteId": 1775842860055,
-      "cardId": 1775842860055,
-      "guid": "M9BUDSO8}r",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14649,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/261.png\" />",
-      "backHtml": "\u003cimg src=\"media/262.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 131,
-      "noteId": 1775842860056,
-      "cardId": 1775842860056,
-      "guid": "QCg4;Jk),#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14650,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/263.png\" />",
-      "backHtml": "\u003cimg src=\"media/264.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 132,
-      "noteId": 1775842860057,
-      "cardId": 1775842860057,
-      "guid": "L0(H=*biE]",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14651,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/265.png\" />",
-      "backHtml": "\u003cimg src=\"media/266.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 133,
-      "noteId": 1775842860058,
-      "cardId": 1775842860058,
-      "guid": "biMR7FpL}b",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14652,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/267.png\" />",
-      "backHtml": "\u003cimg src=\"media/268.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 134,
-      "noteId": 1775842860059,
-      "cardId": 1775842860059,
-      "guid": "dXeB@T|L]d",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14653,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/269.png\" />",
-      "backHtml": "\u003cimg src=\"media/270.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 135,
-      "noteId": 1775842860060,
-      "cardId": 1775842860060,
-      "guid": "Lhqp]vJJH#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14654,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/271.png\" />",
-      "backHtml": "\u003cimg src=\"media/272.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 136,
-      "noteId": 1775842860061,
-      "cardId": 1775842860061,
-      "guid": "oAQPz.|@[N",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14655,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/273.png\" />",
-      "backHtml": "\u003cimg src=\"media/274.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 137,
-      "noteId": 1775842860062,
-      "cardId": 1775842860062,
-      "guid": "w6S!;lTO}A",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14656,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/275.png\" />",
-      "backHtml": "\u003cimg src=\"media/276.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 138,
-      "noteId": 1775842860063,
-      "cardId": 1775842860063,
-      "guid": "GGBug%.AQN",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14657,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/277.png\" />",
-      "backHtml": "\u003cimg src=\"media/278.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 139,
-      "noteId": 1775842860064,
-      "cardId": 1775842860064,
-      "guid": "zOb]-]K9k`",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14658,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/279.png\" />",
-      "backHtml": "\u003cimg src=\"media/280.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 140,
-      "noteId": 1775842860065,
-      "cardId": 1775842860065,
-      "guid": "bwv%c*9hwW",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14659,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/281.png\" />",
-      "backHtml": "\u003cimg src=\"media/282.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 141,
-      "noteId": 1775842860066,
-      "cardId": 1775842860066,
-      "guid": "wwUq}pP}/r",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14660,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/283.png\" />",
-      "backHtml": "\u003cimg src=\"media/284.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 142,
-      "noteId": 1775842860067,
-      "cardId": 1775842860067,
-      "guid": "wna:ON#rU;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14661,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/285.png\" />",
-      "backHtml": "\u003cimg src=\"media/286.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 143,
-      "noteId": 1775842860068,
-      "cardId": 1775842860068,
-      "guid": "eLl$@iG+!@",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14662,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/287.png\" />",
-      "backHtml": "\u003cimg src=\"media/288.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 144,
-      "noteId": 1775842860069,
-      "cardId": 1775842860069,
-      "guid": "tIu8dFq^#x",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14663,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/289.png\" />",
-      "backHtml": "\u003cimg src=\"media/290.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 145,
-      "noteId": 1775842860070,
-      "cardId": 1775842860070,
-      "guid": "t1FOc.35:$",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14664,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/291.png\" />",
-      "backHtml": "\u003cimg src=\"media/292.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 146,
-      "noteId": 1775842860071,
-      "cardId": 1775842860071,
-      "guid": "Qh:8-3JG9c",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14665,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/293.png\" />",
-      "backHtml": "\u003cimg src=\"media/294.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 147,
-      "noteId": 1775842860072,
-      "cardId": 1775842860072,
-      "guid": "yeoILY8,9U",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14666,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/295.png\" />",
-      "backHtml": "\u003cimg src=\"media/296.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 148,
-      "noteId": 1775842860073,
-      "cardId": 1775842860073,
-      "guid": "zc@At]`?wu",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14667,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/297.png\" />",
-      "backHtml": "\u003cimg src=\"media/298.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 149,
-      "noteId": 1775842860074,
-      "cardId": 1775842860074,
-      "guid": "qwD+mWVbqK",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14668,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/299.png\" />",
-      "backHtml": "\u003cimg src=\"media/300.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 150,
-      "noteId": 1775842860075,
-      "cardId": 1775842860075,
-      "guid": "Ig6fS^;C(2",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14669,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/301.png\" />",
-      "backHtml": "\u003cimg src=\"media/302.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 151,
-      "noteId": 1775842860076,
-      "cardId": 1775842860076,
-      "guid": "o.sOH6*jr*",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14670,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/303.png\" />",
-      "backHtml": "\u003cimg src=\"media/304.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 152,
-      "noteId": 1775842860077,
-      "cardId": 1775842860077,
-      "guid": "MAX\u003cD,GBw!",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14671,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/305.png\" />",
-      "backHtml": "\u003cimg src=\"media/306.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 153,
-      "noteId": 1775842860078,
-      "cardId": 1775842860078,
-      "guid": "K0&Hwu*b6G",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14672,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/307.png\" />",
-      "backHtml": "\u003cimg src=\"media/308.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 154,
-      "noteId": 1775842860079,
-      "cardId": 1775842860079,
-      "guid": "go6}7977_6",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14673,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/309.png\" />",
-      "backHtml": "\u003cimg src=\"media/310.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 155,
-      "noteId": 1775842860080,
-      "cardId": 1775842860080,
-      "guid": "Jg,k|`PYFS",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14674,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/311.png\" />",
-      "backHtml": "\u003cimg src=\"media/312.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 156,
-      "noteId": 1775842860081,
-      "cardId": 1775842860081,
-      "guid": "A~#>D1M,[T",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14675,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/313.png\" />",
-      "backHtml": "\u003cimg src=\"media/314.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 157,
-      "noteId": 1775842860082,
-      "cardId": 1775842860082,
-      "guid": "FGq[5&OqD(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14676,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/315.png\" />",
-      "backHtml": "\u003cimg src=\"media/316.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 158,
-      "noteId": 1775842860083,
-      "cardId": 1775842860083,
-      "guid": "b5tN%Yq9sM",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14677,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/317.png\" />",
-      "backHtml": "\u003cimg src=\"media/318.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 159,
-      "noteId": 1775842860084,
-      "cardId": 1775842860084,
-      "guid": "iX`?I3\u003cG]8",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14678,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/319.png\" />",
-      "backHtml": "\u003cimg src=\"media/320.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 160,
-      "noteId": 1775842860085,
-      "cardId": 1775842860085,
-      "guid": "d\u003ci-JM#hNI",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14679,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/321.png\" />",
-      "backHtml": "\u003cimg src=\"media/322.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 161,
-      "noteId": 1775842860086,
-      "cardId": 1775842860086,
-      "guid": "f;DJ$>]K4$",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14680,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/323.png\" />",
-      "backHtml": "\u003cimg src=\"media/324.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 162,
-      "noteId": 1775842860087,
-      "cardId": 1775842860087,
-      "guid": "fV?h$>u#[c",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14681,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/325.png\" />",
-      "backHtml": "\u003cimg src=\"media/326.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 163,
-      "noteId": 1775842860088,
-      "cardId": 1775842860088,
-      "guid": "dH4aTEe32n",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14682,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/327.png\" />",
-      "backHtml": "\u003cimg src=\"media/328.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 164,
-      "noteId": 1775842860089,
-      "cardId": 1775842860089,
-      "guid": "fs]!@fEb^0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14683,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/329.png\" />",
-      "backHtml": "\u003cimg src=\"media/330.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 165,
-      "noteId": 1775842860090,
-      "cardId": 1775842860090,
-      "guid": "B6td+)x.BZ",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14684,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/331.png\" />",
-      "backHtml": "\u003cimg src=\"media/332.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 166,
-      "noteId": 1775842860091,
-      "cardId": 1775842860091,
-      "guid": "qYa_8=}a#a",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14685,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/333.png\" />",
-      "backHtml": "\u003cimg src=\"media/334.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 167,
-      "noteId": 1775842860092,
-      "cardId": 1775842860092,
-      "guid": "v):N!CVt?f",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14686,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/335.png\" />",
-      "backHtml": "\u003cimg src=\"media/336.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 168,
-      "noteId": 1775842860093,
-      "cardId": 1775842860093,
-      "guid": "gF6u?]HO.*",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14687,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/337.png\" />",
-      "backHtml": "\u003cimg src=\"media/338.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 169,
-      "noteId": 1775842860094,
-      "cardId": 1775842860094,
-      "guid": "HvUq>Y0Yt#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14688,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/339.png\" />",
-      "backHtml": "\u003cimg src=\"media/340.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 170,
-      "noteId": 1775842860095,
-      "cardId": 1775842860095,
-      "guid": "L3qwVI|Esd",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14689,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/341.png\" />",
-      "backHtml": "\u003cimg src=\"media/342.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 171,
-      "noteId": 1775842860096,
-      "cardId": 1775842860096,
-      "guid": "v/7Wb5~Vbq",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14690,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/343.png\" />",
-      "backHtml": "\u003cimg src=\"media/344.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 172,
-      "noteId": 1775842860097,
-      "cardId": 1775842860097,
-      "guid": "l*Qxj]jis.",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14691,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/345.png\" />",
-      "backHtml": "\u003cimg src=\"media/346.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 173,
-      "noteId": 1775842860098,
-      "cardId": 1775842860098,
-      "guid": "C!]qK[!v=5",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14692,
-      "tags": [
-        "Shapland"
-      ],
-      "frontHtml": "\u003cimg src=\"media/347.png\" />",
-      "backHtml": "\u003cimg src=\"media/348.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 174,
-      "noteId": 1775842860099,
-      "cardId": 1775842860099,
-      "guid": "mT*Y>X(sf+",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14693,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/349.png\" />",
-      "backHtml": "\u003cimg src=\"media/350.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 175,
-      "noteId": 1775842860100,
-      "cardId": 1775842860100,
-      "guid": "L53VM((b)6",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14694,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/351.png\" />",
-      "backHtml": "\u003cimg src=\"media/352.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 176,
-      "noteId": 1775842860101,
-      "cardId": 1775842860101,
-      "guid": "JwNwxbtSv9",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14695,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/353.png\" />",
-      "backHtml": "\u003cimg src=\"media/354.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 177,
-      "noteId": 1775842860102,
-      "cardId": 1775842860102,
-      "guid": "Q6(M:zUs3D",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14696,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/355.png\" />",
-      "backHtml": "\u003cimg src=\"media/356.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 178,
-      "noteId": 1775842860103,
-      "cardId": 1775842860103,
-      "guid": "b2CLy.Ycib",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14697,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/357.png\" />",
-      "backHtml": "\u003cimg src=\"media/358.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 179,
-      "noteId": 1775842860104,
-      "cardId": 1775842860104,
-      "guid": "N3$y=j*KWG",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14698,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/359.png\" />",
-      "backHtml": "\u003cimg src=\"media/360.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 180,
-      "noteId": 1775842860105,
-      "cardId": 1775842860105,
-      "guid": "Hm-6U/Z%2.",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14699,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/361.png\" />",
-      "backHtml": "\u003cimg src=\"media/362.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 181,
-      "noteId": 1775842860106,
-      "cardId": 1775842860106,
-      "guid": "Pf1^x9NAEi",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14700,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/363.png\" />",
-      "backHtml": "\u003cimg src=\"media/364.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 182,
-      "noteId": 1775842860107,
-      "cardId": 1775842860107,
-      "guid": "n1`(46w4W7",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14701,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/365.png\" />",
-      "backHtml": "\u003cimg src=\"media/366.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 183,
-      "noteId": 1775842860108,
-      "cardId": 1775842860108,
-      "guid": "lDpGe[)l8y",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14702,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/367.png\" />",
-      "backHtml": "\u003cimg src=\"media/368.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 184,
-      "noteId": 1775842860109,
-      "cardId": 1775842860109,
-      "guid": "v-ZGpk;i,;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14703,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/369.png\" />",
-      "backHtml": "\u003cimg src=\"media/370.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 185,
-      "noteId": 1775842860110,
-      "cardId": 1775842860110,
-      "guid": "AlQhZRalK]",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14704,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/371.png\" />",
-      "backHtml": "\u003cimg src=\"media/372.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 186,
-      "noteId": 1775842860111,
-      "cardId": 1775842860111,
-      "guid": "dOLrHq]Xh|",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14705,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/373.png\" />",
-      "backHtml": "\u003cimg src=\"media/374.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 187,
-      "noteId": 1775842860112,
-      "cardId": 1775842860112,
-      "guid": "t2jh,z$N~F",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14706,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/375.png\" />",
-      "backHtml": "\u003cimg src=\"media/376.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 188,
-      "noteId": 1775842860113,
-      "cardId": 1775842860113,
-      "guid": "kXRlYFKQXT",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14707,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/377.png\" />",
-      "backHtml": "\u003cimg src=\"media/378.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 189,
-      "noteId": 1775842860114,
-      "cardId": 1775842860114,
-      "guid": "x.5tFo{&.y",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14708,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/379.png\" />",
-      "backHtml": "\u003cimg src=\"media/380.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 190,
-      "noteId": 1775842860115,
-      "cardId": 1775842860115,
-      "guid": "inITY}m>:#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14709,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/381.png\" />",
-      "backHtml": "\u003cimg src=\"media/382.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 191,
-      "noteId": 1775842860116,
-      "cardId": 1775842860116,
-      "guid": "KV9,b[5%A?",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14710,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/383.png\" />",
-      "backHtml": "\u003cimg src=\"media/384.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 192,
-      "noteId": 1775842860117,
-      "cardId": 1775842860117,
-      "guid": "d!AtXa>o6>",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14711,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/385.png\" />",
-      "backHtml": "\u003cimg src=\"media/386.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 193,
-      "noteId": 1775842860118,
-      "cardId": 1775842860118,
-      "guid": "l-JV*k_/,",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14712,
-      "tags": [
-        "Meyers"
-      ],
-      "frontHtml": "\u003cimg src=\"media/387.png\" />",
-      "backHtml": "\u003cimg src=\"media/388.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 194,
-      "noteId": 1775842860119,
-      "cardId": 1775842860119,
-      "guid": "o#aat!X:}0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14713,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/389.png\" />",
-      "backHtml": "\u003cimg src=\"media/390.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 195,
-      "noteId": 1775842860120,
-      "cardId": 1775842860120,
-      "guid": "K](2YPiOw{",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14714,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/391.png\" />",
-      "backHtml": "\u003cimg src=\"media/392.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 196,
-      "noteId": 1775842860121,
-      "cardId": 1775842860121,
-      "guid": "I09R6cFs_m",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14715,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/393.png\" />",
-      "backHtml": "\u003cimg src=\"media/394.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 197,
-      "noteId": 1775842860122,
-      "cardId": 1775842860122,
-      "guid": "KYv%t038&2",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14716,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/395.png\" />",
-      "backHtml": "\u003cimg src=\"media/396.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 198,
-      "noteId": 1775842860123,
-      "cardId": 1775842860123,
-      "guid": "OJD/K&f6D?",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14717,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/397.png\" />",
-      "backHtml": "\u003cimg src=\"media/398.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 199,
-      "noteId": 1775842860124,
-      "cardId": 1775842860124,
-      "guid": "hwX1b{gEXM",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14718,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/399.png\" />",
-      "backHtml": "\u003cimg src=\"media/400.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 200,
-      "noteId": 1775842860125,
-      "cardId": 1775842860125,
-      "guid": "ur}-u(AfLr",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14719,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/401.png\" />",
-      "backHtml": "\u003cimg src=\"media/402.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 201,
-      "noteId": 1775842860126,
-      "cardId": 1775842860126,
-      "guid": "ht-mqMWSKb",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14720,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/403.png\" />",
-      "backHtml": "\u003cimg src=\"media/404.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 202,
-      "noteId": 1775842860127,
-      "cardId": 1775842860127,
-      "guid": "J9}Ye=~{=v",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14721,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/405.png\" />",
-      "backHtml": "\u003cimg src=\"media/406.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 203,
-      "noteId": 1775842860128,
-      "cardId": 1775842860128,
-      "guid": "geKivt|,3B",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14722,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/407.png\" />",
-      "backHtml": "\u003cimg src=\"media/408.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 204,
-      "noteId": 1775842860129,
-      "cardId": 1775842860129,
-      "guid": "wX>,O?\u003ckyf",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14723,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/409.png\" />",
-      "backHtml": "\u003cimg src=\"media/410.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 205,
-      "noteId": 1775842860130,
-      "cardId": 1775842860130,
-      "guid": "C1y1pnjX/C",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14724,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/411.png\" />",
-      "backHtml": "\u003cimg src=\"media/412.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 206,
-      "noteId": 1775842860131,
-      "cardId": 1775842860131,
-      "guid": "GBw)*W0TFI",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14725,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/413.png\" />",
-      "backHtml": "\u003cimg src=\"media/414.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 207,
-      "noteId": 1775842860132,
-      "cardId": 1775842860132,
-      "guid": "G;;oN=z~X>",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14726,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/415.png\" />",
-      "backHtml": "\u003cimg src=\"media/416.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 208,
-      "noteId": 1775842860133,
-      "cardId": 1775842860133,
-      "guid": "E.?n&d`sWZ",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14727,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/417.png\" />",
-      "backHtml": "\u003cimg src=\"media/418.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 209,
-      "noteId": 1775842860134,
-      "cardId": 1775842860134,
-      "guid": "f]=bg#2oYg",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14728,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/419.png\" />",
-      "backHtml": "\u003cimg src=\"media/420.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 210,
-      "noteId": 1775842860135,
-      "cardId": 1775842860135,
-      "guid": "cs>b38B&i~",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14729,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/421.png\" />",
-      "backHtml": "\u003cimg src=\"media/422.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 211,
-      "noteId": 1775842860136,
-      "cardId": 1775842860136,
-      "guid": "t&Vn::+.!D",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14730,
-      "tags": [
-        "Taylor"
-      ],
-      "frontHtml": "\u003cimg src=\"media/423.png\" />",
-      "backHtml": "\u003cimg src=\"media/424.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 212,
-      "noteId": 1775842860137,
-      "cardId": 1775842860137,
-      "guid": "b~af8JHBS%",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14731,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/425.png\" />",
-      "backHtml": "\u003cimg src=\"media/426.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 213,
-      "noteId": 1775842860138,
-      "cardId": 1775842860138,
-      "guid": "J4o$D}}k>%",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14732,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/427.png\" />",
-      "backHtml": "\u003cimg src=\"media/428.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 214,
-      "noteId": 1775842860139,
-      "cardId": 1775842860139,
-      "guid": "A]Z6o4FE^s",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14733,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/429.png\" />",
-      "backHtml": "\u003cimg src=\"media/430.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 215,
-      "noteId": 1775842860140,
-      "cardId": 1775842860140,
-      "guid": "A@I~^FOO\u003c0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14734,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/431.png\" />",
-      "backHtml": "\u003cimg src=\"media/432.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 216,
-      "noteId": 1775842860141,
-      "cardId": 1775842860141,
-      "guid": "G%3$-|w1AA",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14735,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/433.png\" />",
-      "backHtml": "\u003cimg src=\"media/434.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 217,
-      "noteId": 1775842860142,
-      "cardId": 1775842860142,
-      "guid": "l$#NNO3!2j",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14736,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/435.png\" />",
-      "backHtml": "\u003cimg src=\"media/436.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 218,
-      "noteId": 1775842860143,
-      "cardId": 1775842860143,
-      "guid": "r(Cf7].fXv",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14737,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/437.png\" />",
-      "backHtml": "\u003cimg src=\"media/438.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 219,
-      "noteId": 1775842860144,
-      "cardId": 1775842860144,
-      "guid": "m>vdvjOw0Z",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14738,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/439.png\" />",
-      "backHtml": "\u003cimg src=\"media/440.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 220,
-      "noteId": 1775842860145,
-      "cardId": 1775842860145,
-      "guid": "Fe?Gm5g!Fe",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14739,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/441.png\" />",
-      "backHtml": "\u003cimg src=\"media/442.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 221,
-      "noteId": 1775842860146,
-      "cardId": 1775842860146,
-      "guid": "fpVfHx^]Gq",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14740,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/443.png\" />",
-      "backHtml": "\u003cimg src=\"media/444.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 222,
-      "noteId": 1775842860147,
-      "cardId": 1775842860147,
-      "guid": "A8$+S2Rtw5",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14741,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/445.png\" />",
-      "backHtml": "\u003cimg src=\"media/446.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 223,
-      "noteId": 1775842860148,
-      "cardId": 1775842860148,
-      "guid": "AC[Vj+P7/l",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14742,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/447.png\" />",
-      "backHtml": "\u003cimg src=\"media/448.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 224,
-      "noteId": 1775842860149,
-      "cardId": 1775842860149,
-      "guid": "heJ&afeJy3",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14743,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/449.png\" />",
-      "backHtml": "\u003cimg src=\"media/450.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 225,
-      "noteId": 1775842860150,
-      "cardId": 1775842860150,
-      "guid": "I:Plum%nsF",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14744,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/451.png\" />",
-      "backHtml": "\u003cimg src=\"media/452.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 226,
-      "noteId": 1775842860151,
-      "cardId": 1775842860151,
-      "guid": "lu\u003ci?ACbHq",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14745,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/453.png\" />",
-      "backHtml": "\u003cimg src=\"media/454.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 227,
-      "noteId": 1775842860152,
-      "cardId": 1775842860152,
-      "guid": "iu7:TpIJ:g",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14746,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/455.png\" />",
-      "backHtml": "\u003cimg src=\"media/456.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 228,
-      "noteId": 1775842860153,
-      "cardId": 1775842860153,
-      "guid": "o8IC^Hf@Al",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14747,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/457.png\" />",
-      "backHtml": "\u003cimg src=\"media/458.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 229,
-      "noteId": 1775842860154,
-      "cardId": 1775842860154,
-      "guid": "vBUNh;kP!.",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14748,
-      "tags": [
-        "Verrall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/459.png\" />",
-      "backHtml": "\u003cimg src=\"media/460.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 230,
-      "noteId": 1775842860155,
-      "cardId": 1775842860155,
-      "guid": "Pcuv{982xt",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14749,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/461.png\" />",
-      "backHtml": "\u003cimg src=\"media/462.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 231,
-      "noteId": 1775842860156,
-      "cardId": 1775842860156,
-      "guid": "uV+5LOxoM?",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14750,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/463.png\" />",
-      "backHtml": "\u003cimg src=\"media/464.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 232,
-      "noteId": 1775842860157,
-      "cardId": 1775842860157,
-      "guid": "rv0hXx`L;;",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14751,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/465.png\" />",
-      "backHtml": "\u003cimg src=\"media/466.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 233,
-      "noteId": 1775842860158,
-      "cardId": 1775842860158,
-      "guid": "n]ru~$#^${",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14752,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/467.png\" />",
-      "backHtml": "\u003cimg src=\"media/468.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 234,
-      "noteId": 1775842860159,
-      "cardId": 1775842860159,
-      "guid": "j)-/OSa(a`",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14753,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/469.png\" />",
-      "backHtml": "\u003cimg src=\"media/470.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 235,
-      "noteId": 1775842860160,
-      "cardId": 1775842860160,
-      "guid": "H5,sA%@TL1",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14754,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/471.png\" />",
-      "backHtml": "\u003cimg src=\"media/472.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 236,
-      "noteId": 1775842860161,
-      "cardId": 1775842860161,
-      "guid": "I)j[kA|:N!",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14755,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/473.png\" />",
-      "backHtml": "\u003cimg src=\"media/474.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 237,
-      "noteId": 1775842860162,
-      "cardId": 1775842860162,
-      "guid": "od]|hV6,JP",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14756,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/475.png\" />",
-      "backHtml": "\u003cimg src=\"media/476.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 238,
-      "noteId": 1775842860163,
-      "cardId": 1775842860163,
-      "guid": "wiH\u003cn8Q33k",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14757,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/477.png\" />",
-      "backHtml": "\u003cimg src=\"media/478.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 239,
-      "noteId": 1775842860164,
-      "cardId": 1775842860164,
-      "guid": "vnsP6v{v&#",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14758,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/479.png\" />",
-      "backHtml": "\u003cimg src=\"media/480.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 240,
-      "noteId": 1775842860165,
-      "cardId": 1775842860165,
-      "guid": "AWzVnw/e@C",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14759,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/481.png\" />",
-      "backHtml": "\u003cimg src=\"media/482.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 241,
-      "noteId": 1775842860166,
-      "cardId": 1775842860166,
-      "guid": "b0_ZYfw1n0",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14760,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/483.png\" />",
-      "backHtml": "\u003cimg src=\"media/484.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 242,
-      "noteId": 1775842860167,
-      "cardId": 1775842860167,
-      "guid": "i0I[]U,UAW",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14761,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/485.png\" />",
-      "backHtml": "\u003cimg src=\"media/486.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 243,
-      "noteId": 1775842860168,
-      "cardId": 1775842860168,
-      "guid": "q:=@8~Pj]S",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14762,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/487.png\" />",
-      "backHtml": "\u003cimg src=\"media/488.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 244,
-      "noteId": 1775842860169,
-      "cardId": 1775842860169,
-      "guid": "iI-Cj8>^7P",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14763,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/489.png\" />",
-      "backHtml": "\u003cimg src=\"media/490.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 245,
-      "noteId": 1775842860170,
-      "cardId": 1775842860170,
-      "guid": "ldTQ@e3|P4",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14764,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/491.png\" />",
-      "backHtml": "\u003cimg src=\"media/492.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 246,
-      "noteId": 1775842860171,
-      "cardId": 1775842860171,
-      "guid": "y!d1#V.OOG",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14765,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/493.png\" />",
-      "backHtml": "\u003cimg src=\"media/494.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 247,
-      "noteId": 1775842860172,
-      "cardId": 1775842860172,
-      "guid": "PHrVk^yMWb",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14766,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/495.png\" />",
-      "backHtml": "\u003cimg src=\"media/496.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 248,
-      "noteId": 1775842860173,
-      "cardId": 1775842860173,
-      "guid": "kl(+nphZTj",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14767,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/497.png\" />",
-      "backHtml": "\u003cimg src=\"media/498.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 249,
-      "noteId": 1775842860174,
-      "cardId": 1775842860174,
-      "guid": "s:i_iZ3~^:",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14768,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/499.png\" />",
-      "backHtml": "\u003cimg src=\"media/500.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 250,
-      "noteId": 1775842860175,
-      "cardId": 1775842860175,
-      "guid": "mhi=&Q/lbb",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14769,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/501.png\" />",
-      "backHtml": "\u003cimg src=\"media/502.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 251,
-      "noteId": 1775842860176,
-      "cardId": 1775842860176,
-      "guid": "ry$=&Tp~tc",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14770,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/503.png\" />",
-      "backHtml": "\u003cimg src=\"media/504.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 252,
-      "noteId": 1775842860177,
-      "cardId": 1775842860177,
-      "guid": "qLIl`-@?O6",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14771,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/505.png\" />",
-      "backHtml": "\u003cimg src=\"media/506.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 253,
-      "noteId": 1775842860178,
-      "cardId": 1775842860178,
-      "guid": "D{h5=zXM[R",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14772,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/507.png\" />",
-      "backHtml": "\u003cimg src=\"media/508.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 254,
-      "noteId": 1775842860179,
-      "cardId": 1775842860179,
-      "guid": "FVW%DHo9:C",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14773,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/509.png\" />",
-      "backHtml": "\u003cimg src=\"media/510.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 255,
-      "noteId": 1775842860180,
-      "cardId": 1775842860180,
-      "guid": "l\u003c&BwGLzpB",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14774,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/511.png\" />",
-      "backHtml": "\u003cimg src=\"media/512.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 256,
-      "noteId": 1775842860181,
-      "cardId": 1775842860181,
-      "guid": "dw@l\u003cK{+~V",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14775,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/513.png\" />",
-      "backHtml": "\u003cimg src=\"media/514.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 257,
-      "noteId": 1775842860182,
-      "cardId": 1775842860182,
-      "guid": "fuZVt=D7i_",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14776,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/515.png\" />",
-      "backHtml": "\u003cimg src=\"media/516.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 258,
-      "noteId": 1775842860183,
-      "cardId": 1775842860183,
-      "guid": "PD{?!htE@e",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14777,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/517.png\" />",
-      "backHtml": "\u003cimg src=\"media/518.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 259,
-      "noteId": 1775842860184,
-      "cardId": 1775842860184,
-      "guid": "C_hCLG\u003cYBv",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14778,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/519.png\" />",
-      "backHtml": "\u003cimg src=\"media/520.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 260,
-      "noteId": 1775842860185,
-      "cardId": 1775842860185,
-      "guid": "LhEFf%wB}-",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14779,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/521.png\" />",
-      "backHtml": "\u003cimg src=\"media/522.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 261,
-      "noteId": 1775842860186,
-      "cardId": 1775842860186,
-      "guid": "x8{$!vkSjR",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14780,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/523.png\" />",
-      "backHtml": "\u003cimg src=\"media/524.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 262,
-      "noteId": 1775842860187,
-      "cardId": 1775842860187,
-      "guid": "Jc.-sn[w7",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14781,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/525.png\" />",
-      "backHtml": "\u003cimg src=\"media/526.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 263,
-      "noteId": 1775842860188,
-      "cardId": 1775842860188,
-      "guid": "l>v8flv)*z",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14782,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/527.png\" />",
-      "backHtml": "\u003cimg src=\"media/528.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 264,
-      "noteId": 1775842860189,
-      "cardId": 1775842860189,
-      "guid": "n>D^muEuom",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14783,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/529.png\" />",
-      "backHtml": "\u003cimg src=\"media/530.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 265,
-      "noteId": 1775842860190,
-      "cardId": 1775842860190,
-      "guid": "QF6|3ijr,r",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14784,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/531.png\" />",
-      "backHtml": "\u003cimg src=\"media/532.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 266,
-      "noteId": 1775842860191,
-      "cardId": 1775842860191,
-      "guid": "zs,|9{?@XH",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14785,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/533.png\" />",
-      "backHtml": "\u003cimg src=\"media/534.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 267,
-      "noteId": 1775842860192,
-      "cardId": 1775842860192,
-      "guid": "IT9yjh/00(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14786,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/535.png\" />",
-      "backHtml": "\u003cimg src=\"media/536.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 268,
-      "noteId": 1775842860193,
-      "cardId": 1775842860193,
-      "guid": "yAq#f7p9J7",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14787,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/537.png\" />",
-      "backHtml": "\u003cimg src=\"media/538.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 269,
-      "noteId": 1775842860194,
-      "cardId": 1775842860194,
-      "guid": "HiI,I5^%j(",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14788,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/539.png\" />",
-      "backHtml": "\u003cimg src=\"media/540.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 270,
-      "noteId": 1775842860195,
-      "cardId": 1775842860195,
-      "guid": "laQl9p44L~",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14789,
-      "tags": [
-        "Marshall"
-      ],
-      "frontHtml": "\u003cimg src=\"media/541.png\" />",
-      "backHtml": "\u003cimg src=\"media/542.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 271,
-      "noteId": 1775842860196,
-      "cardId": 1775842860196,
-      "guid": "d8i\u003c7/O&|+",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14790,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/543.png\" />",
-      "backHtml": "\u003cimg src=\"media/544.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 272,
-      "noteId": 1775842860197,
-      "cardId": 1775842860197,
-      "guid": "LN-BzW-m$4",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14791,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/545.png\" />",
-      "backHtml": "\u003cimg src=\"media/546.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 273,
-      "noteId": 1775842860198,
-      "cardId": 1775842860198,
-      "guid": "O>Sa{H?SaN",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14792,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/547.png\" />",
-      "backHtml": "\u003cimg src=\"media/548.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 274,
-      "noteId": 1775842860199,
-      "cardId": 1775842860199,
-      "guid": "Ay8r_;{o.v",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14793,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/549.png\" />",
-      "backHtml": "\u003cimg src=\"media/550.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 275,
-      "noteId": 1775842860200,
-      "cardId": 1775842860200,
-      "guid": "w\u003c5?.vb?^4",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14794,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/551.png\" />",
-      "backHtml": "\u003cimg src=\"media/552.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 276,
-      "noteId": 1775842860201,
-      "cardId": 1775842860201,
-      "guid": "n;n|ZB_vIT",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14795,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/553.png\" />",
-      "backHtml": "\u003cimg src=\"media/554.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 277,
-      "noteId": 1775842860202,
-      "cardId": 1775842860202,
-      "guid": "p;3+7bVpk=",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14796,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/555.png\" />",
-      "backHtml": "\u003cimg src=\"media/556.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 278,
-      "noteId": 1775842860203,
-      "cardId": 1775842860203,
-      "guid": "lF,K^s,EX|",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14797,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/557.png\" />",
-      "backHtml": "\u003cimg src=\"media/558.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 279,
-      "noteId": 1775842860204,
-      "cardId": 1775842860204,
-      "guid": "u%hcQ+./3w",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14798,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/559.png\" />",
-      "backHtml": "\u003cimg src=\"media/560.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 280,
-      "noteId": 1775842860205,
-      "cardId": 1775842860205,
-      "guid": "dRZxhp5]6g",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14799,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/561.png\" />",
-      "backHtml": "\u003cimg src=\"media/562.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 281,
-      "noteId": 1775842860206,
-      "cardId": 1775842860206,
-      "guid": "s))j2)E%sR",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14800,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/563.png\" />",
-      "backHtml": "\u003cimg src=\"media/564.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 282,
-      "noteId": 1775842860207,
-      "cardId": 1775842860207,
-      "guid": "Bau}\u003c?r!LU",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14801,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/565.png\" />",
-      "backHtml": "\u003cimg src=\"media/566.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 283,
-      "noteId": 1775842860208,
-      "cardId": 1775842860208,
-      "guid": "b2UAptJ\u003c\/S",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14802,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/567.png\" />",
-      "backHtml": "\u003cimg src=\"media/568.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 284,
-      "noteId": 1775842860209,
-      "cardId": 1775842860209,
-      "guid": "fH`?_:.$|e",
-      "modelId": 1753559977111,
-      "deckId": 1775842805240,
-      "cardOrd": 0,
-      "queue": 0,
-      "type": 0,
-      "due": 14803,
-      "tags": [
-        "Teng&Perkins"
-      ],
-      "frontHtml": "\u003cimg src=\"media/569.png\" />",
-      "backHtml": "\u003cimg src=\"media/570.png\" />",
-      "frontText": "",
-      "backText": ""
-    },
-    {
-      "orderIndex": 285,
+      "sourceOrderIndex": 285,
       "noteId": 1775842860210,
       "cardId": 1775842860210,
       "guid": "IB%,_Q,1f.",
@@ -5438,13 +780,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/571.png\" />",
-      "backHtml": "\u003cimg src=\"media/572.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/55.png\" />",
+      "backHtml": "\u003cimg src=\"media/56.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_001.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_002.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 286,
+      "orderIndex": 28,
+      "sourceOrderIndex": 286,
       "noteId": 1775842860211,
       "cardId": 1775842860211,
       "guid": "L%uxmU0,Zo",
@@ -5457,13 +808,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/573.png\" />",
-      "backHtml": "\u003cimg src=\"media/574.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/57.png\" />",
+      "backHtml": "\u003cimg src=\"media/58.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_003.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_004.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 287,
+      "orderIndex": 29,
+      "sourceOrderIndex": 287,
       "noteId": 1775842860212,
       "cardId": 1775842860212,
       "guid": "p^|=q+]a+_",
@@ -5476,13 +836,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/575.png\" />",
-      "backHtml": "\u003cimg src=\"media/576.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/59.png\" />",
+      "backHtml": "\u003cimg src=\"media/60.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_005.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_006.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 288,
+      "orderIndex": 30,
+      "sourceOrderIndex": 288,
       "noteId": 1775842860213,
       "cardId": 1775842860213,
       "guid": "jt0[a6)Ulk",
@@ -5495,13 +864,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/577.png\" />",
-      "backHtml": "\u003cimg src=\"media/578.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/61.png\" />",
+      "backHtml": "\u003cimg src=\"media/62.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_007.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_008.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 289,
+      "orderIndex": 31,
+      "sourceOrderIndex": 289,
       "noteId": 1775842860214,
       "cardId": 1775842860214,
       "guid": "zvJ]`>[yM9",
@@ -5514,13 +892,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/579.png\" />",
-      "backHtml": "\u003cimg src=\"media/580.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/63.png\" />",
+      "backHtml": "\u003cimg src=\"media/64.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_009.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_010.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 290,
+      "orderIndex": 32,
+      "sourceOrderIndex": 290,
       "noteId": 1775842860215,
       "cardId": 1775842860215,
       "guid": "Lar.X7cwVK",
@@ -5533,13 +920,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/581.png\" />",
-      "backHtml": "\u003cimg src=\"media/582.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/65.png\" />",
+      "backHtml": "\u003cimg src=\"media/66.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_011.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_012.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 291,
+      "orderIndex": 33,
+      "sourceOrderIndex": 291,
       "noteId": 1775842860216,
       "cardId": 1775842860216,
       "guid": "PMcWH&e_Rm",
@@ -5552,13 +948,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/583.png\" />",
-      "backHtml": "\u003cimg src=\"media/584.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/67.png\" />",
+      "backHtml": "\u003cimg src=\"media/68.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_013.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_014.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 292,
+      "orderIndex": 34,
+      "sourceOrderIndex": 292,
       "noteId": 1775842860217,
       "cardId": 1775842860217,
       "guid": "v>Rc{BV?dS",
@@ -5571,13 +976,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/585.png\" />",
-      "backHtml": "\u003cimg src=\"media/586.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/69.png\" />",
+      "backHtml": "\u003cimg src=\"media/70.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_015.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_016.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 293,
+      "orderIndex": 35,
+      "sourceOrderIndex": 293,
       "noteId": 1775842860218,
       "cardId": 1775842860218,
       "guid": "z7X:DHGy3c",
@@ -5590,13 +1004,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/587.png\" />",
-      "backHtml": "\u003cimg src=\"media/588.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/71.png\" />",
+      "backHtml": "\u003cimg src=\"media/72.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_017.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_018.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 294,
+      "orderIndex": 36,
+      "sourceOrderIndex": 294,
       "noteId": 1775842860219,
       "cardId": 1775842860219,
       "guid": "v,YZcsE7)_",
@@ -5609,13 +1032,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/589.png\" />",
-      "backHtml": "\u003cimg src=\"media/590.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/73.png\" />",
+      "backHtml": "\u003cimg src=\"media/74.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_019.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_020.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 295,
+      "orderIndex": 37,
+      "sourceOrderIndex": 295,
       "noteId": 1775842860220,
       "cardId": 1775842860220,
       "guid": "w*lI#HH%._",
@@ -5628,13 +1060,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/591.png\" />",
-      "backHtml": "\u003cimg src=\"media/592.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/75.png\" />",
+      "backHtml": "\u003cimg src=\"media/76.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_021.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_022.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 296,
+      "orderIndex": 38,
+      "sourceOrderIndex": 296,
       "noteId": 1775842860221,
       "cardId": 1775842860221,
       "guid": "uwWlUx+aM|",
@@ -5647,13 +1088,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/593.png\" />",
-      "backHtml": "\u003cimg src=\"media/594.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/77.png\" />",
+      "backHtml": "\u003cimg src=\"media/78.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_023.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_024.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 297,
+      "orderIndex": 39,
+      "sourceOrderIndex": 297,
       "noteId": 1775842860222,
       "cardId": 1775842860222,
       "guid": "Dy:^GRb6TX",
@@ -5666,13 +1116,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/595.png\" />",
-      "backHtml": "\u003cimg src=\"media/596.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/79.png\" />",
+      "backHtml": "\u003cimg src=\"media/80.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_025.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_026.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 298,
+      "orderIndex": 40,
+      "sourceOrderIndex": 298,
       "noteId": 1775842860223,
       "cardId": 1775842860223,
       "guid": "ec+l.*eTZ}",
@@ -5685,13 +1144,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/597.png\" />",
-      "backHtml": "\u003cimg src=\"media/598.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/81.png\" />",
+      "backHtml": "\u003cimg src=\"media/82.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_027.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_028.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 299,
+      "orderIndex": 41,
+      "sourceOrderIndex": 299,
       "noteId": 1775842860224,
       "cardId": 1775842860224,
       "guid": "F?j%P|HMs(",
@@ -5704,13 +1172,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/599.png\" />",
-      "backHtml": "\u003cimg src=\"media/600.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/83.png\" />",
+      "backHtml": "\u003cimg src=\"media/84.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_029.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_030.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 300,
+      "orderIndex": 42,
+      "sourceOrderIndex": 300,
       "noteId": 1775842860225,
       "cardId": 1775842860225,
       "guid": "I~8I3:i7UU",
@@ -5723,13 +1200,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/601.png\" />",
-      "backHtml": "\u003cimg src=\"media/602.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/85.png\" />",
+      "backHtml": "\u003cimg src=\"media/86.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_031.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_032.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 301,
+      "orderIndex": 43,
+      "sourceOrderIndex": 301,
       "noteId": 1775842860226,
       "cardId": 1775842860226,
       "guid": "yjFS6m|$DU",
@@ -5742,13 +1228,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/603.png\" />",
-      "backHtml": "\u003cimg src=\"media/604.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/87.png\" />",
+      "backHtml": "\u003cimg src=\"media/88.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_033.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_034.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 302,
+      "orderIndex": 44,
+      "sourceOrderIndex": 302,
       "noteId": 1775842860227,
       "cardId": 1775842860227,
       "guid": "yp?=wh%&/n",
@@ -5761,13 +1256,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/605.png\" />",
-      "backHtml": "\u003cimg src=\"media/606.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/89.png\" />",
+      "backHtml": "\u003cimg src=\"media/90.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_035.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_036.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 303,
+      "orderIndex": 45,
+      "sourceOrderIndex": 303,
       "noteId": 1775842860228,
       "cardId": 1775842860228,
       "guid": "Kxv5_2o?#c",
@@ -5780,13 +1284,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/607.png\" />",
-      "backHtml": "\u003cimg src=\"media/608.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/91.png\" />",
+      "backHtml": "\u003cimg src=\"media/92.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_037.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_038.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 304,
+      "orderIndex": 46,
+      "sourceOrderIndex": 304,
       "noteId": 1775842860229,
       "cardId": 1775842860229,
       "guid": "H;idtmDW/r",
@@ -5799,13 +1312,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/609.png\" />",
-      "backHtml": "\u003cimg src=\"media/610.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/93.png\" />",
+      "backHtml": "\u003cimg src=\"media/94.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_039.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_040.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 305,
+      "orderIndex": 47,
+      "sourceOrderIndex": 305,
       "noteId": 1775842860230,
       "cardId": 1775842860230,
       "guid": "Hn^Fa[/E}N",
@@ -5818,13 +1340,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/611.png\" />",
-      "backHtml": "\u003cimg src=\"media/612.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/95.png\" />",
+      "backHtml": "\u003cimg src=\"media/96.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_041.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_042.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 306,
+      "orderIndex": 48,
+      "sourceOrderIndex": 306,
       "noteId": 1775842860231,
       "cardId": 1775842860231,
       "guid": "Fc)Os3`hHx",
@@ -5837,13 +1368,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/613.png\" />",
-      "backHtml": "\u003cimg src=\"media/614.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/97.png\" />",
+      "backHtml": "\u003cimg src=\"media/98.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_043.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_044.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 307,
+      "orderIndex": 49,
+      "sourceOrderIndex": 307,
       "noteId": 1775842860232,
       "cardId": 1775842860232,
       "guid": "j7nh[ts+bf",
@@ -5856,13 +1396,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/615.png\" />",
-      "backHtml": "\u003cimg src=\"media/616.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/99.png\" />",
+      "backHtml": "\u003cimg src=\"media/100.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_045.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_046.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 308,
+      "orderIndex": 50,
+      "sourceOrderIndex": 308,
       "noteId": 1775842860233,
       "cardId": 1775842860233,
       "guid": "EEgW]-A5*x",
@@ -5875,13 +1424,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/617.png\" />",
-      "backHtml": "\u003cimg src=\"media/618.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/101.png\" />",
+      "backHtml": "\u003cimg src=\"media/102.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_047.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_048.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 309,
+      "orderIndex": 51,
+      "sourceOrderIndex": 309,
       "noteId": 1775842860234,
       "cardId": 1775842860234,
       "guid": "QRoZI?{1dv",
@@ -5894,13 +1452,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/619.png\" />",
-      "backHtml": "\u003cimg src=\"media/620.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/103.png\" />",
+      "backHtml": "\u003cimg src=\"media/104.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_049.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_050.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 310,
+      "orderIndex": 52,
+      "sourceOrderIndex": 310,
       "noteId": 1775842860235,
       "cardId": 1775842860235,
       "guid": "qZ_a.r0f}n",
@@ -5913,13 +1480,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/621.png\" />",
-      "backHtml": "\u003cimg src=\"media/622.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/105.png\" />",
+      "backHtml": "\u003cimg src=\"media/106.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_051.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_052.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 311,
+      "orderIndex": 53,
+      "sourceOrderIndex": 311,
       "noteId": 1775842860236,
       "cardId": 1775842860236,
       "guid": "z(btTWSN~-",
@@ -5932,13 +1508,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/623.png\" />",
-      "backHtml": "\u003cimg src=\"media/624.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/107.png\" />",
+      "backHtml": "\u003cimg src=\"media/108.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_053.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_054.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 312,
+      "orderIndex": 54,
+      "sourceOrderIndex": 312,
       "noteId": 1775842860237,
       "cardId": 1775842860237,
       "guid": "dzJBM3b@Ym",
@@ -5951,13 +1536,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/625.png\" />",
-      "backHtml": "\u003cimg src=\"media/626.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/109.png\" />",
+      "backHtml": "\u003cimg src=\"media/110.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_055.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_056.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 313,
+      "orderIndex": 55,
+      "sourceOrderIndex": 313,
       "noteId": 1775842860238,
       "cardId": 1775842860238,
       "guid": "D[#SEk8/sO",
@@ -5970,13 +1564,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/627.png\" />",
-      "backHtml": "\u003cimg src=\"media/628.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/111.png\" />",
+      "backHtml": "\u003cimg src=\"media/112.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_057.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_058.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 314,
+      "orderIndex": 56,
+      "sourceOrderIndex": 314,
       "noteId": 1775842860239,
       "cardId": 1775842860239,
       "guid": "u54n|}#b:$",
@@ -5989,13 +1592,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/629.png\" />",
-      "backHtml": "\u003cimg src=\"media/630.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/113.png\" />",
+      "backHtml": "\u003cimg src=\"media/114.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_059.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_060.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 315,
+      "orderIndex": 57,
+      "sourceOrderIndex": 315,
       "noteId": 1775842860240,
       "cardId": 1775842860240,
       "guid": "w-/4mi4,!Z",
@@ -6008,13 +1620,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/631.png\" />",
-      "backHtml": "\u003cimg src=\"media/632.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/115.png\" />",
+      "backHtml": "\u003cimg src=\"media/116.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_061.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_062.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 316,
+      "orderIndex": 58,
+      "sourceOrderIndex": 316,
       "noteId": 1775842860241,
       "cardId": 1775842860241,
       "guid": "d|bvdiGV0r",
@@ -6027,13 +1648,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/633.png\" />",
-      "backHtml": "\u003cimg src=\"media/634.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/117.png\" />",
+      "backHtml": "\u003cimg src=\"media/118.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_063.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_064.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 317,
+      "orderIndex": 59,
+      "sourceOrderIndex": 317,
       "noteId": 1775842860242,
       "cardId": 1775842860242,
       "guid": "gQ*yLY-Dfa",
@@ -6046,13 +1676,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/635.png\" />",
-      "backHtml": "\u003cimg src=\"media/636.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/119.png\" />",
+      "backHtml": "\u003cimg src=\"media/120.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_065.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_066.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 318,
+      "orderIndex": 60,
+      "sourceOrderIndex": 318,
       "noteId": 1775842860243,
       "cardId": 1775842860243,
       "guid": "qo)GwP7GA_",
@@ -6065,13 +1704,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/637.png\" />",
-      "backHtml": "\u003cimg src=\"media/638.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/121.png\" />",
+      "backHtml": "\u003cimg src=\"media/122.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_067.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_068.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 319,
+      "orderIndex": 61,
+      "sourceOrderIndex": 319,
       "noteId": 1775842860244,
       "cardId": 1775842860244,
       "guid": "lQJnyU%.>4",
@@ -6084,13 +1732,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/639.png\" />",
-      "backHtml": "\u003cimg src=\"media/640.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/123.png\" />",
+      "backHtml": "\u003cimg src=\"media/124.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_069.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_070.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 320,
+      "orderIndex": 62,
+      "sourceOrderIndex": 320,
       "noteId": 1775842860245,
       "cardId": 1775842860245,
       "guid": "dL5N?@Pd_W",
@@ -6103,13 +1760,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/641.png\" />",
-      "backHtml": "\u003cimg src=\"media/642.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/125.png\" />",
+      "backHtml": "\u003cimg src=\"media/126.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_071.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_072.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 321,
+      "orderIndex": 63,
+      "sourceOrderIndex": 321,
       "noteId": 1775842860246,
       "cardId": 1775842860246,
       "guid": "n1[xNO;Etn",
@@ -6122,13 +1788,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/643.png\" />",
-      "backHtml": "\u003cimg src=\"media/644.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/127.png\" />",
+      "backHtml": "\u003cimg src=\"media/128.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_073.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_074.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 322,
+      "orderIndex": 64,
+      "sourceOrderIndex": 322,
       "noteId": 1775842860247,
       "cardId": 1775842860247,
       "guid": "i6RJ,q;q,|",
@@ -6141,13 +1816,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/645.png\" />",
-      "backHtml": "\u003cimg src=\"media/646.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/129.png\" />",
+      "backHtml": "\u003cimg src=\"media/130.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_075.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_076.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 323,
+      "orderIndex": 65,
+      "sourceOrderIndex": 323,
       "noteId": 1775842860248,
       "cardId": 1775842860248,
       "guid": "DkSF1SiEw3",
@@ -6160,13 +1844,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/647.png\" />",
-      "backHtml": "\u003cimg src=\"media/648.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/131.png\" />",
+      "backHtml": "\u003cimg src=\"media/132.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_077.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_078.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 324,
+      "orderIndex": 66,
+      "sourceOrderIndex": 324,
       "noteId": 1775842860249,
       "cardId": 1775842860249,
       "guid": "H$3Zq`yH_f",
@@ -6179,13 +1872,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/649.png\" />",
-      "backHtml": "\u003cimg src=\"media/650.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/133.png\" />",
+      "backHtml": "\u003cimg src=\"media/134.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_079.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_080.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 325,
+      "orderIndex": 67,
+      "sourceOrderIndex": 325,
       "noteId": 1775842860250,
       "cardId": 1775842860250,
       "guid": "vT^q>h&msn",
@@ -6198,13 +1900,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/651.png\" />",
-      "backHtml": "\u003cimg src=\"media/652.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/135.png\" />",
+      "backHtml": "\u003cimg src=\"media/136.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_081.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_082.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 326,
+      "orderIndex": 68,
+      "sourceOrderIndex": 326,
       "noteId": 1775842860251,
       "cardId": 1775842860251,
       "guid": "B&:_^e7Q;6",
@@ -6217,13 +1928,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/653.png\" />",
-      "backHtml": "\u003cimg src=\"media/654.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/137.png\" />",
+      "backHtml": "\u003cimg src=\"media/138.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_083.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_084.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 327,
+      "orderIndex": 69,
+      "sourceOrderIndex": 327,
       "noteId": 1775842860252,
       "cardId": 1775842860252,
       "guid": "zTJ*F}pQ+l",
@@ -6236,13 +1956,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/655.png\" />",
-      "backHtml": "\u003cimg src=\"media/656.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/139.png\" />",
+      "backHtml": "\u003cimg src=\"media/140.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_085.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_086.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 328,
+      "orderIndex": 70,
+      "sourceOrderIndex": 328,
       "noteId": 1775842860253,
       "cardId": 1775842860253,
       "guid": "PA}8;t584e",
@@ -6255,13 +1984,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/657.png\" />",
-      "backHtml": "\u003cimg src=\"media/658.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/141.png\" />",
+      "backHtml": "\u003cimg src=\"media/142.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_087.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_088.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 329,
+      "orderIndex": 71,
+      "sourceOrderIndex": 329,
       "noteId": 1775842860254,
       "cardId": 1775842860254,
       "guid": "E4{GIiO>dJ",
@@ -6274,13 +2012,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/659.png\" />",
-      "backHtml": "\u003cimg src=\"media/660.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/143.png\" />",
+      "backHtml": "\u003cimg src=\"media/144.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_089.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_090.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 330,
+      "orderIndex": 72,
+      "sourceOrderIndex": 330,
       "noteId": 1775842860255,
       "cardId": 1775842860255,
       "guid": "x:[#3hf3An",
@@ -6293,13 +2040,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/661.png\" />",
-      "backHtml": "\u003cimg src=\"media/662.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/145.png\" />",
+      "backHtml": "\u003cimg src=\"media/146.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_091.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_092.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 331,
+      "orderIndex": 73,
+      "sourceOrderIndex": 331,
       "noteId": 1775842860256,
       "cardId": 1775842860256,
       "guid": "Fo5K&;3`Qi",
@@ -6312,13 +2068,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/663.png\" />",
-      "backHtml": "\u003cimg src=\"media/664.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/147.png\" />",
+      "backHtml": "\u003cimg src=\"media/148.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_093.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_094.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 332,
+      "orderIndex": 74,
+      "sourceOrderIndex": 332,
       "noteId": 1775842860257,
       "cardId": 1775842860257,
       "guid": "M34|scx9_r",
@@ -6331,13 +2096,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/665.png\" />",
-      "backHtml": "\u003cimg src=\"media/666.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/149.png\" />",
+      "backHtml": "\u003cimg src=\"media/150.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_095.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_096.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 333,
+      "orderIndex": 75,
+      "sourceOrderIndex": 333,
       "noteId": 1775842860258,
       "cardId": 1775842860258,
       "guid": "euq)r)~5uf",
@@ -6350,13 +2124,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/667.png\" />",
-      "backHtml": "\u003cimg src=\"media/668.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/151.png\" />",
+      "backHtml": "\u003cimg src=\"media/152.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_097.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_098.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 334,
+      "orderIndex": 76,
+      "sourceOrderIndex": 334,
       "noteId": 1775842860259,
       "cardId": 1775842860259,
       "guid": "Gq~-oxkD(_",
@@ -6369,13 +2152,22 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
-      "frontHtml": "\u003cimg src=\"media/669.png\" />",
-      "backHtml": "\u003cimg src=\"media/670.png\" />",
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/153.png\" />",
+      "backHtml": "\u003cimg src=\"media/154.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_099.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_100.png"
+      ],
       "frontText": "",
       "backText": ""
     },
     {
-      "orderIndex": 335,
+      "orderIndex": 77,
+      "sourceOrderIndex": 335,
       "noteId": 1775842860260,
       "cardId": 1775842860260,
       "guid": "w)%GhD`T,S",
@@ -6388,8 +2180,7240 @@ window.__DECK_DATA__ = {
       "tags": [
         "Friedland"
       ],
+      "chapterKey": "Friedland",
+      "chapterLabel": "Friedland",
+      "frontHtml": "\u003cimg src=\"media/155.png\" />",
+      "backHtml": "\u003cimg src=\"media/156.png\" />",
+      "frontOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_101.png"
+      ],
+      "backOriginalMediaNames": [
+        "15_Friedland - Exam 7 Flashcards_Page_102.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 78,
+      "sourceOrderIndex": 27,
+      "noteId": 1775842859952,
+      "cardId": 1775842859952,
+      "guid": "qB_&qBf*jH",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14546,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/157.png\" />",
+      "backHtml": "\u003cimg src=\"media/158.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 79,
+      "sourceOrderIndex": 28,
+      "noteId": 1775842859953,
+      "cardId": 1775842859953,
+      "guid": "itJjDXRG7^",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14547,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/159.png\" />",
+      "backHtml": "\u003cimg src=\"media/160.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 80,
+      "sourceOrderIndex": 29,
+      "noteId": 1775842859954,
+      "cardId": 1775842859954,
+      "guid": "N[g_yYGC\u003c`",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14548,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/161.png\" />",
+      "backHtml": "\u003cimg src=\"media/162.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 81,
+      "sourceOrderIndex": 30,
+      "noteId": 1775842859955,
+      "cardId": 1775842859955,
+      "guid": "p+$lZi-;BN",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14549,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/163.png\" />",
+      "backHtml": "\u003cimg src=\"media/164.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 82,
+      "sourceOrderIndex": 31,
+      "noteId": 1775842859956,
+      "cardId": 1775842859956,
+      "guid": "tO}$:tHH.J",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14550,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/165.png\" />",
+      "backHtml": "\u003cimg src=\"media/166.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 83,
+      "sourceOrderIndex": 32,
+      "noteId": 1775842859957,
+      "cardId": 1775842859957,
+      "guid": "pA&0Z7*zxQ",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14551,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/167.png\" />",
+      "backHtml": "\u003cimg src=\"media/168.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 84,
+      "sourceOrderIndex": 33,
+      "noteId": 1775842859958,
+      "cardId": 1775842859958,
+      "guid": "d/17>|Uy)-",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14552,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/169.png\" />",
+      "backHtml": "\u003cimg src=\"media/170.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 85,
+      "sourceOrderIndex": 34,
+      "noteId": 1775842859959,
+      "cardId": 1775842859959,
+      "guid": "e@iq*nk-dS",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14553,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/171.png\" />",
+      "backHtml": "\u003cimg src=\"media/172.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 86,
+      "sourceOrderIndex": 35,
+      "noteId": 1775842859960,
+      "cardId": 1775842859960,
+      "guid": "z^%k?wfh$2",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14554,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/173.png\" />",
+      "backHtml": "\u003cimg src=\"media/174.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 87,
+      "sourceOrderIndex": 36,
+      "noteId": 1775842859961,
+      "cardId": 1775842859961,
+      "guid": "tBuZ{0PUg4",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14555,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/175.png\" />",
+      "backHtml": "\u003cimg src=\"media/176.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 88,
+      "sourceOrderIndex": 37,
+      "noteId": 1775842859962,
+      "cardId": 1775842859962,
+      "guid": "y6sBlNCDFp",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14556,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/177.png\" />",
+      "backHtml": "\u003cimg src=\"media/178.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 89,
+      "sourceOrderIndex": 38,
+      "noteId": 1775842859963,
+      "cardId": 1775842859963,
+      "guid": "sW1c_($6XX",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14557,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/179.png\" />",
+      "backHtml": "\u003cimg src=\"media/180.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 90,
+      "sourceOrderIndex": 39,
+      "noteId": 1775842859964,
+      "cardId": 1775842859964,
+      "guid": "gw-[7D|\u003cx$",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14558,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/181.png\" />",
+      "backHtml": "\u003cimg src=\"media/182.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 91,
+      "sourceOrderIndex": 40,
+      "noteId": 1775842859965,
+      "cardId": 1775842859965,
+      "guid": "EOki*6sIxM",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14559,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/183.png\" />",
+      "backHtml": "\u003cimg src=\"media/184.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 92,
+      "sourceOrderIndex": 41,
+      "noteId": 1775842859966,
+      "cardId": 1775842859966,
+      "guid": "Ip/N&UBfw(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14560,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/185.png\" />",
+      "backHtml": "\u003cimg src=\"media/186.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 93,
+      "sourceOrderIndex": 42,
+      "noteId": 1775842859967,
+      "cardId": 1775842859967,
+      "guid": "oI+#JPTu:9",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14561,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/187.png\" />",
+      "backHtml": "\u003cimg src=\"media/188.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 94,
+      "sourceOrderIndex": 43,
+      "noteId": 1775842859968,
+      "cardId": 1775842859968,
+      "guid": "y?_\u003ce{EbOe",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14562,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/189.png\" />",
+      "backHtml": "\u003cimg src=\"media/190.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 95,
+      "sourceOrderIndex": 44,
+      "noteId": 1775842859969,
+      "cardId": 1775842859969,
+      "guid": "k0%-Mb_m$9",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14563,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/191.png\" />",
+      "backHtml": "\u003cimg src=\"media/192.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 96,
+      "sourceOrderIndex": 45,
+      "noteId": 1775842859970,
+      "cardId": 1775842859970,
+      "guid": "E#lJ/jXeDD",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14564,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/193.png\" />",
+      "backHtml": "\u003cimg src=\"media/194.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_37.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_38.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 97,
+      "sourceOrderIndex": 46,
+      "noteId": 1775842859971,
+      "cardId": 1775842859971,
+      "guid": "g:aznYXyuc",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14565,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/195.png\" />",
+      "backHtml": "\u003cimg src=\"media/196.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_39.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_40.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 98,
+      "sourceOrderIndex": 47,
+      "noteId": 1775842859972,
+      "cardId": 1775842859972,
+      "guid": "DAwT,H&M~L",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14566,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/197.png\" />",
+      "backHtml": "\u003cimg src=\"media/198.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_41.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_42.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 99,
+      "sourceOrderIndex": 48,
+      "noteId": 1775842859973,
+      "cardId": 1775842859973,
+      "guid": "lETl;whEcD",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14567,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/199.png\" />",
+      "backHtml": "\u003cimg src=\"media/200.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_43.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_44.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 100,
+      "sourceOrderIndex": 49,
+      "noteId": 1775842859974,
+      "cardId": 1775842859974,
+      "guid": "iC,r2}2$vC",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14568,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/201.png\" />",
+      "backHtml": "\u003cimg src=\"media/202.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_45.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_46.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 101,
+      "sourceOrderIndex": 50,
+      "noteId": 1775842859975,
+      "cardId": 1775842859975,
+      "guid": "qK#CY/MJLV",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14569,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/203.png\" />",
+      "backHtml": "\u003cimg src=\"media/204.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_47.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_48.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 102,
+      "sourceOrderIndex": 51,
+      "noteId": 1775842859976,
+      "cardId": 1775842859976,
+      "guid": "Fl3g9x&o\u003cU",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14570,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/205.png\" />",
+      "backHtml": "\u003cimg src=\"media/206.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_49.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_50.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 103,
+      "sourceOrderIndex": 52,
+      "noteId": 1775842859977,
+      "cardId": 1775842859977,
+      "guid": "cSOvq%#Otf",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14571,
+      "tags": [
+        "Clark"
+      ],
+      "chapterKey": "Clark",
+      "chapterLabel": "Clark",
+      "frontHtml": "\u003cimg src=\"media/207.png\" />",
+      "backHtml": "\u003cimg src=\"media/208.png\" />",
+      "frontOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_51.png"
+      ],
+      "backOriginalMediaNames": [
+        "4_Clark - Exam 7 Flashcards_Page_52.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 104,
+      "sourceOrderIndex": 53,
+      "noteId": 1775842859978,
+      "cardId": 1775842859978,
+      "guid": "O8C3uZ>aCa",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14572,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/209.png\" />",
+      "backHtml": "\u003cimg src=\"media/210.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 105,
+      "sourceOrderIndex": 54,
+      "noteId": 1775842859979,
+      "cardId": 1775842859979,
+      "guid": "In2B55|B31",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14573,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/211.png\" />",
+      "backHtml": "\u003cimg src=\"media/212.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 106,
+      "sourceOrderIndex": 55,
+      "noteId": 1775842859980,
+      "cardId": 1775842859980,
+      "guid": "d^>m?=y^i=",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14574,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/213.png\" />",
+      "backHtml": "\u003cimg src=\"media/214.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 107,
+      "sourceOrderIndex": 56,
+      "noteId": 1775842859981,
+      "cardId": 1775842859981,
+      "guid": "hNg3K#_\u003c}v",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14575,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/215.png\" />",
+      "backHtml": "\u003cimg src=\"media/216.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 108,
+      "sourceOrderIndex": 57,
+      "noteId": 1775842859982,
+      "cardId": 1775842859982,
+      "guid": "p`qG!8{.(/",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14576,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/217.png\" />",
+      "backHtml": "\u003cimg src=\"media/218.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 109,
+      "sourceOrderIndex": 58,
+      "noteId": 1775842859983,
+      "cardId": 1775842859983,
+      "guid": "Lss-[.NiL)",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14577,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/219.png\" />",
+      "backHtml": "\u003cimg src=\"media/220.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 110,
+      "sourceOrderIndex": 59,
+      "noteId": 1775842859984,
+      "cardId": 1775842859984,
+      "guid": "yQ5~{(,3H}",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14578,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/221.png\" />",
+      "backHtml": "\u003cimg src=\"media/222.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 111,
+      "sourceOrderIndex": 60,
+      "noteId": 1775842859985,
+      "cardId": 1775842859985,
+      "guid": "K$0a;F@?h;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14579,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/223.png\" />",
+      "backHtml": "\u003cimg src=\"media/224.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 112,
+      "sourceOrderIndex": 61,
+      "noteId": 1775842859986,
+      "cardId": 1775842859986,
+      "guid": "kN*~J!)YA1",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14580,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/225.png\" />",
+      "backHtml": "\u003cimg src=\"media/226.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 113,
+      "sourceOrderIndex": 62,
+      "noteId": 1775842859987,
+      "cardId": 1775842859987,
+      "guid": "m9+$S(/GH/",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14581,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/227.png\" />",
+      "backHtml": "\u003cimg src=\"media/228.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 114,
+      "sourceOrderIndex": 63,
+      "noteId": 1775842859988,
+      "cardId": 1775842859988,
+      "guid": "Ify?}SRv;8",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14582,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/229.png\" />",
+      "backHtml": "\u003cimg src=\"media/230.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 115,
+      "sourceOrderIndex": 64,
+      "noteId": 1775842859989,
+      "cardId": 1775842859989,
+      "guid": "b+[N!G^z,X",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14583,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/231.png\" />",
+      "backHtml": "\u003cimg src=\"media/232.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 116,
+      "sourceOrderIndex": 65,
+      "noteId": 1775842859990,
+      "cardId": 1775842859990,
+      "guid": "FKCBN57Zy(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14584,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/233.png\" />",
+      "backHtml": "\u003cimg src=\"media/234.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 117,
+      "sourceOrderIndex": 66,
+      "noteId": 1775842859991,
+      "cardId": 1775842859991,
+      "guid": "LPugUJeYKn",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14585,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/235.png\" />",
+      "backHtml": "\u003cimg src=\"media/236.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 118,
+      "sourceOrderIndex": 67,
+      "noteId": 1775842859992,
+      "cardId": 1775842859992,
+      "guid": "ruh&p;0Ay-",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14586,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/237.png\" />",
+      "backHtml": "\u003cimg src=\"media/238.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 119,
+      "sourceOrderIndex": 68,
+      "noteId": 1775842859993,
+      "cardId": 1775842859993,
+      "guid": "E\u003cxv{UHMs9",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14587,
+      "tags": [
+        "Mack1994"
+      ],
+      "chapterKey": "Mack1994",
+      "chapterLabel": "Mack - Chain-Ladder",
+      "frontHtml": "\u003cimg src=\"media/239.png\" />",
+      "backHtml": "\u003cimg src=\"media/240.png\" />",
+      "frontOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "5_Mack (1994) - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 120,
+      "sourceOrderIndex": 69,
+      "noteId": 1775842859994,
+      "cardId": 1775842859994,
+      "guid": "ivjEwCHP==",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14588,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/241.png\" />",
+      "backHtml": "\u003cimg src=\"media/242.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 121,
+      "sourceOrderIndex": 70,
+      "noteId": 1775842859995,
+      "cardId": 1775842859995,
+      "guid": "t=M{{G]I7`",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14589,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/243.png\" />",
+      "backHtml": "\u003cimg src=\"media/244.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 122,
+      "sourceOrderIndex": 71,
+      "noteId": 1775842859996,
+      "cardId": 1775842859996,
+      "guid": "g`U#3_-=~L",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14590,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/245.png\" />",
+      "backHtml": "\u003cimg src=\"media/246.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 123,
+      "sourceOrderIndex": 72,
+      "noteId": 1775842859997,
+      "cardId": 1775842859997,
+      "guid": "@6&:.};p]",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14591,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/247.png\" />",
+      "backHtml": "\u003cimg src=\"media/248.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 124,
+      "sourceOrderIndex": 73,
+      "noteId": 1775842859998,
+      "cardId": 1775842859998,
+      "guid": "F.DdR1!(>;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14592,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/249.png\" />",
+      "backHtml": "\u003cimg src=\"media/250.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 125,
+      "sourceOrderIndex": 74,
+      "noteId": 1775842859999,
+      "cardId": 1775842859999,
+      "guid": "u]$Hdz@7cM",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14593,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/251.png\" />",
+      "backHtml": "\u003cimg src=\"media/252.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 126,
+      "sourceOrderIndex": 75,
+      "noteId": 1775842860000,
+      "cardId": 1775842860000,
+      "guid": "dS$$GoFE/3",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14594,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/253.png\" />",
+      "backHtml": "\u003cimg src=\"media/254.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 127,
+      "sourceOrderIndex": 76,
+      "noteId": 1775842860001,
+      "cardId": 1775842860001,
+      "guid": "pPkONZWwU(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14595,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/255.png\" />",
+      "backHtml": "\u003cimg src=\"media/256.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 128,
+      "sourceOrderIndex": 77,
+      "noteId": 1775842860002,
+      "cardId": 1775842860002,
+      "guid": "D{~ji`a_Ce",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14596,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/257.png\" />",
+      "backHtml": "\u003cimg src=\"media/258.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 129,
+      "sourceOrderIndex": 78,
+      "noteId": 1775842860003,
+      "cardId": 1775842860003,
+      "guid": "pUZ/bLCK|8",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14597,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/259.png\" />",
+      "backHtml": "\u003cimg src=\"media/260.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 130,
+      "sourceOrderIndex": 79,
+      "noteId": 1775842860004,
+      "cardId": 1775842860004,
+      "guid": "nPCUCl(jQl",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14598,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/261.png\" />",
+      "backHtml": "\u003cimg src=\"media/262.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 131,
+      "sourceOrderIndex": 80,
+      "noteId": 1775842860005,
+      "cardId": 1775842860005,
+      "guid": "McCp|mv0am",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14599,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/263.png\" />",
+      "backHtml": "\u003cimg src=\"media/264.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 132,
+      "sourceOrderIndex": 81,
+      "noteId": 1775842860006,
+      "cardId": 1775842860006,
+      "guid": "N)[Ghhrn4$",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14600,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/265.png\" />",
+      "backHtml": "\u003cimg src=\"media/266.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 133,
+      "sourceOrderIndex": 82,
+      "noteId": 1775842860007,
+      "cardId": 1775842860007,
+      "guid": "B]9(yG|(Y?",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14601,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/267.png\" />",
+      "backHtml": "\u003cimg src=\"media/268.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 134,
+      "sourceOrderIndex": 83,
+      "noteId": 1775842860008,
+      "cardId": 1775842860008,
+      "guid": "d[rF!~6Ce(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14602,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/269.png\" />",
+      "backHtml": "\u003cimg src=\"media/270.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 135,
+      "sourceOrderIndex": 84,
+      "noteId": 1775842860009,
+      "cardId": 1775842860009,
+      "guid": "z9au4f]u*V",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14603,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/271.png\" />",
+      "backHtml": "\u003cimg src=\"media/272.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 136,
+      "sourceOrderIndex": 85,
+      "noteId": 1775842860010,
+      "cardId": 1775842860010,
+      "guid": "t:7G#*btl$",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14604,
+      "tags": [
+        "VenterFactors"
+      ],
+      "chapterKey": "VenterFactors",
+      "chapterLabel": "Venter Factors",
+      "frontHtml": "\u003cimg src=\"media/273.png\" />",
+      "backHtml": "\u003cimg src=\"media/274.png\" />",
+      "frontOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "6_Venter Factors - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 137,
+      "sourceOrderIndex": 122,
+      "noteId": 1775842860047,
+      "cardId": 1775842860047,
+      "guid": "r,hr`>N:V(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14641,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/275.png\" />",
+      "backHtml": "\u003cimg src=\"media/276.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_001.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_002.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 138,
+      "sourceOrderIndex": 123,
+      "noteId": 1775842860048,
+      "cardId": 1775842860048,
+      "guid": "H/`cbf40H(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14642,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/277.png\" />",
+      "backHtml": "\u003cimg src=\"media/278.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_003.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_004.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 139,
+      "sourceOrderIndex": 124,
+      "noteId": 1775842860049,
+      "cardId": 1775842860049,
+      "guid": "t;sZwm[AhL",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14643,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/279.png\" />",
+      "backHtml": "\u003cimg src=\"media/280.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_005.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_006.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 140,
+      "sourceOrderIndex": 125,
+      "noteId": 1775842860050,
+      "cardId": 1775842860050,
+      "guid": "f+N}Finz}f",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14644,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/281.png\" />",
+      "backHtml": "\u003cimg src=\"media/282.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_007.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_008.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 141,
+      "sourceOrderIndex": 126,
+      "noteId": 1775842860051,
+      "cardId": 1775842860051,
+      "guid": "H@b~-^b|G-",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14645,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/283.png\" />",
+      "backHtml": "\u003cimg src=\"media/284.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_009.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_010.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 142,
+      "sourceOrderIndex": 127,
+      "noteId": 1775842860052,
+      "cardId": 1775842860052,
+      "guid": "sud)}fD2y}",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14646,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/285.png\" />",
+      "backHtml": "\u003cimg src=\"media/286.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_011.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_012.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 143,
+      "sourceOrderIndex": 128,
+      "noteId": 1775842860053,
+      "cardId": 1775842860053,
+      "guid": "Ax;xpP>BYi",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14647,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/287.png\" />",
+      "backHtml": "\u003cimg src=\"media/288.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_013.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_014.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 144,
+      "sourceOrderIndex": 129,
+      "noteId": 1775842860054,
+      "cardId": 1775842860054,
+      "guid": "vk&u336`qJ",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14648,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/289.png\" />",
+      "backHtml": "\u003cimg src=\"media/290.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_015.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_016.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 145,
+      "sourceOrderIndex": 130,
+      "noteId": 1775842860055,
+      "cardId": 1775842860055,
+      "guid": "M9BUDSO8}r",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14649,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/291.png\" />",
+      "backHtml": "\u003cimg src=\"media/292.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_017.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_018.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 146,
+      "sourceOrderIndex": 131,
+      "noteId": 1775842860056,
+      "cardId": 1775842860056,
+      "guid": "QCg4;Jk),#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14650,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/293.png\" />",
+      "backHtml": "\u003cimg src=\"media/294.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_019.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_020.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 147,
+      "sourceOrderIndex": 132,
+      "noteId": 1775842860057,
+      "cardId": 1775842860057,
+      "guid": "L0(H=*biE]",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14651,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/295.png\" />",
+      "backHtml": "\u003cimg src=\"media/296.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_021.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_022.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 148,
+      "sourceOrderIndex": 133,
+      "noteId": 1775842860058,
+      "cardId": 1775842860058,
+      "guid": "biMR7FpL}b",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14652,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/297.png\" />",
+      "backHtml": "\u003cimg src=\"media/298.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_023.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_024.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 149,
+      "sourceOrderIndex": 134,
+      "noteId": 1775842860059,
+      "cardId": 1775842860059,
+      "guid": "dXeB@T|L]d",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14653,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/299.png\" />",
+      "backHtml": "\u003cimg src=\"media/300.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_025.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_026.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 150,
+      "sourceOrderIndex": 135,
+      "noteId": 1775842860060,
+      "cardId": 1775842860060,
+      "guid": "Lhqp]vJJH#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14654,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/301.png\" />",
+      "backHtml": "\u003cimg src=\"media/302.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_027.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_028.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 151,
+      "sourceOrderIndex": 136,
+      "noteId": 1775842860061,
+      "cardId": 1775842860061,
+      "guid": "oAQPz.|@[N",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14655,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/303.png\" />",
+      "backHtml": "\u003cimg src=\"media/304.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_029.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_030.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 152,
+      "sourceOrderIndex": 137,
+      "noteId": 1775842860062,
+      "cardId": 1775842860062,
+      "guid": "w6S!;lTO}A",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14656,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/305.png\" />",
+      "backHtml": "\u003cimg src=\"media/306.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_031.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_032.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 153,
+      "sourceOrderIndex": 138,
+      "noteId": 1775842860063,
+      "cardId": 1775842860063,
+      "guid": "GGBug%.AQN",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14657,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/307.png\" />",
+      "backHtml": "\u003cimg src=\"media/308.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_033.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_034.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 154,
+      "sourceOrderIndex": 139,
+      "noteId": 1775842860064,
+      "cardId": 1775842860064,
+      "guid": "zOb]-]K9k`",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14658,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/309.png\" />",
+      "backHtml": "\u003cimg src=\"media/310.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_035.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_036.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 155,
+      "sourceOrderIndex": 140,
+      "noteId": 1775842860065,
+      "cardId": 1775842860065,
+      "guid": "bwv%c*9hwW",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14659,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/311.png\" />",
+      "backHtml": "\u003cimg src=\"media/312.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_037.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_038.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 156,
+      "sourceOrderIndex": 141,
+      "noteId": 1775842860066,
+      "cardId": 1775842860066,
+      "guid": "wwUq}pP}/r",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14660,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/313.png\" />",
+      "backHtml": "\u003cimg src=\"media/314.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_039.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_040.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 157,
+      "sourceOrderIndex": 142,
+      "noteId": 1775842860067,
+      "cardId": 1775842860067,
+      "guid": "wna:ON#rU;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14661,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/315.png\" />",
+      "backHtml": "\u003cimg src=\"media/316.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_041.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_042.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 158,
+      "sourceOrderIndex": 143,
+      "noteId": 1775842860068,
+      "cardId": 1775842860068,
+      "guid": "eLl$@iG+!@",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14662,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/317.png\" />",
+      "backHtml": "\u003cimg src=\"media/318.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_043.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_044.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 159,
+      "sourceOrderIndex": 144,
+      "noteId": 1775842860069,
+      "cardId": 1775842860069,
+      "guid": "tIu8dFq^#x",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14663,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/319.png\" />",
+      "backHtml": "\u003cimg src=\"media/320.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_045.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_046.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 160,
+      "sourceOrderIndex": 145,
+      "noteId": 1775842860070,
+      "cardId": 1775842860070,
+      "guid": "t1FOc.35:$",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14664,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/321.png\" />",
+      "backHtml": "\u003cimg src=\"media/322.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_047.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_048.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 161,
+      "sourceOrderIndex": 146,
+      "noteId": 1775842860071,
+      "cardId": 1775842860071,
+      "guid": "Qh:8-3JG9c",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14665,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/323.png\" />",
+      "backHtml": "\u003cimg src=\"media/324.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_049.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_050.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 162,
+      "sourceOrderIndex": 147,
+      "noteId": 1775842860072,
+      "cardId": 1775842860072,
+      "guid": "yeoILY8,9U",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14666,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/325.png\" />",
+      "backHtml": "\u003cimg src=\"media/326.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_051.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_052.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 163,
+      "sourceOrderIndex": 148,
+      "noteId": 1775842860073,
+      "cardId": 1775842860073,
+      "guid": "zc@At]`?wu",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14667,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/327.png\" />",
+      "backHtml": "\u003cimg src=\"media/328.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_053.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_054.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 164,
+      "sourceOrderIndex": 149,
+      "noteId": 1775842860074,
+      "cardId": 1775842860074,
+      "guid": "qwD+mWVbqK",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14668,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/329.png\" />",
+      "backHtml": "\u003cimg src=\"media/330.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_055.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_056.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 165,
+      "sourceOrderIndex": 150,
+      "noteId": 1775842860075,
+      "cardId": 1775842860075,
+      "guid": "Ig6fS^;C(2",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14669,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/331.png\" />",
+      "backHtml": "\u003cimg src=\"media/332.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_057.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_058.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 166,
+      "sourceOrderIndex": 151,
+      "noteId": 1775842860076,
+      "cardId": 1775842860076,
+      "guid": "o.sOH6*jr*",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14670,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/333.png\" />",
+      "backHtml": "\u003cimg src=\"media/334.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_059.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_060.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 167,
+      "sourceOrderIndex": 152,
+      "noteId": 1775842860077,
+      "cardId": 1775842860077,
+      "guid": "MAX\u003cD,GBw!",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14671,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/335.png\" />",
+      "backHtml": "\u003cimg src=\"media/336.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_061.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_062.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 168,
+      "sourceOrderIndex": 153,
+      "noteId": 1775842860078,
+      "cardId": 1775842860078,
+      "guid": "K0&Hwu*b6G",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14672,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/337.png\" />",
+      "backHtml": "\u003cimg src=\"media/338.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_063.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_064.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 169,
+      "sourceOrderIndex": 154,
+      "noteId": 1775842860079,
+      "cardId": 1775842860079,
+      "guid": "go6}7977_6",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14673,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/339.png\" />",
+      "backHtml": "\u003cimg src=\"media/340.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_065.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_066.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 170,
+      "sourceOrderIndex": 155,
+      "noteId": 1775842860080,
+      "cardId": 1775842860080,
+      "guid": "Jg,k|`PYFS",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14674,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/341.png\" />",
+      "backHtml": "\u003cimg src=\"media/342.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_067.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_068.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 171,
+      "sourceOrderIndex": 156,
+      "noteId": 1775842860081,
+      "cardId": 1775842860081,
+      "guid": "A~#>D1M,[T",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14675,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/343.png\" />",
+      "backHtml": "\u003cimg src=\"media/344.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_069.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_070.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 172,
+      "sourceOrderIndex": 157,
+      "noteId": 1775842860082,
+      "cardId": 1775842860082,
+      "guid": "FGq[5&OqD(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14676,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/345.png\" />",
+      "backHtml": "\u003cimg src=\"media/346.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_071.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_072.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 173,
+      "sourceOrderIndex": 158,
+      "noteId": 1775842860083,
+      "cardId": 1775842860083,
+      "guid": "b5tN%Yq9sM",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14677,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/347.png\" />",
+      "backHtml": "\u003cimg src=\"media/348.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_073.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_074.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 174,
+      "sourceOrderIndex": 159,
+      "noteId": 1775842860084,
+      "cardId": 1775842860084,
+      "guid": "iX`?I3\u003cG]8",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14678,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/349.png\" />",
+      "backHtml": "\u003cimg src=\"media/350.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_075.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_076.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 175,
+      "sourceOrderIndex": 160,
+      "noteId": 1775842860085,
+      "cardId": 1775842860085,
+      "guid": "d\u003ci-JM#hNI",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14679,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/351.png\" />",
+      "backHtml": "\u003cimg src=\"media/352.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_077.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_078.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 176,
+      "sourceOrderIndex": 161,
+      "noteId": 1775842860086,
+      "cardId": 1775842860086,
+      "guid": "f;DJ$>]K4$",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14680,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/353.png\" />",
+      "backHtml": "\u003cimg src=\"media/354.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_079.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_080.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 177,
+      "sourceOrderIndex": 162,
+      "noteId": 1775842860087,
+      "cardId": 1775842860087,
+      "guid": "fV?h$>u#[c",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14681,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/355.png\" />",
+      "backHtml": "\u003cimg src=\"media/356.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_081.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_082.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 178,
+      "sourceOrderIndex": 163,
+      "noteId": 1775842860088,
+      "cardId": 1775842860088,
+      "guid": "dH4aTEe32n",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14682,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/357.png\" />",
+      "backHtml": "\u003cimg src=\"media/358.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_083.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_084.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 179,
+      "sourceOrderIndex": 164,
+      "noteId": 1775842860089,
+      "cardId": 1775842860089,
+      "guid": "fs]!@fEb^0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14683,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/359.png\" />",
+      "backHtml": "\u003cimg src=\"media/360.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_085.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_086.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 180,
+      "sourceOrderIndex": 165,
+      "noteId": 1775842860090,
+      "cardId": 1775842860090,
+      "guid": "B6td+)x.BZ",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14684,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/361.png\" />",
+      "backHtml": "\u003cimg src=\"media/362.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_087.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_088.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 181,
+      "sourceOrderIndex": 166,
+      "noteId": 1775842860091,
+      "cardId": 1775842860091,
+      "guid": "qYa_8=}a#a",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14685,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/363.png\" />",
+      "backHtml": "\u003cimg src=\"media/364.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_089.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_090.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 182,
+      "sourceOrderIndex": 167,
+      "noteId": 1775842860092,
+      "cardId": 1775842860092,
+      "guid": "v):N!CVt?f",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14686,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/365.png\" />",
+      "backHtml": "\u003cimg src=\"media/366.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_091.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_092.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 183,
+      "sourceOrderIndex": 168,
+      "noteId": 1775842860093,
+      "cardId": 1775842860093,
+      "guid": "gF6u?]HO.*",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14687,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/367.png\" />",
+      "backHtml": "\u003cimg src=\"media/368.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_093.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_094.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 184,
+      "sourceOrderIndex": 169,
+      "noteId": 1775842860094,
+      "cardId": 1775842860094,
+      "guid": "HvUq>Y0Yt#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14688,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/369.png\" />",
+      "backHtml": "\u003cimg src=\"media/370.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_095.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_096.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 185,
+      "sourceOrderIndex": 170,
+      "noteId": 1775842860095,
+      "cardId": 1775842860095,
+      "guid": "L3qwVI|Esd",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14689,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/371.png\" />",
+      "backHtml": "\u003cimg src=\"media/372.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_097.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_098.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 186,
+      "sourceOrderIndex": 171,
+      "noteId": 1775842860096,
+      "cardId": 1775842860096,
+      "guid": "v/7Wb5~Vbq",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14690,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/373.png\" />",
+      "backHtml": "\u003cimg src=\"media/374.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_099.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_100.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 187,
+      "sourceOrderIndex": 172,
+      "noteId": 1775842860097,
+      "cardId": 1775842860097,
+      "guid": "l*Qxj]jis.",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14691,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/375.png\" />",
+      "backHtml": "\u003cimg src=\"media/376.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_101.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_102.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 188,
+      "sourceOrderIndex": 173,
+      "noteId": 1775842860098,
+      "cardId": 1775842860098,
+      "guid": "C!]qK[!v=5",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14692,
+      "tags": [
+        "Shapland"
+      ],
+      "chapterKey": "Shapland",
+      "chapterLabel": "Shapland",
+      "frontHtml": "\u003cimg src=\"media/377.png\" />",
+      "backHtml": "\u003cimg src=\"media/378.png\" />",
+      "frontOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_103.png"
+      ],
+      "backOriginalMediaNames": [
+        "9_Shapland - Exam 7 Flashcards_Page_104.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 189,
+      "sourceOrderIndex": 86,
+      "noteId": 1775842860011,
+      "cardId": 1775842860011,
+      "guid": "dwq]R@%l`c",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14605,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/379.png\" />",
+      "backHtml": "\u003cimg src=\"media/380.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 190,
+      "sourceOrderIndex": 87,
+      "noteId": 1775842860012,
+      "cardId": 1775842860012,
+      "guid": "ESf~iyd*Z!",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14606,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/381.png\" />",
+      "backHtml": "\u003cimg src=\"media/382.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 191,
+      "sourceOrderIndex": 88,
+      "noteId": 1775842860013,
+      "cardId": 1775842860013,
+      "guid": "l{z?w24wcH",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14607,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/383.png\" />",
+      "backHtml": "\u003cimg src=\"media/384.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 192,
+      "sourceOrderIndex": 89,
+      "noteId": 1775842860014,
+      "cardId": 1775842860014,
+      "guid": "g~^,!M^VmP",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14608,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/385.png\" />",
+      "backHtml": "\u003cimg src=\"media/386.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 193,
+      "sourceOrderIndex": 90,
+      "noteId": 1775842860015,
+      "cardId": 1775842860015,
+      "guid": "Nmfy+m:VvF",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14609,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/387.png\" />",
+      "backHtml": "\u003cimg src=\"media/388.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 194,
+      "sourceOrderIndex": 91,
+      "noteId": 1775842860016,
+      "cardId": 1775842860016,
+      "guid": "v6MLi9Rkgr",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14610,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/389.png\" />",
+      "backHtml": "\u003cimg src=\"media/390.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 195,
+      "sourceOrderIndex": 92,
+      "noteId": 1775842860017,
+      "cardId": 1775842860017,
+      "guid": "hvH.%2bA].",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14611,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/391.png\" />",
+      "backHtml": "\u003cimg src=\"media/392.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 196,
+      "sourceOrderIndex": 93,
+      "noteId": 1775842860018,
+      "cardId": 1775842860018,
+      "guid": "I(F7w*b9A-",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14612,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/393.png\" />",
+      "backHtml": "\u003cimg src=\"media/394.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 197,
+      "sourceOrderIndex": 94,
+      "noteId": 1775842860019,
+      "cardId": 1775842860019,
+      "guid": "IrL~[y=XNh",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14613,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/395.png\" />",
+      "backHtml": "\u003cimg src=\"media/396.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 198,
+      "sourceOrderIndex": 95,
+      "noteId": 1775842860020,
+      "cardId": 1775842860020,
+      "guid": "FJim,Pz!KA",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14614,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/397.png\" />",
+      "backHtml": "\u003cimg src=\"media/398.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 199,
+      "sourceOrderIndex": 96,
+      "noteId": 1775842860021,
+      "cardId": 1775842860021,
+      "guid": "yV)Sg:oAU0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14615,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/399.png\" />",
+      "backHtml": "\u003cimg src=\"media/400.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 200,
+      "sourceOrderIndex": 97,
+      "noteId": 1775842860022,
+      "cardId": 1775842860022,
+      "guid": "G^sjT9q&p0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14616,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/401.png\" />",
+      "backHtml": "\u003cimg src=\"media/402.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 201,
+      "sourceOrderIndex": 98,
+      "noteId": 1775842860023,
+      "cardId": 1775842860023,
+      "guid": "Q9,qeu#`>?",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14617,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/403.png\" />",
+      "backHtml": "\u003cimg src=\"media/404.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 202,
+      "sourceOrderIndex": 99,
+      "noteId": 1775842860024,
+      "cardId": 1775842860024,
+      "guid": "f]hv7Gxw&8",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14618,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/405.png\" />",
+      "backHtml": "\u003cimg src=\"media/406.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 203,
+      "sourceOrderIndex": 100,
+      "noteId": 1775842860025,
+      "cardId": 1775842860025,
+      "guid": "t@;=F#3i&U",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14619,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/407.png\" />",
+      "backHtml": "\u003cimg src=\"media/408.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 204,
+      "sourceOrderIndex": 101,
+      "noteId": 1775842860026,
+      "cardId": 1775842860026,
+      "guid": "c$On!zXi|z",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14620,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/409.png\" />",
+      "backHtml": "\u003cimg src=\"media/410.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 205,
+      "sourceOrderIndex": 102,
+      "noteId": 1775842860027,
+      "cardId": 1775842860027,
+      "guid": "B;pv^qV#(C",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14621,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/411.png\" />",
+      "backHtml": "\u003cimg src=\"media/412.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 206,
+      "sourceOrderIndex": 103,
+      "noteId": 1775842860028,
+      "cardId": 1775842860028,
+      "guid": "s%w-*$%``X",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14622,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/413.png\" />",
+      "backHtml": "\u003cimg src=\"media/414.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 207,
+      "sourceOrderIndex": 104,
+      "noteId": 1775842860029,
+      "cardId": 1775842860029,
+      "guid": "gm|^H*H*JX",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14623,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/415.png\" />",
+      "backHtml": "\u003cimg src=\"media/416.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_37.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_38.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 208,
+      "sourceOrderIndex": 105,
+      "noteId": 1775842860030,
+      "cardId": 1775842860030,
+      "guid": "J&H4,0Wk&k",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14624,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/417.png\" />",
+      "backHtml": "\u003cimg src=\"media/418.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_39.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_40.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 209,
+      "sourceOrderIndex": 106,
+      "noteId": 1775842860031,
+      "cardId": 1775842860031,
+      "guid": "bp_w4;3pbz",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14625,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/419.png\" />",
+      "backHtml": "\u003cimg src=\"media/420.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_41.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_42.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 210,
+      "sourceOrderIndex": 107,
+      "noteId": 1775842860032,
+      "cardId": 1775842860032,
+      "guid": "6XF$z!%l%",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14626,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/421.png\" />",
+      "backHtml": "\u003cimg src=\"media/422.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_43.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_44.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 211,
+      "sourceOrderIndex": 108,
+      "noteId": 1775842860033,
+      "cardId": 1775842860033,
+      "guid": "BGLI&Y/TrD",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14627,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/423.png\" />",
+      "backHtml": "\u003cimg src=\"media/424.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_45.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_46.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 212,
+      "sourceOrderIndex": 109,
+      "noteId": 1775842860034,
+      "cardId": 1775842860034,
+      "guid": "Dc[OR(?~9B",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14628,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/425.png\" />",
+      "backHtml": "\u003cimg src=\"media/426.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_47.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_48.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 213,
+      "sourceOrderIndex": 110,
+      "noteId": 1775842860035,
+      "cardId": 1775842860035,
+      "guid": "Gh8~;#$ft#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14629,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/427.png\" />",
+      "backHtml": "\u003cimg src=\"media/428.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_49.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_50.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 214,
+      "sourceOrderIndex": 111,
+      "noteId": 1775842860036,
+      "cardId": 1775842860036,
+      "guid": "lSMgHRy}G;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14630,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/429.png\" />",
+      "backHtml": "\u003cimg src=\"media/430.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_51.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_52.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 215,
+      "sourceOrderIndex": 112,
+      "noteId": 1775842860037,
+      "cardId": 1775842860037,
+      "guid": "C~YuUH*wE=",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14631,
+      "tags": [
+        "Siewert"
+      ],
+      "chapterKey": "Siewert",
+      "chapterLabel": "Siewert",
+      "frontHtml": "\u003cimg src=\"media/431.png\" />",
+      "backHtml": "\u003cimg src=\"media/432.png\" />",
+      "frontOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_53.png"
+      ],
+      "backOriginalMediaNames": [
+        "7_Siewert - Exam 7 Flashcards_Page_54.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 216,
+      "sourceOrderIndex": 113,
+      "noteId": 1775842860038,
+      "cardId": 1775842860038,
+      "guid": "EjCp7e*|mu",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14632,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/433.png\" />",
+      "backHtml": "\u003cimg src=\"media/434.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 217,
+      "sourceOrderIndex": 114,
+      "noteId": 1775842860039,
+      "cardId": 1775842860039,
+      "guid": "e8F>g`2-xS",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14633,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/435.png\" />",
+      "backHtml": "\u003cimg src=\"media/436.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 218,
+      "sourceOrderIndex": 115,
+      "noteId": 1775842860040,
+      "cardId": 1775842860040,
+      "guid": "Nyl>>bF-Q#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14634,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/437.png\" />",
+      "backHtml": "\u003cimg src=\"media/438.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 219,
+      "sourceOrderIndex": 116,
+      "noteId": 1775842860041,
+      "cardId": 1775842860041,
+      "guid": "f[z]ZAN1v.",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14635,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/439.png\" />",
+      "backHtml": "\u003cimg src=\"media/440.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 220,
+      "sourceOrderIndex": 117,
+      "noteId": 1775842860042,
+      "cardId": 1775842860042,
+      "guid": "la^pOWqo^w",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14636,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/441.png\" />",
+      "backHtml": "\u003cimg src=\"media/442.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 221,
+      "sourceOrderIndex": 118,
+      "noteId": 1775842860043,
+      "cardId": 1775842860043,
+      "guid": "c0F[\u003c2xL-+",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14637,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/443.png\" />",
+      "backHtml": "\u003cimg src=\"media/444.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 222,
+      "sourceOrderIndex": 119,
+      "noteId": 1775842860044,
+      "cardId": 1775842860044,
+      "guid": "oSACZCToN%",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14638,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/445.png\" />",
+      "backHtml": "\u003cimg src=\"media/446.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 223,
+      "sourceOrderIndex": 120,
+      "noteId": 1775842860045,
+      "cardId": 1775842860045,
+      "guid": "o2jgm~xxXL",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14639,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/447.png\" />",
+      "backHtml": "\u003cimg src=\"media/448.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 224,
+      "sourceOrderIndex": 121,
+      "noteId": 1775842860046,
+      "cardId": 1775842860046,
+      "guid": "cOFzwusc_Q",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14640,
+      "tags": [
+        "Sahasrabuddhe"
+      ],
+      "chapterKey": "Sahasrabuddhe",
+      "chapterLabel": "Sahasrabuddhe",
+      "frontHtml": "\u003cimg src=\"media/449.png\" />",
+      "backHtml": "\u003cimg src=\"media/450.png\" />",
+      "frontOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "8_Sahasrabuddhe - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 225,
+      "sourceOrderIndex": 271,
+      "noteId": 1775842860196,
+      "cardId": 1775842860196,
+      "guid": "d8i\u003c7/O&|+",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14790,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/451.png\" />",
+      "backHtml": "\u003cimg src=\"media/452.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 226,
+      "sourceOrderIndex": 272,
+      "noteId": 1775842860197,
+      "cardId": 1775842860197,
+      "guid": "LN-BzW-m$4",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14791,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/453.png\" />",
+      "backHtml": "\u003cimg src=\"media/454.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 227,
+      "sourceOrderIndex": 273,
+      "noteId": 1775842860198,
+      "cardId": 1775842860198,
+      "guid": "O>Sa{H?SaN",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14792,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/455.png\" />",
+      "backHtml": "\u003cimg src=\"media/456.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 228,
+      "sourceOrderIndex": 274,
+      "noteId": 1775842860199,
+      "cardId": 1775842860199,
+      "guid": "Ay8r_;{o.v",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14793,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/457.png\" />",
+      "backHtml": "\u003cimg src=\"media/458.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 229,
+      "sourceOrderIndex": 275,
+      "noteId": 1775842860200,
+      "cardId": 1775842860200,
+      "guid": "w\u003c5?.vb?^4",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14794,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/459.png\" />",
+      "backHtml": "\u003cimg src=\"media/460.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 230,
+      "sourceOrderIndex": 276,
+      "noteId": 1775842860201,
+      "cardId": 1775842860201,
+      "guid": "n;n|ZB_vIT",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14795,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/461.png\" />",
+      "backHtml": "\u003cimg src=\"media/462.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 231,
+      "sourceOrderIndex": 277,
+      "noteId": 1775842860202,
+      "cardId": 1775842860202,
+      "guid": "p;3+7bVpk=",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14796,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/463.png\" />",
+      "backHtml": "\u003cimg src=\"media/464.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 232,
+      "sourceOrderIndex": 278,
+      "noteId": 1775842860203,
+      "cardId": 1775842860203,
+      "guid": "lF,K^s,EX|",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14797,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/465.png\" />",
+      "backHtml": "\u003cimg src=\"media/466.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 233,
+      "sourceOrderIndex": 279,
+      "noteId": 1775842860204,
+      "cardId": 1775842860204,
+      "guid": "u%hcQ+./3w",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14798,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/467.png\" />",
+      "backHtml": "\u003cimg src=\"media/468.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 234,
+      "sourceOrderIndex": 280,
+      "noteId": 1775842860205,
+      "cardId": 1775842860205,
+      "guid": "dRZxhp5]6g",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14799,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/469.png\" />",
+      "backHtml": "\u003cimg src=\"media/470.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 235,
+      "sourceOrderIndex": 281,
+      "noteId": 1775842860206,
+      "cardId": 1775842860206,
+      "guid": "s))j2)E%sR",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14800,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/471.png\" />",
+      "backHtml": "\u003cimg src=\"media/472.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 236,
+      "sourceOrderIndex": 282,
+      "noteId": 1775842860207,
+      "cardId": 1775842860207,
+      "guid": "Bau}\u003c?r!LU",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14801,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/473.png\" />",
+      "backHtml": "\u003cimg src=\"media/474.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 237,
+      "sourceOrderIndex": 283,
+      "noteId": 1775842860208,
+      "cardId": 1775842860208,
+      "guid": "b2UAptJ\u003c\/S",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14802,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/475.png\" />",
+      "backHtml": "\u003cimg src=\"media/476.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 238,
+      "sourceOrderIndex": 284,
+      "noteId": 1775842860209,
+      "cardId": 1775842860209,
+      "guid": "fH`?_:.$|e",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14803,
+      "tags": [
+        "Teng&Perkins"
+      ],
+      "chapterKey": "Teng&Perkins",
+      "chapterLabel": "Teng & Perkins",
+      "frontHtml": "\u003cimg src=\"media/477.png\" />",
+      "backHtml": "\u003cimg src=\"media/478.png\" />",
+      "frontOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "14_Teng&Perkins - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 239,
+      "sourceOrderIndex": 174,
+      "noteId": 1775842860099,
+      "cardId": 1775842860099,
+      "guid": "mT*Y>X(sf+",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14693,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/479.png\" />",
+      "backHtml": "\u003cimg src=\"media/480.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 240,
+      "sourceOrderIndex": 175,
+      "noteId": 1775842860100,
+      "cardId": 1775842860100,
+      "guid": "L53VM((b)6",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14694,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/481.png\" />",
+      "backHtml": "\u003cimg src=\"media/482.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 241,
+      "sourceOrderIndex": 176,
+      "noteId": 1775842860101,
+      "cardId": 1775842860101,
+      "guid": "JwNwxbtSv9",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14695,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/483.png\" />",
+      "backHtml": "\u003cimg src=\"media/484.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 242,
+      "sourceOrderIndex": 177,
+      "noteId": 1775842860102,
+      "cardId": 1775842860102,
+      "guid": "Q6(M:zUs3D",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14696,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/485.png\" />",
+      "backHtml": "\u003cimg src=\"media/486.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 243,
+      "sourceOrderIndex": 178,
+      "noteId": 1775842860103,
+      "cardId": 1775842860103,
+      "guid": "b2CLy.Ycib",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14697,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/487.png\" />",
+      "backHtml": "\u003cimg src=\"media/488.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 244,
+      "sourceOrderIndex": 179,
+      "noteId": 1775842860104,
+      "cardId": 1775842860104,
+      "guid": "N3$y=j*KWG",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14698,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/489.png\" />",
+      "backHtml": "\u003cimg src=\"media/490.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 245,
+      "sourceOrderIndex": 180,
+      "noteId": 1775842860105,
+      "cardId": 1775842860105,
+      "guid": "Hm-6U/Z%2.",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14699,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/491.png\" />",
+      "backHtml": "\u003cimg src=\"media/492.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 246,
+      "sourceOrderIndex": 181,
+      "noteId": 1775842860106,
+      "cardId": 1775842860106,
+      "guid": "Pf1^x9NAEi",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14700,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/493.png\" />",
+      "backHtml": "\u003cimg src=\"media/494.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 247,
+      "sourceOrderIndex": 182,
+      "noteId": 1775842860107,
+      "cardId": 1775842860107,
+      "guid": "n1`(46w4W7",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14701,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/495.png\" />",
+      "backHtml": "\u003cimg src=\"media/496.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 248,
+      "sourceOrderIndex": 183,
+      "noteId": 1775842860108,
+      "cardId": 1775842860108,
+      "guid": "lDpGe[)l8y",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14702,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/497.png\" />",
+      "backHtml": "\u003cimg src=\"media/498.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 249,
+      "sourceOrderIndex": 184,
+      "noteId": 1775842860109,
+      "cardId": 1775842860109,
+      "guid": "v-ZGpk;i,;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14703,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/499.png\" />",
+      "backHtml": "\u003cimg src=\"media/500.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 250,
+      "sourceOrderIndex": 185,
+      "noteId": 1775842860110,
+      "cardId": 1775842860110,
+      "guid": "AlQhZRalK]",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14704,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/501.png\" />",
+      "backHtml": "\u003cimg src=\"media/502.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 251,
+      "sourceOrderIndex": 186,
+      "noteId": 1775842860111,
+      "cardId": 1775842860111,
+      "guid": "dOLrHq]Xh|",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14705,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/503.png\" />",
+      "backHtml": "\u003cimg src=\"media/504.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 252,
+      "sourceOrderIndex": 187,
+      "noteId": 1775842860112,
+      "cardId": 1775842860112,
+      "guid": "t2jh,z$N~F",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14706,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/505.png\" />",
+      "backHtml": "\u003cimg src=\"media/506.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 253,
+      "sourceOrderIndex": 188,
+      "noteId": 1775842860113,
+      "cardId": 1775842860113,
+      "guid": "kXRlYFKQXT",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14707,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/507.png\" />",
+      "backHtml": "\u003cimg src=\"media/508.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 254,
+      "sourceOrderIndex": 189,
+      "noteId": 1775842860114,
+      "cardId": 1775842860114,
+      "guid": "x.5tFo{&.y",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14708,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/509.png\" />",
+      "backHtml": "\u003cimg src=\"media/510.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 255,
+      "sourceOrderIndex": 190,
+      "noteId": 1775842860115,
+      "cardId": 1775842860115,
+      "guid": "inITY}m>:#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14709,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/511.png\" />",
+      "backHtml": "\u003cimg src=\"media/512.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 256,
+      "sourceOrderIndex": 191,
+      "noteId": 1775842860116,
+      "cardId": 1775842860116,
+      "guid": "KV9,b[5%A?",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14710,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/513.png\" />",
+      "backHtml": "\u003cimg src=\"media/514.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 257,
+      "sourceOrderIndex": 192,
+      "noteId": 1775842860117,
+      "cardId": 1775842860117,
+      "guid": "d!AtXa>o6>",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14711,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/515.png\" />",
+      "backHtml": "\u003cimg src=\"media/516.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_37.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_38.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 258,
+      "sourceOrderIndex": 193,
+      "noteId": 1775842860118,
+      "cardId": 1775842860118,
+      "guid": "l-JV*k_/,",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14712,
+      "tags": [
+        "Meyers"
+      ],
+      "chapterKey": "Meyers",
+      "chapterLabel": "Meyers 2nd Edition",
+      "frontHtml": "\u003cimg src=\"media/517.png\" />",
+      "backHtml": "\u003cimg src=\"media/518.png\" />",
+      "frontOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_39.png"
+      ],
+      "backOriginalMediaNames": [
+        "10_Meyers - Exam 7 Flashcards_Page_40.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 259,
+      "sourceOrderIndex": 194,
+      "noteId": 1775842860119,
+      "cardId": 1775842860119,
+      "guid": "o#aat!X:}0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14713,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/519.png\" />",
+      "backHtml": "\u003cimg src=\"media/520.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 260,
+      "sourceOrderIndex": 195,
+      "noteId": 1775842860120,
+      "cardId": 1775842860120,
+      "guid": "K](2YPiOw{",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14714,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/521.png\" />",
+      "backHtml": "\u003cimg src=\"media/522.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 261,
+      "sourceOrderIndex": 196,
+      "noteId": 1775842860121,
+      "cardId": 1775842860121,
+      "guid": "I09R6cFs_m",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14715,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/523.png\" />",
+      "backHtml": "\u003cimg src=\"media/524.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 262,
+      "sourceOrderIndex": 197,
+      "noteId": 1775842860122,
+      "cardId": 1775842860122,
+      "guid": "KYv%t038&2",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14716,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/525.png\" />",
+      "backHtml": "\u003cimg src=\"media/526.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 263,
+      "sourceOrderIndex": 198,
+      "noteId": 1775842860123,
+      "cardId": 1775842860123,
+      "guid": "OJD/K&f6D?",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14717,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/527.png\" />",
+      "backHtml": "\u003cimg src=\"media/528.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 264,
+      "sourceOrderIndex": 199,
+      "noteId": 1775842860124,
+      "cardId": 1775842860124,
+      "guid": "hwX1b{gEXM",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14718,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/529.png\" />",
+      "backHtml": "\u003cimg src=\"media/530.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 265,
+      "sourceOrderIndex": 200,
+      "noteId": 1775842860125,
+      "cardId": 1775842860125,
+      "guid": "ur}-u(AfLr",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14719,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/531.png\" />",
+      "backHtml": "\u003cimg src=\"media/532.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 266,
+      "sourceOrderIndex": 201,
+      "noteId": 1775842860126,
+      "cardId": 1775842860126,
+      "guid": "ht-mqMWSKb",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14720,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/533.png\" />",
+      "backHtml": "\u003cimg src=\"media/534.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 267,
+      "sourceOrderIndex": 202,
+      "noteId": 1775842860127,
+      "cardId": 1775842860127,
+      "guid": "J9}Ye=~{=v",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14721,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/535.png\" />",
+      "backHtml": "\u003cimg src=\"media/536.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 268,
+      "sourceOrderIndex": 203,
+      "noteId": 1775842860128,
+      "cardId": 1775842860128,
+      "guid": "geKivt|,3B",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14722,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/537.png\" />",
+      "backHtml": "\u003cimg src=\"media/538.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 269,
+      "sourceOrderIndex": 204,
+      "noteId": 1775842860129,
+      "cardId": 1775842860129,
+      "guid": "wX>,O?\u003ckyf",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14723,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/539.png\" />",
+      "backHtml": "\u003cimg src=\"media/540.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 270,
+      "sourceOrderIndex": 205,
+      "noteId": 1775842860130,
+      "cardId": 1775842860130,
+      "guid": "C1y1pnjX/C",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14724,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/541.png\" />",
+      "backHtml": "\u003cimg src=\"media/542.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 271,
+      "sourceOrderIndex": 206,
+      "noteId": 1775842860131,
+      "cardId": 1775842860131,
+      "guid": "GBw)*W0TFI",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14725,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/543.png\" />",
+      "backHtml": "\u003cimg src=\"media/544.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 272,
+      "sourceOrderIndex": 207,
+      "noteId": 1775842860132,
+      "cardId": 1775842860132,
+      "guid": "G;;oN=z~X>",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14726,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/545.png\" />",
+      "backHtml": "\u003cimg src=\"media/546.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 273,
+      "sourceOrderIndex": 208,
+      "noteId": 1775842860133,
+      "cardId": 1775842860133,
+      "guid": "E.?n&d`sWZ",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14727,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/547.png\" />",
+      "backHtml": "\u003cimg src=\"media/548.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 274,
+      "sourceOrderIndex": 209,
+      "noteId": 1775842860134,
+      "cardId": 1775842860134,
+      "guid": "f]=bg#2oYg",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14728,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/549.png\" />",
+      "backHtml": "\u003cimg src=\"media/550.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 275,
+      "sourceOrderIndex": 210,
+      "noteId": 1775842860135,
+      "cardId": 1775842860135,
+      "guid": "cs>b38B&i~",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14729,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/551.png\" />",
+      "backHtml": "\u003cimg src=\"media/552.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 276,
+      "sourceOrderIndex": 211,
+      "noteId": 1775842860136,
+      "cardId": 1775842860136,
+      "guid": "t&Vn::+.!D",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14730,
+      "tags": [
+        "Taylor"
+      ],
+      "chapterKey": "Taylor",
+      "chapterLabel": "Taylor",
+      "frontHtml": "\u003cimg src=\"media/553.png\" />",
+      "backHtml": "\u003cimg src=\"media/554.png\" />",
+      "frontOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "11_Taylor - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 277,
+      "sourceOrderIndex": 212,
+      "noteId": 1775842860137,
+      "cardId": 1775842860137,
+      "guid": "b~af8JHBS%",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14731,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/555.png\" />",
+      "backHtml": "\u003cimg src=\"media/556.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 278,
+      "sourceOrderIndex": 213,
+      "noteId": 1775842860138,
+      "cardId": 1775842860138,
+      "guid": "J4o$D}}k>%",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14732,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/557.png\" />",
+      "backHtml": "\u003cimg src=\"media/558.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 279,
+      "sourceOrderIndex": 214,
+      "noteId": 1775842860139,
+      "cardId": 1775842860139,
+      "guid": "A]Z6o4FE^s",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14733,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/559.png\" />",
+      "backHtml": "\u003cimg src=\"media/560.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 280,
+      "sourceOrderIndex": 215,
+      "noteId": 1775842860140,
+      "cardId": 1775842860140,
+      "guid": "A@I~^FOO\u003c0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14734,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/561.png\" />",
+      "backHtml": "\u003cimg src=\"media/562.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 281,
+      "sourceOrderIndex": 216,
+      "noteId": 1775842860141,
+      "cardId": 1775842860141,
+      "guid": "G%3$-|w1AA",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14735,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/563.png\" />",
+      "backHtml": "\u003cimg src=\"media/564.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 282,
+      "sourceOrderIndex": 217,
+      "noteId": 1775842860142,
+      "cardId": 1775842860142,
+      "guid": "l$#NNO3!2j",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14736,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/565.png\" />",
+      "backHtml": "\u003cimg src=\"media/566.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 283,
+      "sourceOrderIndex": 218,
+      "noteId": 1775842860143,
+      "cardId": 1775842860143,
+      "guid": "r(Cf7].fXv",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14737,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/567.png\" />",
+      "backHtml": "\u003cimg src=\"media/568.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 284,
+      "sourceOrderIndex": 219,
+      "noteId": 1775842860144,
+      "cardId": 1775842860144,
+      "guid": "m>vdvjOw0Z",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14738,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/569.png\" />",
+      "backHtml": "\u003cimg src=\"media/570.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 285,
+      "sourceOrderIndex": 220,
+      "noteId": 1775842860145,
+      "cardId": 1775842860145,
+      "guid": "Fe?Gm5g!Fe",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14739,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/571.png\" />",
+      "backHtml": "\u003cimg src=\"media/572.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 286,
+      "sourceOrderIndex": 221,
+      "noteId": 1775842860146,
+      "cardId": 1775842860146,
+      "guid": "fpVfHx^]Gq",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14740,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/573.png\" />",
+      "backHtml": "\u003cimg src=\"media/574.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 287,
+      "sourceOrderIndex": 222,
+      "noteId": 1775842860147,
+      "cardId": 1775842860147,
+      "guid": "A8$+S2Rtw5",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14741,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/575.png\" />",
+      "backHtml": "\u003cimg src=\"media/576.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 288,
+      "sourceOrderIndex": 223,
+      "noteId": 1775842860148,
+      "cardId": 1775842860148,
+      "guid": "AC[Vj+P7/l",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14742,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/577.png\" />",
+      "backHtml": "\u003cimg src=\"media/578.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 289,
+      "sourceOrderIndex": 224,
+      "noteId": 1775842860149,
+      "cardId": 1775842860149,
+      "guid": "heJ&afeJy3",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14743,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/579.png\" />",
+      "backHtml": "\u003cimg src=\"media/580.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 290,
+      "sourceOrderIndex": 225,
+      "noteId": 1775842860150,
+      "cardId": 1775842860150,
+      "guid": "I:Plum%nsF",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14744,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/581.png\" />",
+      "backHtml": "\u003cimg src=\"media/582.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 291,
+      "sourceOrderIndex": 226,
+      "noteId": 1775842860151,
+      "cardId": 1775842860151,
+      "guid": "lu\u003ci?ACbHq",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14745,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/583.png\" />",
+      "backHtml": "\u003cimg src=\"media/584.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 292,
+      "sourceOrderIndex": 227,
+      "noteId": 1775842860152,
+      "cardId": 1775842860152,
+      "guid": "iu7:TpIJ:g",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14746,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/585.png\" />",
+      "backHtml": "\u003cimg src=\"media/586.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 293,
+      "sourceOrderIndex": 228,
+      "noteId": 1775842860153,
+      "cardId": 1775842860153,
+      "guid": "o8IC^Hf@Al",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14747,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/587.png\" />",
+      "backHtml": "\u003cimg src=\"media/588.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 294,
+      "sourceOrderIndex": 229,
+      "noteId": 1775842860154,
+      "cardId": 1775842860154,
+      "guid": "vBUNh;kP!.",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14748,
+      "tags": [
+        "Verrall"
+      ],
+      "chapterKey": "Verrall",
+      "chapterLabel": "Verrall",
+      "frontHtml": "\u003cimg src=\"media/589.png\" />",
+      "backHtml": "\u003cimg src=\"media/590.png\" />",
+      "frontOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "12_Verrall - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 295,
+      "sourceOrderIndex": 230,
+      "noteId": 1775842860155,
+      "cardId": 1775842860155,
+      "guid": "Pcuv{982xt",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14749,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/591.png\" />",
+      "backHtml": "\u003cimg src=\"media/592.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_01.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_02.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 296,
+      "sourceOrderIndex": 231,
+      "noteId": 1775842860156,
+      "cardId": 1775842860156,
+      "guid": "uV+5LOxoM?",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14750,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/593.png\" />",
+      "backHtml": "\u003cimg src=\"media/594.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_03.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_04.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 297,
+      "sourceOrderIndex": 232,
+      "noteId": 1775842860157,
+      "cardId": 1775842860157,
+      "guid": "rv0hXx`L;;",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14751,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/595.png\" />",
+      "backHtml": "\u003cimg src=\"media/596.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_05.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_06.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 298,
+      "sourceOrderIndex": 233,
+      "noteId": 1775842860158,
+      "cardId": 1775842860158,
+      "guid": "n]ru~$#^${",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14752,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/597.png\" />",
+      "backHtml": "\u003cimg src=\"media/598.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_07.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_08.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 299,
+      "sourceOrderIndex": 234,
+      "noteId": 1775842860159,
+      "cardId": 1775842860159,
+      "guid": "j)-/OSa(a`",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14753,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/599.png\" />",
+      "backHtml": "\u003cimg src=\"media/600.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_09.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_10.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 300,
+      "sourceOrderIndex": 235,
+      "noteId": 1775842860160,
+      "cardId": 1775842860160,
+      "guid": "H5,sA%@TL1",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14754,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/601.png\" />",
+      "backHtml": "\u003cimg src=\"media/602.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_11.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_12.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 301,
+      "sourceOrderIndex": 236,
+      "noteId": 1775842860161,
+      "cardId": 1775842860161,
+      "guid": "I)j[kA|:N!",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14755,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/603.png\" />",
+      "backHtml": "\u003cimg src=\"media/604.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_13.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_14.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 302,
+      "sourceOrderIndex": 237,
+      "noteId": 1775842860162,
+      "cardId": 1775842860162,
+      "guid": "od]|hV6,JP",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14756,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/605.png\" />",
+      "backHtml": "\u003cimg src=\"media/606.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_15.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_16.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 303,
+      "sourceOrderIndex": 238,
+      "noteId": 1775842860163,
+      "cardId": 1775842860163,
+      "guid": "wiH\u003cn8Q33k",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14757,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/607.png\" />",
+      "backHtml": "\u003cimg src=\"media/608.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_17.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_18.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 304,
+      "sourceOrderIndex": 239,
+      "noteId": 1775842860164,
+      "cardId": 1775842860164,
+      "guid": "vnsP6v{v&#",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14758,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/609.png\" />",
+      "backHtml": "\u003cimg src=\"media/610.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_19.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_20.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 305,
+      "sourceOrderIndex": 240,
+      "noteId": 1775842860165,
+      "cardId": 1775842860165,
+      "guid": "AWzVnw/e@C",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14759,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/611.png\" />",
+      "backHtml": "\u003cimg src=\"media/612.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_21.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_22.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 306,
+      "sourceOrderIndex": 241,
+      "noteId": 1775842860166,
+      "cardId": 1775842860166,
+      "guid": "b0_ZYfw1n0",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14760,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/613.png\" />",
+      "backHtml": "\u003cimg src=\"media/614.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_23.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_24.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 307,
+      "sourceOrderIndex": 242,
+      "noteId": 1775842860167,
+      "cardId": 1775842860167,
+      "guid": "i0I[]U,UAW",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14761,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/615.png\" />",
+      "backHtml": "\u003cimg src=\"media/616.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_25.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_26.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 308,
+      "sourceOrderIndex": 243,
+      "noteId": 1775842860168,
+      "cardId": 1775842860168,
+      "guid": "q:=@8~Pj]S",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14762,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/617.png\" />",
+      "backHtml": "\u003cimg src=\"media/618.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_27.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_28.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 309,
+      "sourceOrderIndex": 244,
+      "noteId": 1775842860169,
+      "cardId": 1775842860169,
+      "guid": "iI-Cj8>^7P",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14763,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/619.png\" />",
+      "backHtml": "\u003cimg src=\"media/620.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_29.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_30.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 310,
+      "sourceOrderIndex": 245,
+      "noteId": 1775842860170,
+      "cardId": 1775842860170,
+      "guid": "ldTQ@e3|P4",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14764,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/621.png\" />",
+      "backHtml": "\u003cimg src=\"media/622.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_31.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_32.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 311,
+      "sourceOrderIndex": 246,
+      "noteId": 1775842860171,
+      "cardId": 1775842860171,
+      "guid": "y!d1#V.OOG",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14765,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/623.png\" />",
+      "backHtml": "\u003cimg src=\"media/624.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_33.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_34.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 312,
+      "sourceOrderIndex": 247,
+      "noteId": 1775842860172,
+      "cardId": 1775842860172,
+      "guid": "PHrVk^yMWb",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14766,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/625.png\" />",
+      "backHtml": "\u003cimg src=\"media/626.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_35.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_36.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 313,
+      "sourceOrderIndex": 248,
+      "noteId": 1775842860173,
+      "cardId": 1775842860173,
+      "guid": "kl(+nphZTj",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14767,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/627.png\" />",
+      "backHtml": "\u003cimg src=\"media/628.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_37.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_38.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 314,
+      "sourceOrderIndex": 249,
+      "noteId": 1775842860174,
+      "cardId": 1775842860174,
+      "guid": "s:i_iZ3~^:",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14768,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/629.png\" />",
+      "backHtml": "\u003cimg src=\"media/630.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_39.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_40.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 315,
+      "sourceOrderIndex": 250,
+      "noteId": 1775842860175,
+      "cardId": 1775842860175,
+      "guid": "mhi=&Q/lbb",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14769,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/631.png\" />",
+      "backHtml": "\u003cimg src=\"media/632.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_41.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_42.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 316,
+      "sourceOrderIndex": 251,
+      "noteId": 1775842860176,
+      "cardId": 1775842860176,
+      "guid": "ry$=&Tp~tc",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14770,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/633.png\" />",
+      "backHtml": "\u003cimg src=\"media/634.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_43.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_44.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 317,
+      "sourceOrderIndex": 252,
+      "noteId": 1775842860177,
+      "cardId": 1775842860177,
+      "guid": "qLIl`-@?O6",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14771,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/635.png\" />",
+      "backHtml": "\u003cimg src=\"media/636.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_45.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_46.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 318,
+      "sourceOrderIndex": 253,
+      "noteId": 1775842860178,
+      "cardId": 1775842860178,
+      "guid": "D{h5=zXM[R",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14772,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/637.png\" />",
+      "backHtml": "\u003cimg src=\"media/638.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_47.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_48.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 319,
+      "sourceOrderIndex": 254,
+      "noteId": 1775842860179,
+      "cardId": 1775842860179,
+      "guid": "FVW%DHo9:C",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14773,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/639.png\" />",
+      "backHtml": "\u003cimg src=\"media/640.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_49.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_50.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 320,
+      "sourceOrderIndex": 255,
+      "noteId": 1775842860180,
+      "cardId": 1775842860180,
+      "guid": "l\u003c&BwGLzpB",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14774,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/641.png\" />",
+      "backHtml": "\u003cimg src=\"media/642.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_51.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_52.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 321,
+      "sourceOrderIndex": 256,
+      "noteId": 1775842860181,
+      "cardId": 1775842860181,
+      "guid": "dw@l\u003cK{+~V",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14775,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/643.png\" />",
+      "backHtml": "\u003cimg src=\"media/644.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_53.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_54.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 322,
+      "sourceOrderIndex": 257,
+      "noteId": 1775842860182,
+      "cardId": 1775842860182,
+      "guid": "fuZVt=D7i_",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14776,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/645.png\" />",
+      "backHtml": "\u003cimg src=\"media/646.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_55.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_56.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 323,
+      "sourceOrderIndex": 258,
+      "noteId": 1775842860183,
+      "cardId": 1775842860183,
+      "guid": "PD{?!htE@e",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14777,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/647.png\" />",
+      "backHtml": "\u003cimg src=\"media/648.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_57.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_58.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 324,
+      "sourceOrderIndex": 259,
+      "noteId": 1775842860184,
+      "cardId": 1775842860184,
+      "guid": "C_hCLG\u003cYBv",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14778,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/649.png\" />",
+      "backHtml": "\u003cimg src=\"media/650.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_59.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_60.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 325,
+      "sourceOrderIndex": 260,
+      "noteId": 1775842860185,
+      "cardId": 1775842860185,
+      "guid": "LhEFf%wB}-",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14779,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/651.png\" />",
+      "backHtml": "\u003cimg src=\"media/652.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_61.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_62.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 326,
+      "sourceOrderIndex": 261,
+      "noteId": 1775842860186,
+      "cardId": 1775842860186,
+      "guid": "x8{$!vkSjR",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14780,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/653.png\" />",
+      "backHtml": "\u003cimg src=\"media/654.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_63.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_64.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 327,
+      "sourceOrderIndex": 262,
+      "noteId": 1775842860187,
+      "cardId": 1775842860187,
+      "guid": "Jc.-sn[w7",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14781,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/655.png\" />",
+      "backHtml": "\u003cimg src=\"media/656.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_65.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_66.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 328,
+      "sourceOrderIndex": 263,
+      "noteId": 1775842860188,
+      "cardId": 1775842860188,
+      "guid": "l>v8flv)*z",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14782,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/657.png\" />",
+      "backHtml": "\u003cimg src=\"media/658.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_67.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_68.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 329,
+      "sourceOrderIndex": 264,
+      "noteId": 1775842860189,
+      "cardId": 1775842860189,
+      "guid": "n>D^muEuom",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14783,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/659.png\" />",
+      "backHtml": "\u003cimg src=\"media/660.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_69.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_70.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 330,
+      "sourceOrderIndex": 265,
+      "noteId": 1775842860190,
+      "cardId": 1775842860190,
+      "guid": "QF6|3ijr,r",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14784,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/661.png\" />",
+      "backHtml": "\u003cimg src=\"media/662.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_71.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_72.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 331,
+      "sourceOrderIndex": 266,
+      "noteId": 1775842860191,
+      "cardId": 1775842860191,
+      "guid": "zs,|9{?@XH",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14785,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/663.png\" />",
+      "backHtml": "\u003cimg src=\"media/664.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_73.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_74.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 332,
+      "sourceOrderIndex": 267,
+      "noteId": 1775842860192,
+      "cardId": 1775842860192,
+      "guid": "IT9yjh/00(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14786,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/665.png\" />",
+      "backHtml": "\u003cimg src=\"media/666.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_75.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_76.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 333,
+      "sourceOrderIndex": 268,
+      "noteId": 1775842860193,
+      "cardId": 1775842860193,
+      "guid": "yAq#f7p9J7",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14787,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/667.png\" />",
+      "backHtml": "\u003cimg src=\"media/668.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_77.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_78.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 334,
+      "sourceOrderIndex": 269,
+      "noteId": 1775842860194,
+      "cardId": 1775842860194,
+      "guid": "HiI,I5^%j(",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14788,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
+      "frontHtml": "\u003cimg src=\"media/669.png\" />",
+      "backHtml": "\u003cimg src=\"media/670.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_79.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_80.png"
+      ],
+      "frontText": "",
+      "backText": ""
+    },
+    {
+      "orderIndex": 335,
+      "sourceOrderIndex": 270,
+      "noteId": 1775842860195,
+      "cardId": 1775842860195,
+      "guid": "laQl9p44L~",
+      "modelId": 1753559977111,
+      "deckId": 1775842805240,
+      "cardOrd": 0,
+      "queue": 0,
+      "type": 0,
+      "due": 14789,
+      "tags": [
+        "Marshall"
+      ],
+      "chapterKey": "Marshall",
+      "chapterLabel": "Marshall",
       "frontHtml": "\u003cimg src=\"media/671.png\" />",
       "backHtml": "\u003cimg src=\"media/672.png\" />",
+      "frontOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_81.png"
+      ],
+      "backOriginalMediaNames": [
+        "13_Marshall - Exam 7 Flashcards_Page_82.png"
+      ],
       "frontText": "",
       "backText": ""
     }
