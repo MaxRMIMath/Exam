@@ -464,29 +464,7 @@ function renderCard(card, cardCount, modeLabel, totalCounts) {
 
 function renderCardFace(card, side) {
   const html = side === "front" ? card.frontHtml : card.backHtml;
-  const originalMediaNames = uniqueMediaNames(side === "front" ? card.frontOriginalMediaNames : card.backOriginalMediaNames);
-
-  return `
-    <div class="card-face-content">
-      <div class="card-face-media">${html || `<div class="card-placeholder">No ${side} content</div>`}</div>
-      ${renderOriginalFilename(originalMediaNames)}
-    </div>
-  `;
-}
-
-function renderOriginalFilename(mediaNames) {
-  if (!mediaNames.length) {
-    return "";
-  }
-  const label = mediaNames.join(" · ");
-  return `<div class="card-source-name" title="${escapeHtml(label)}">原始檔名：${escapeHtml(label)}</div>`;
-}
-
-function uniqueMediaNames(mediaNames) {
-  if (!Array.isArray(mediaNames)) {
-    return [];
-  }
-  return [...new Set(mediaNames.filter((name) => typeof name === "string" && name.trim() !== ""))];
+  return `<div class="card-face-media">${html || `<div class="card-placeholder">No ${side} content</div>`}</div>`;
 }
 
 function renderEmptyState() {
