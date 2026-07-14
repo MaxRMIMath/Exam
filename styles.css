@@ -294,12 +294,12 @@ img {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .card-shell {
   position: relative;
-  flex: 1;
+  flex: 0 0 auto;
   min-height: 0;
   display: flex;
   flex-direction: column;
@@ -327,7 +327,7 @@ img {
 
 .card-wrap {
   position: relative;
-  flex: 1;
+  flex: 0 0 auto;
   min-height: 0;
   display: grid;
   place-items: center;
@@ -336,7 +336,7 @@ img {
 .card {
   width: min(100%, 1500px);
   max-width: none;
-  min-height: min(80dvh, 900px);
+  min-height: 0;
   margin-inline: auto;
   border-radius: calc(var(--radius-xl) + 4px);
   background:
@@ -517,7 +517,6 @@ img {
 
   .card {
     width: 100%;
-    min-height: min(78dvh, 840px);
     padding: 14px;
   }
 
