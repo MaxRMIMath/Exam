@@ -210,16 +210,18 @@ async function testReviewGoodAndBadTransitions() {
 }
 
 async function testReviewQueueSortsByDueTime() {
-  const app = await createApp(5, 0);
+  const app = await createApp(7, 0);
   const progress = app.api.state.progress.cards;
-  progress["1"] = { ...progress["1"], phase: "review", dueAt: 10_000, reviewStage: 0 };
+  progress["1"] = { ...progress["1"], phase: "review", dueAt: 10_000, reviewStage: 1 };
   progress["2"] = { ...progress["2"], phase: "review", dueAt: -50_000, reviewStage: 0 };
   progress["3"] = { ...progress["3"], phase: "review", dueAt: 0, reviewStage: 0 };
-  progress["4"] = { ...progress["4"], phase: "review", dueAt: 10_000, reviewStage: 0 };
-  progress["5"] = { ...progress["5"], phase: "new", dueAt: null, reviewStage: null };
+  progress["4"] = { ...progress["4"], phase: "review", dueAt: -20_000, reviewStage: 2 };
+  progress["5"] = { ...progress["5"], phase: "review", dueAt: 5_000, reviewStage: 0 };
+  progress["6"] = { ...progress["6"], phase: "review", dueAt: 15_000, reviewStage: 3 };
+  progress["7"] = { ...progress["7"], phase: "new", dueAt: null, reviewStage: null };
 
   app.switchMode("review");
-  assert.deepEqual(app.queueIds(), [2, 3, 1, 4]);
+  assert.deepEqual(app.queueIds(), [2, 3, 4, 5, 1, 6]);
 }
 
 async function testAllModeDueNewReviewFallbacks() {
@@ -231,27 +233,40 @@ async function testAllModeDueNewReviewFallbacks() {
   progress["4"] = { ...progress["4"], phase: "new", dueAt: null, reviewStage: null };
 
   app.switchMode("all");
-  assert.deepEqual(app.queueIds(), [1]);
+  assert.deepEqual(Array.from(app.queueIds()), [1, 2, 3, 4]);
 
   app.reviewCard(1, "bad");
-  assert.deepEqual(app.queueIds(), [3, 4]);
+  assert.deepEqual(Array.from(app.queueIds()), [2, 1, 3, 4]);
 
   app.reviewCurrent("good");
   app.reviewCurrent("bad");
-  assert.deepEqual(app.queueIds(), [2, 1, 4, 3]);
+  assert.deepEqual(Array.from(app.queueIds()), [1, 2, 3, 4]);
 }
 
-async function testAllModeShowsOnlyDueReviewCardsWhenAnyAreDue() {
+async function testAllModeAppendsNewCardsAfterSortedReviewCards() {
   const app = await createApp(5, 10_000);
   const progress = app.api.state.progress.cards;
   progress["1"] = { ...progress["1"], phase: "review", dueAt: 10_000, reviewStage: 0 };
   progress["2"] = { ...progress["2"], phase: "review", dueAt: -10_000, reviewStage: 0 };
-  progress["3"] = { ...progress["3"], phase: "review", dueAt: 20_000, reviewStage: 0 };
+  progress["3"] = { ...progress["3"], phase: "review", dueAt: 20_000, reviewStage: 2 };
   progress["4"] = { ...progress["4"], phase: "new", dueAt: null, reviewStage: null };
   progress["5"] = { ...progress["5"], phase: "new", dueAt: null, reviewStage: null };
 
   app.switchMode("all");
-  assert.deepEqual(app.queueIds(), [2, 1]);
+  assert.deepEqual(Array.from(app.queueIds()), [2, 1, 3, 4, 5]);
+}
+
+async function testAllModeShowsNotDueReviewCardsBeforeNewCards() {
+  const app = await createApp(5, 0);
+  const progress = app.api.state.progress.cards;
+  progress["1"] = { ...progress["1"], phase: "review", dueAt: 30_000, reviewStage: 2 };
+  progress["2"] = { ...progress["2"], phase: "review", dueAt: 5_000, reviewStage: 0 };
+  progress["3"] = { ...progress["3"], phase: "review", dueAt: 10_000, reviewStage: 1 };
+  progress["4"] = { ...progress["4"], phase: "new", dueAt: null, reviewStage: null };
+  progress["5"] = { ...progress["5"], phase: "new", dueAt: null, reviewStage: null };
+
+  app.switchMode("all");
+  assert.deepEqual(Array.from(app.queueIds()), [2, 3, 1, 4, 5]);
 }
 
 async function testUserTwelveCardScenario() {
@@ -296,10 +311,10 @@ async function testUserCrossSessionScenario() {
   assert.deepEqual(app.queueIds(), [3, 4, 1, 2]);
 
   app.switchMode("all");
-  assert.deepEqual(app.queueIds(), [3]);
+  assert.deepEqual(Array.from(app.queueIds()), [3, 4, 1, 2, 5, 6, 7, 8]);
 
   app.reviewCard(3, "bad");
-  assert.deepEqual(app.queueIds(), [5, 6, 7, 8]);
+  assert.deepEqual(Array.from(app.queueIds()), [4, 3, 1, 2, 5, 6, 7, 8]);
 }
 
 async function testGoodReordersByNewDueAt() {
@@ -356,7 +371,8 @@ const tests = [
   testReviewGoodAndBadTransitions,
   testReviewQueueSortsByDueTime,
   testAllModeDueNewReviewFallbacks,
-  testAllModeShowsOnlyDueReviewCardsWhenAnyAreDue,
+  testAllModeAppendsNewCardsAfterSortedReviewCards,
+  testAllModeShowsNotDueReviewCardsBeforeNewCards,
   testUserTwelveCardScenario,
   testUserCrossSessionScenario,
   testGoodReordersByNewDueAt,

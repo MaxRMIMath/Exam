@@ -156,23 +156,14 @@ function rebuildQueue() {
     .sort((a, b) => a.orderIndex - b.orderIndex);
   const reviewCards = cards
     .filter((card) => card.phaseBucket === "review")
-    .sort((a, b) => {
-      const dueA = a.progress.dueAt != null ? a.progress.dueAt : Number.POSITIVE_INFINITY;
-      const dueB = b.progress.dueAt != null ? b.progress.dueAt : Number.POSITIVE_INFINITY;
-      return dueA - dueB || a.orderIndex - b.orderIndex;
-    });
-  const dueReviewCards = reviewCards.filter((card) => card.isDue);
+    .sort(compareReviewCards);
 
   if (state.mode === "new") {
     state.queue = newCards;
   } else if (state.mode === "review") {
     state.queue = reviewCards;
-  } else if (dueReviewCards.length > 0) {
-    state.queue = dueReviewCards;
-  } else if (newCards.length > 0) {
-    state.queue = newCards;
   } else {
-    state.queue = reviewCards;
+    state.queue = [...reviewCards, ...newCards];
   }
 
   if (state.queue.length === 0) {
@@ -183,6 +174,23 @@ function rebuildQueue() {
   if (state.currentCardId === NO_CARD || state.currentCardId == null || !state.queue.some((card) => card.cardId === state.currentCardId)) {
     state.currentCardId = state.queue[0].cardId;
   }
+}
+
+function compareReviewCards(a, b) {
+  return reviewCardSortGroup(a) - reviewCardSortGroup(b)
+    || reviewCardDueTime(a) - reviewCardDueTime(b)
+    || a.orderIndex - b.orderIndex;
+}
+
+function reviewCardSortGroup(card) {
+  if (card.isDue) {
+    return card.reviewStage === 0 ? 0 : 1;
+  }
+  return 2;
+}
+
+function reviewCardDueTime(card) {
+  return card.progress.dueAt != null ? card.progress.dueAt : Number.POSITIVE_INFINITY;
 }
 
 function getCardProgress(cardId) {
