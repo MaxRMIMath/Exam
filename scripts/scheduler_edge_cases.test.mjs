@@ -7,6 +7,10 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 const TEN_MINUTES_MS = 10 * 60 * 1000;
 const APP_JS = fs.readFileSync(new URL("../app.js", import.meta.url), "utf8");
 
+function localTime(year, month, day, hours = 0, minutes = 0, seconds = 0, milliseconds = 0) {
+  return new Date(year, month - 1, day, hours, minutes, seconds, milliseconds).getTime();
+}
+
 function makeDeck(cardCount) {
   return {
     meta: {
@@ -85,7 +89,7 @@ async function createApp(cardCount, now = 0) {
 
   vm.runInNewContext(
     `${APP_JS}\n` +
-      "globalThis.__flashcardsTestApi = { state, REVIEW_GROUPS, rebuildQueue, handleReview, applyReview, getCardProgress, currentCard };",
+      "globalThis.__flashcardsTestApi = { state, REVIEW_GROUPS, rebuildQueue, handleReview, applyReview, getCardProgress, currentCard, goToPreviousReviewedCard };",
     context,
     { filename: "app.js" },
   );
@@ -101,6 +105,9 @@ async function createApp(cardCount, now = 0) {
     switchMode(mode) {
       api.state.mode = mode;
       api.state.currentCardId = null;
+      api.state.reviewHistory = [];
+      api.state.historyCursor = null;
+      api.state.returnCardId = null;
       api.state.flipped = false;
       api.rebuildQueue();
     },
@@ -112,6 +119,9 @@ async function createApp(cardCount, now = 0) {
       api.state.currentCardId = cardId;
       api.state.flipped = true;
       api.handleReview(rating);
+    },
+    goBack() {
+      api.goToPreviousReviewedCard();
     },
     queueIds() {
       return api.state.queue.map((card) => card.cardId);
@@ -143,38 +153,60 @@ async function testNewCardsEnterReviewGroups() {
   assert.equal(app.progress(2).phase, "review");
   assert.equal(app.progress(2).reviewStage, 1);
   assert.equal(dueAt(app.progress(2)), 1000 + DAY_MS);
+  assert.equal(app.progress(2).stageStartedAt, 1000);
   assert.deepEqual(app.queueIds(), [3, 4]);
 }
 
 async function testReviewGoodAndBadTransitions() {
-  const app = await createApp(1, 0);
+  const start = localTime(2026, 7, 23, 9, 0, 0, 0);
+  const beforeMidnight = localTime(2026, 7, 23, 23, 30, 0, 0);
+  const afterMidnight = localTime(2026, 7, 24, 0, 1, 0, 0);
+  const beforeSecondMidnight = localTime(2026, 7, 24, 23, 30, 0, 0);
+  const afterSecondMidnight = localTime(2026, 7, 25, 0, 1, 0, 0);
+  const app = await createApp(1, start);
 
   app.reviewCurrent("bad");
   app.switchMode("review");
 
-  app.setNow(TEN_MINUTES_MS + 1);
+  app.setNow(start + TEN_MINUTES_MS + 1);
   app.reviewCard(1, "good");
   assert.equal(app.progress(1).reviewStage, 1);
-  assert.equal(dueAt(app.progress(1)), TEN_MINUTES_MS + 1 + DAY_MS);
+  assert.equal(dueAt(app.progress(1)), start + TEN_MINUTES_MS + 1 + DAY_MS);
+  assert.equal(app.progress(1).stageStartedAt, start + TEN_MINUTES_MS + 1);
 
-  app.setNow(TEN_MINUTES_MS + 1 + DAY_MS + 1);
+  app.setNow(beforeMidnight);
+  app.reviewCard(1, "good");
+  assert.equal(app.progress(1).reviewStage, 1);
+  assert.equal(dueAt(app.progress(1)), beforeMidnight + DAY_MS);
+  assert.equal(app.progress(1).stageStartedAt, start + TEN_MINUTES_MS + 1);
+
+  app.setNow(afterMidnight);
   app.reviewCard(1, "good");
   assert.equal(app.progress(1).reviewStage, 2);
-  assert.equal(dueAt(app.progress(1)), TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS);
+  assert.equal(dueAt(app.progress(1)), afterMidnight + 4 * DAY_MS);
+  assert.equal(app.progress(1).stageStartedAt, afterMidnight);
 
-  app.setNow(TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS + 1);
+  app.setNow(beforeSecondMidnight);
+  app.reviewCard(1, "good");
+  assert.equal(app.progress(1).reviewStage, 2);
+  assert.equal(dueAt(app.progress(1)), beforeSecondMidnight + 4 * DAY_MS);
+  assert.equal(app.progress(1).stageStartedAt, afterMidnight);
+
+  app.setNow(afterSecondMidnight);
   app.reviewCard(1, "good");
   assert.equal(app.progress(1).reviewStage, 3);
-  assert.equal(dueAt(app.progress(1)), TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS + 1 + 10 * DAY_MS);
+  assert.equal(dueAt(app.progress(1)), afterSecondMidnight + 10 * DAY_MS);
+  assert.equal(app.progress(1).stageStartedAt, afterSecondMidnight);
 
-  app.setNow(TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS + 1 + 10 * DAY_MS + 1);
+  app.setNow(afterSecondMidnight + DAY_MS);
   app.reviewCard(1, "good");
   assert.equal(app.progress(1).reviewStage, 3);
-  assert.equal(dueAt(app.progress(1)), TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS + 1 + 10 * DAY_MS + 1 + 10 * DAY_MS);
+  assert.equal(dueAt(app.progress(1)), afterSecondMidnight + DAY_MS + 10 * DAY_MS);
 
   app.reviewCard(1, "bad");
   assert.equal(app.progress(1).reviewStage, 0);
-  assert.equal(dueAt(app.progress(1)), TEN_MINUTES_MS + 1 + DAY_MS + 1 + 4 * DAY_MS + 1 + 10 * DAY_MS + 1 + TEN_MINUTES_MS);
+  assert.equal(dueAt(app.progress(1)), afterSecondMidnight + DAY_MS + TEN_MINUTES_MS);
+  assert.equal(app.progress(1).stageStartedAt, afterSecondMidnight + DAY_MS);
 }
 
 async function testReviewQueueSortsByDueTime() {
@@ -239,22 +271,27 @@ async function testUserTwelveCardScenario() {
 }
 
 async function testUserCrossSessionScenario() {
-  const app = await createApp(8, 0);
+  const start = localTime(2026, 7, 20, 9, 0, 0, 0);
+  const afterFirstMidnight = localTime(2026, 7, 21, 0, 1, 0, 0);
+  const later = localTime(2026, 7, 24, 12, 0, 0, 0);
+  const laterPlusFive = later + 5 * 60 * 1000;
+  const laterPlusTen = later + 10 * 60 * 1000;
+  const app = await createApp(8, start);
 
   app.reviewCard(1, "good");
-  app.setNow(DAY_MS + 1);
+  app.setNow(afterFirstMidnight);
   app.switchMode("review");
   app.reviewCard(1, "good");
 
-  app.setNow(DAY_MS + 1 + 3.5 * DAY_MS);
+  app.setNow(later);
   app.switchMode("new");
   app.reviewCard(2, "good");
   app.reviewCard(3, "bad");
 
-  app.setNow(DAY_MS + 1 + 3.5 * DAY_MS + 5 * 60 * 1000);
+  app.setNow(laterPlusFive);
   app.reviewCard(4, "bad");
 
-  app.setNow(DAY_MS + 1 + 3.5 * DAY_MS + 10 * 60 * 1000);
+  app.setNow(laterPlusTen);
   app.switchMode("review");
   assert.deepEqual(app.queueIds(), [3, 4, 1, 2]);
 
@@ -266,17 +303,52 @@ async function testUserCrossSessionScenario() {
 }
 
 async function testGoodReordersByNewDueAt() {
-  const app = await createApp(3, 1_000_000);
+  const start = localTime(2026, 7, 23, 10, 0, 0, 0);
+  const app = await createApp(3, start);
   const progress = app.api.state.progress.cards;
-  progress["1"] = { ...progress["1"], phase: "review", dueAt: 1_000_000 - 60_000, reviewStage: 0 };
-  progress["2"] = { ...progress["2"], phase: "review", dueAt: 1_000_000 + 20 * 60_000, reviewStage: 1 };
-  progress["3"] = { ...progress["3"], phase: "review", dueAt: 1_000_000 + 120 * 60_000, reviewStage: 1 };
+  progress["1"] = { ...progress["1"], phase: "review", dueAt: start - 60_000, reviewStage: 0, stageStartedAt: localTime(2026, 7, 22, 8, 0, 0, 0) };
+  progress["2"] = { ...progress["2"], phase: "review", dueAt: start + 20 * 60_000, reviewStage: 1, stageStartedAt: localTime(2026, 7, 23, 8, 0, 0, 0) };
+  progress["3"] = { ...progress["3"], phase: "review", dueAt: start + 120 * 60_000, reviewStage: 1, stageStartedAt: localTime(2026, 7, 23, 8, 30, 0, 0) };
 
   app.switchMode("review");
   assert.deepEqual(app.queueIds(), [1, 2, 3]);
 
   app.reviewCard(1, "good");
   assert.deepEqual(app.queueIds(), [2, 3, 1]);
+}
+
+async function testBackNavigationReplaysHistoryAndReturnsToCurrentCard() {
+  const app = await createApp(3, localTime(2026, 7, 23, 9, 0, 0, 0));
+
+  app.reviewCard(1, "good");
+  app.reviewCard(2, "bad");
+  assert.equal(app.api.state.currentCardId, 3);
+
+  app.goBack();
+  assert.equal(app.api.state.currentCardId, 2);
+  app.goBack();
+  assert.equal(app.api.state.currentCardId, 1);
+
+  app.reviewCurrent("bad");
+  assert.equal(app.api.state.currentCardId, 3);
+
+  app.goBack();
+  assert.equal(app.api.state.currentCardId, 2);
+  app.goBack();
+  assert.equal(app.api.state.currentCardId, 1);
+}
+
+async function testModeSwitchResetsBackNavigationHistory() {
+  const app = await createApp(3, localTime(2026, 7, 23, 9, 0, 0, 0));
+
+  app.reviewCard(1, "good");
+  app.reviewCard(2, "bad");
+  assert.deepEqual(Array.from(app.api.state.reviewHistory), [1, 2]);
+
+  app.switchMode("review");
+  assert.deepEqual(Array.from(app.api.state.reviewHistory), []);
+  assert.equal(app.api.state.historyCursor, null);
+  assert.equal(app.api.state.returnCardId, null);
 }
 
 const tests = [
@@ -288,6 +360,8 @@ const tests = [
   testUserTwelveCardScenario,
   testUserCrossSessionScenario,
   testGoodReordersByNewDueAt,
+  testBackNavigationReplaysHistoryAndReturnsToCurrentCard,
+  testModeSwitchResetsBackNavigationHistory,
 ];
 
 for (const test of tests) {

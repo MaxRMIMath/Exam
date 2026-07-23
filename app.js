@@ -27,6 +27,9 @@ const state = {
   mode: "new",
   queue: [],
   currentCardId: null,
+  reviewHistory: [],
+  historyCursor: null,
+  returnCardId: null,
   flipped: false,
   loading: true,
   error: null,
@@ -70,6 +73,7 @@ function defaultProgress(deck) {
       dueAt: null,
       lastReviewedAt: null,
       reviewStage: null,
+      stageStartedAt: null,
       reps: 0,
       lapses: 0,
       orderIndex: card.orderIndex,
@@ -77,7 +81,7 @@ function defaultProgress(deck) {
   }
 
   return {
-    version: 2,
+    version: 3,
     settings: {
       lastMode: "new",
     },
@@ -116,6 +120,7 @@ function loadProgress(deck) {
           orderIndex: card.orderIndex,
           phase: normalizePhase(existing.phase),
           reviewStage: normalizeReviewStage(existing),
+          stageStartedAt: normalizeStageStartedAt(existing),
         };
       }
     }
@@ -232,6 +237,38 @@ function getReviewStage(progress) {
   return stage == null ? 0 : stage;
 }
 
+function normalizeStageStartedAt(progress) {
+  if (!progress || progress.phase === "new") {
+    return null;
+  }
+  if (Number.isFinite(progress.stageStartedAt)) {
+    return progress.stageStartedAt;
+  }
+  if (Number.isFinite(progress.lastReviewedAt)) {
+    return progress.lastReviewedAt;
+  }
+  return null;
+}
+
+function startOfNextLocalDay(timestamp) {
+  const date = new Date(timestamp);
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime();
+}
+
+function canAdvanceStage(progress, now) {
+  if (!progress || progress.phase === "new") {
+    return true;
+  }
+  if (getReviewStage(progress) === 0) {
+    return true;
+  }
+  const stageStartedAt = normalizeStageStartedAt(progress);
+  if (!Number.isFinite(stageStartedAt)) {
+    return true;
+  }
+  return now >= startOfNextLocalDay(stageStartedAt);
+}
+
 function inferReviewStageFromInterval(intervalMs) {
   const thresholds = [
     (REVIEW_GROUPS[0] + REVIEW_GROUPS[1]) / 2,
@@ -325,12 +362,22 @@ function summaryCounts() {
   };
 }
 
+function getDeckCard(cardId) {
+  return state.deck.cards.find((card) => card.cardId === cardId) || null;
+}
+
 function currentCard() {
+  if (state.historyCursor != null) {
+    const historyCardId = state.reviewHistory[state.historyCursor];
+    if (historyCardId != null) {
+      return getDeckCard(historyCardId);
+    }
+  }
   if (state.currentCardId === NO_CARD) {
     return null;
   }
   if (state.currentCardId != null) {
-    const selected = state.queue.find((card) => card.cardId === state.currentCardId);
+    const selected = state.queue.find((card) => card.cardId === state.currentCardId) || getDeckCard(state.currentCardId);
     if (selected) {
       return selected;
     }
@@ -429,6 +476,7 @@ function renderCard(card, cardCount, modeLabel, totalCounts) {
   const progress = getCardProgress(card.cardId);
   const dueText = cardScheduleLabel(progress);
   const answerEnabled = state.flipped;
+  const backEnabled = state.reviewHistory.length > 0;
   const phaseText = phaseLabel(progress.phase);
   const chapterLabel = card.chapterLabel ? `${escapeHtml(card.chapterLabel)} · ` : "";
 
@@ -455,6 +503,7 @@ function renderCard(card, cardCount, modeLabel, totalCounts) {
       </div>
 
       <div class="answer-bar">
+        <button class="action-button action-back" id="review-back" type="button" ${backEnabled ? "" : "disabled"}>上一頁</button>
         <button class="action-button action-bad" type="button" data-rate="bad" ${answerEnabled ? "" : "disabled"}>BAD</button>
         <button class="action-button action-good" type="button" data-rate="good" ${answerEnabled ? "" : "disabled"}>GOOD</button>
       </div>
@@ -530,6 +579,7 @@ function attachHandlers() {
       state.mode = normalizeMode(nextMode);
       state.progress.settings.lastMode = state.mode;
       state.currentCardId = null;
+      resetReviewNavigation();
       state.flipped = false;
       saveProgress();
       rebuildQueue();
@@ -555,6 +605,13 @@ function attachHandlers() {
     });
   });
 
+  const backButton = document.querySelector("#review-back");
+  if (backButton) {
+    backButton.addEventListener("click", () => {
+      goToPreviousReviewedCard();
+    });
+  }
+
   const resetButton = document.querySelector("#reset-progress");
   if (resetButton) {
     resetButton.addEventListener("click", () => {
@@ -564,6 +621,7 @@ function attachHandlers() {
       state.progress = defaultProgress(state.deck);
       state.mode = "new";
       state.currentCardId = null;
+      resetReviewNavigation();
       state.flipped = false;
       saveProgress();
       rebuildQueue();
@@ -608,6 +666,7 @@ function handleReview(rateKey) {
   const now = Date.now();
   const before = cloneProgress(progress);
   const next = applyReview(before, rateKey, now);
+  const reviewedInHistory = state.historyCursor != null;
   state.progress.cards[String(card.cardId)] = next;
   state.progress.reviewLog.push({
     id: generateId(),
@@ -625,17 +684,32 @@ function handleReview(rateKey) {
     dueAtAfter: next.dueAt,
     lastReviewedAtBefore: before.lastReviewedAt,
     lastReviewedAtAfter: next.lastReviewedAt,
+    stageStartedAtBefore: before.stageStartedAt,
+    stageStartedAtAfter: next.stageStartedAt,
   });
+  if (!reviewedInHistory) {
+    state.reviewHistory.push(card.cardId);
+  }
   saveProgress();
   state.flipped = false;
   rebuildQueue();
-  moveToNextCard(card.cardId);
+  if (reviewedInHistory) {
+    moveBackReviewReturnTarget();
+  } else {
+    moveToNextCard(card.cardId);
+  }
   const scrollX = window.scrollX;
   const scrollY = window.scrollY;
   render();
   requestAnimationFrame(() => {
     window.scrollTo({ left: scrollX, top: scrollY, behavior: "auto" });
   });
+}
+
+function resetReviewNavigation() {
+  state.reviewHistory = [];
+  state.historyCursor = null;
+  state.returnCardId = null;
 }
 
 function moveToNextCard(reviewedCardId) {
@@ -658,6 +732,39 @@ function moveToNextCard(reviewedCardId) {
   state.currentCardId = state.queue[0] ? state.queue[0].cardId : NO_CARD;
 }
 
+function moveBackReviewReturnTarget() {
+  const returnCardId = state.returnCardId;
+  state.historyCursor = null;
+  state.returnCardId = null;
+  if (returnCardId != null && state.queue.some((item) => item.cardId === returnCardId)) {
+    state.currentCardId = returnCardId;
+    return;
+  }
+  state.currentCardId = state.queue[0] ? state.queue[0].cardId : NO_CARD;
+}
+
+function goToPreviousReviewedCard() {
+  if (state.reviewHistory.length === 0) {
+    return;
+  }
+
+  if (state.historyCursor == null) {
+    state.returnCardId = state.currentCardId;
+    state.historyCursor = state.reviewHistory.length - 1;
+  } else if (state.historyCursor > 0) {
+    state.historyCursor -= 1;
+  }
+
+  const previousCardId = state.reviewHistory[state.historyCursor];
+  if (previousCardId == null) {
+    return;
+  }
+
+  state.currentCardId = previousCardId;
+  state.flipped = false;
+  render();
+}
+
 function applyReview(previous, rating, now) {
   const next = { ...previous };
   next.reps = (previous.reps != null ? previous.reps : 0) + 1;
@@ -674,11 +781,15 @@ function applyReview(previous, rating, now) {
   } else if (rating === "bad") {
     nextStage = 0;
   } else {
-    nextStage = Math.min((currentStage != null ? currentStage : 0) + 1, REVIEW_GROUPS.length - 1);
+    const activeStage = currentStage != null ? currentStage : 0;
+    nextStage = canAdvanceStage(previous, now)
+      ? Math.min(activeStage + 1, REVIEW_GROUPS.length - 1)
+      : activeStage;
   }
 
   next.reviewStage = nextStage;
   next.dueAt = now + REVIEW_GROUPS[nextStage];
+  next.stageStartedAt = rating === "bad" || previous.phase === "new" || nextStage !== currentStage ? now : normalizeStageStartedAt(previous);
   next.lapses = rating === "bad" ? (previous.lapses != null ? previous.lapses : 0) + 1 : (previous.lapses != null ? previous.lapses : 0);
   next.orderIndex = previous.orderIndex != null ? previous.orderIndex : next.orderIndex;
   return next;

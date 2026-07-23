@@ -414,7 +414,7 @@ img {
 
 .answer-bar {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   padding-bottom: calc(6px + var(--safe-bottom));
 }
@@ -451,6 +451,11 @@ img {
 .action-good {
   background: rgba(130, 229, 183, 0.14);
   border-color: rgba(130, 229, 183, 0.24);
+}
+
+.action-back {
+  background: rgba(143, 211, 255, 0.12);
+  border-color: rgba(143, 211, 255, 0.24);
 }
 
 .empty-state,
